@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'Chivo Mono';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url('https://fonts.gstatic.com/s/chivomono/v6/RXW9K4mxGZ_CuK7WovdiV_d9MA.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Chivo Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url('https://fonts.gstatic.com/s/chivomono/v6/RXW9K4mxGZ_CuK7WovdiV_d9MA.woff2') format('woff2');
+    }
+  }

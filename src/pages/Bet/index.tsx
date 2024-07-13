@@ -1,7 +1,7 @@
 const Bet = () => {
   return (
     <div>
-      <h1 className="text-9xl font-sans">Bet screen</h1>
+      <h1 className="text-9xl uppercase font-chivo-mono;">Bet screen</h1>
     </div>
   );
 };
