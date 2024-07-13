@@ -1,6 +1,6 @@
 const FooterComponent = () => {
   return (
-    <footer className="text-gray-600 body-font font-chivo-mono absolute inset-x-0 bottom-0">
+    <footer className="absolute text-gray-600 body-font font-chivo-mono top-auto bottom-0 right-0">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a className="text-gray-500">

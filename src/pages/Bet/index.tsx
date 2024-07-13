@@ -1,11 +1,19 @@
 import FooterComponent from "../../components/FooterComponent";
+import CardComponent from "../../components/CardComponent";
 
 const Bet = () => {
   return (
-    <div>
-      <h1 className="text-9xl uppercase font-chivo-mono;">Bet screen</h1>
+    <>
+      <div className="flex">
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+      </div>
       <FooterComponent />
-    </div>
+    </>
   );
 };
 
