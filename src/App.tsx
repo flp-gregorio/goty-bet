@@ -1,9 +1,12 @@
+import { RouterProvider } from "react-router-dom";
+import router from "./routes/Router";
+
 function App() {
   return (
     <div>
-      <h1>React 18 Alpha</h1>
+      <RouterProvider router={router} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
