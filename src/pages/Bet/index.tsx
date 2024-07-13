@@ -1,3 +1,5 @@
+import FooterComponent from "../../components/FooterComponent";
+
 const Bet = () => {
   return (
     <div>
