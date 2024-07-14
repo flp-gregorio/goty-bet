@@ -51,7 +51,7 @@ const Home = () => {
                 Days
               </p>
 
-              <Link to={"/bet"}>
+              <Link to={"/nominees"}>
                 <button className="bg-orange-600 mt-12 w-40 h-10 rounded text-white font-bold tracking-widest">
                   VOTE
                 </button>
