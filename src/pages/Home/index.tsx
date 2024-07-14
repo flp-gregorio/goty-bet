@@ -35,15 +35,15 @@ const Home = () => {
           className="object-cover w-full h-full"
         />
       </div>
-      <div className=" sm:20 w-full lg:w-1/2">
+      <div className=" sm:20 w-full lg:w-1/2 uppercase font-roboto-mono">
         <div className="mt-6 text-blue-500 text-center">
           <div className="container px-5 mx-auto flex flex-wrap">
             <div className="w-full sm:p-4 px-4 mb-6 ">
-              <h1 className="title-font font-medium text-2xl mb-2 text-gray-100">
+              <h1 className="title-font font-bold text-2xl mb-2 text-gray-100 tracking-wider">
                 The Game Awards is happening in:
               </h1>
 
-              <h2 className="title-font font-medium text-[200px] text-gray-100">
+              <h2 className="title-font font-bold text-[200px] font-sans text-gray-100">
                 {countdown}
               </h2>
               <p className="text-gray-100 text-xl">Days</p>

@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily: {
         'chivo-mono': ['"Chivo Mono"', 'monospace'],
+        'inter': ['Inter', 'sans-serif'],
+        'roboto-mono': ['Roboto Mono', 'monospace'],
+        'maname': ['Maname', 'sans-serif'],
       },
     },
   },
