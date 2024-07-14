@@ -1,11 +1,9 @@
 import CardComponent from "../../components/CardComponent";
-import FooterComponent from "../../components/FooterComponent";
-import HeaderComponent from "../../components/HeaderComponent";
+import LayoutComponent from "../../components/Layouts/LayoutComponent";
 
 const Bet = () => {
   return (
-    <>
-      <HeaderComponent />
+    <LayoutComponent>
       <div className="h-full w-full bg-black">
         <div className="w-8/12 grid grid-cols-3 gap-3 m-auto">
           <CardComponent />
@@ -16,8 +14,7 @@ const Bet = () => {
           <CardComponent />
         </div>
       </div>
-      <FooterComponent />
-    </>
+    </LayoutComponent>
   );
 };
 
