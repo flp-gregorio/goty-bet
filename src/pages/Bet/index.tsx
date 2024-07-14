@@ -1,23 +1,24 @@
-import CardComponent from '../../components/CardComponent';
-import FooterComponent from '../../components/FooterComponent';
+import CardComponent from "../../components/CardComponent";
+import FooterComponent from "../../components/FooterComponent";
+import HeaderComponent from "../../components/HeaderComponent";
 
 const Bet = () => {
-    return (
-        <>
-        <div className='h-full w-full bg-black'>
-          <div className="w-8/12 grid grid-cols-3 gap-3 m-auto">
-            <CardComponent />
-            <CardComponent />
-            <CardComponent />
-            <CardComponent />
-            <CardComponent />
-            <CardComponent />
-          </div>
+  return (
+    <>
+      <HeaderComponent />
+      <div className="h-full w-full bg-black">
+        <div className="w-8/12 grid grid-cols-3 gap-3 m-auto">
+          <CardComponent />
+          <CardComponent />
+          <CardComponent />
+          <CardComponent />
+          <CardComponent />
+          <CardComponent />
         </div>
-          <FooterComponent />
-        </>
-    );
+      </div>
+      <FooterComponent />
+    </>
+  );
 };
 
 export default Bet;
-
