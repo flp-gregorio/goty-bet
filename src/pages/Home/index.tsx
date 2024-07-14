@@ -46,7 +46,7 @@ const Home = () => {
               <h2 className="title-font font-bold text-[200px] font-sans text-gray-100">
                 {countdown}
               </h2>
-              <p className="text-gray-100 text-xl">Days</p>
+              <p className="text-gray-100 text-xl font-bold tracking-wider">Days</p>
 
               <button className="bg-orange-600 mt-12 w-40 h-10 rounded text-white font-bold tracking-widest">
                 VOTE
