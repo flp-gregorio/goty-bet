@@ -10,32 +10,11 @@
       font-display: swap;
       src: url('https://fonts.gstatic.com/s/chivomono/v6/RXW9K4mxGZ_CuK7WovdiV_d9MA.woff2') format('woff2');
     }
-    @font-face {
-      font-family: 'Chivo Mono';
-      font-style: normal;
-      font-weight: 700;
-      font-display: swap;
-      src: url('https://fonts.gstatic.com/s/chivomono/v6/RXW9K4mxGZ_CuK7WovdiV_d9MA.woff2') format('woff2');
-    }
     @font-face{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-display: swap;
         src: url('https://fonts.gstatic.com/s/inter/v3/U4UJrUEJq6meo6gJzgMvWZ8v.woff2') format('woff2');
-    }
-    @font-face{
-        font-family: 'Roboto Mono';
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url('https://fonts.gstatic.com/s/robotomono/v9/L0x5DF4xlVMF-BfR8bXMIjAoq3o.woff2') format('woff2');
-    }
-    @font-face {
-        font-family: 'Maname';
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url('https://fonts.gstatic.com/s/maname/v1/qWfqBDAkIcSPoR9Jv3zpGQ.woff2') format('woff2');
     }
   }
