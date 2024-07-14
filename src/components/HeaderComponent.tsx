@@ -1,16 +1,16 @@
 const HeaderComponent = () => {
   return (
     <header className="text-gray-600 body-font bg-zinc-950">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-          <a className="mr-5 text-2xl text-orange-700 hover:text-orange-500 transition-all duration-500">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
+        <nav className="flex flex-wrap items-center text-base justify-center left-auto right-0">
+          <a className="mx-2 text-2xl text-orange-700 hover:text-orange-500 transition-all duration-500">
             BETS
           </a>
-          <a className="mr-5 text-2xl text-orange-700 hover:text-orange-500 transition-all duration-500">
+          <a className="mx-2 text-2xl text-orange-700 hover:text-orange-500 transition-all duration-500">
             WINNERS
           </a>
         </nav>
-        <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+        <a className="flex order-first lg:order-none lg:w-auto title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0 justify-center">
           <svg
             viewBox="0.22 0.55 398.78999999999996 414.45"
             xmlns="http://www.w3.org/2000/svg"
@@ -23,12 +23,12 @@ const HeaderComponent = () => {
             />
           </svg>
         </a>
-        <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-          <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-            <a className="mr-5 text-2xl text-orange-700 hover:text-orange-500 transition-all duration-500">
+        <div className="flex flex-wrap items-center text-base justify-center left-auto right-0">
+          <nav className="flex flex-wrap items-center text-base justify-center">
+            <a className="mx-2 text-2xl text-orange-700 hover:text-orange-500 transition-all duration-500">
               ABOUT
             </a>
-            <a className="mr-5 text-2xl text-orange-700 hover:text-orange-500 transition-all duration-500">
+            <a className="mx-2 text-2xl text-orange-700 hover:text-orange-500 transition-all duration-500">
               USER
             </a>
           </nav>
