@@ -35,9 +35,9 @@ const Home = () => {
           className="object-cover w-full h-full"
         />
       </div>
-      <div className="lg:p-36 md:p-52 sm:20 p-8 w-full lg:w-1/2">
+      <div className=" sm:20 w-full lg:w-1/2">
         <div className="mt-6 text-blue-500 text-center">
-          <div className="container px-5 py-40 mx-auto flex flex-wrap">
+          <div className="container px-5 mx-auto flex flex-wrap">
             <div className="w-full sm:p-4 px-4 mb-6 ">
               <h1 className="title-font font-medium text-2xl mb-2 text-gray-100">
                 The Game Awards is happening in:
