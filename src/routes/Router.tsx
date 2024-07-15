@@ -7,19 +7,19 @@ import Nominees from "../pages/Nominees";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home title="Home"/>,
   },
   {
     path: "nominees",
-    element: <Nominees />,
+    element: <Nominees title="Nominees"/>,
   },
   {
     path: "login",
-    element: <Login />,
+    element: <Login title="Login"/>,
   },
   {
     path: "register",
-    element: <Register />,
+    element: <Register title="Register"/>,
   },
 ]);
 

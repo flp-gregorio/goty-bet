@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const Home = () => {
+const Home = (props: { title: string; }) => {
+  document.title = props.title;
   const [countdown, setCountdown] = useState("");
 
   useEffect(() => {
