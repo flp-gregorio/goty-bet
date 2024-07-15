@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HeaderComponent = () => {
   return (
     <header className="text-gray-600 body-font bg-zinc-950">
@@ -10,7 +12,7 @@ const HeaderComponent = () => {
             WINNERS
           </a>
         </nav>
-        <a className="flex order-first lg:order-none lg:w-auto title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0 justify-center mx-7">
+        <Link className="flex order-first lg:order-none lg:w-auto title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0 justify-center mx-7" to="/">
           <svg
             viewBox="0.22 0.55 398.78999999999996 414.45"
             xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +24,7 @@ const HeaderComponent = () => {
               fill="#e8341d"
             />
           </svg>
-        </a>
+        </Link>
         <div className="flex flex-wrap items-center text-base justify-center left-auto right-0">
           <nav className="flex flex-wrap items-center text-base justify-center">
             <a className="mx-5 text-2xl text-orange-700 hover:text-orange-500 transition-all duration-500">
