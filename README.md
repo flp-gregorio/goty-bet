@@ -18,7 +18,7 @@ Welcome to the **Game Awards Sweepstake**! This project is a fun and friendly sw
 - 🌐 **Responsive Design**: Looks great on both desktop and mobile devices, thanks to TailwindCSS.
 
 ## Usage
-1. **Open the app**: Navigate to `http://localhost:3000` in your browser.
+1. **Open the app**: Login.
 2. **Place your bets**: Go to the Bets Page and make your predictions.
 3. **Check the leaderboard**: See how you rank against other participants.
 4. **View winners**: After the Game Awards, check the Winners Page to see the results.
