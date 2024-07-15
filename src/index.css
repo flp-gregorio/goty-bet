@@ -17,4 +17,7 @@
         font-display: swap;
         src: url('https://fonts.gstatic.com/s/inter/v3/U4UJrUEJq6meo6gJzgMvWZ8v.woff2') format('woff2');
     }
+    body {
+      @apply bg-black
+    }
   }

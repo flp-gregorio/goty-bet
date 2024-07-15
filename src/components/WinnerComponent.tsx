@@ -1,9 +1,11 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, scales } from 'chart.js';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
 import { NomineeData } from '../@types/NomineeType';
+import { color } from 'chart.js/helpers';
 
-ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ChartDataLabels);
 
 type WinnerComponentProps = {
     category: string;
@@ -21,32 +23,64 @@ const WinnerComponent: React.FC<WinnerComponentProps> = ({ category, data }) => 
                 {
                     label: 'Votes',
                     data: votes,
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(249, 115, 22, 0.2)',
+                    borderColor: 'rgba(194, 65, 12, 1)',
                     borderWidth: 1,
+                    barThickness: 40, // Adjust bar thickness as needed
+                    maxBarThickness: 40, // Adjust maximum bar thickness as needed
                 },
             ],
         };
     };
 
     const options = {
-        responsive: true,
-        plugins: {
-            legend: {
-                position: 'top',
+        indexAxis: 'y', // Displaying labels on the y-axis
+        elements: {
+            bar: {
+                borderWidth: 2,
             },
-            title: {
+        },
+        scales: {
+            y: {
+                ticks: {
+                    font: {
+                        size: 14, // Adjust font size if necessary
+                        family: 'roboto',
+                        weight: 'thin',
+                    },
+                },
+            },
+            x: {
+                ticks: {
+                    display: false,
+                },
+            },
+        },
+        plugins: {
+            datalabels: {
                 display: true,
-                text: `${category} Nominee Votes Bar Chart`,
+                color: 'white',
+                align: 'center',
+                anchor: 'center',
+                font: {
+                    size: 14,
+                    family: 'roboto',
+                    weight: 'thin',
+                },
+                formatter: (value: any) => `${value}`, // Format the label value if needed
+            },
+            legend: {
+                display: false,
             },
         },
     };
 
+
     return (
-        <div>
-            <h2>Winner Component</h2>
-            <h3>{category}</h3>
-            <Bar data={createChartData()} options={options} />
+        <div className='bg-black flex flex-col text-center justify-center uppercase '>
+            <div className=''>
+                <Bar data={createChartData()} options={options} />
+            </div>
         </div>
     );
 };
