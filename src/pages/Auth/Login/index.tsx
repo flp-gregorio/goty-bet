@@ -19,7 +19,6 @@ const Login = (props: { title: string; }) => {
                 Sign in to access your account
               </p>
             </div>
-
             <div className="mt-8">
               <form>
                 <InputComponent

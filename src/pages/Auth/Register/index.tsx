@@ -4,7 +4,7 @@ import InputComponent from "../../../components/InputComponent";
 
 const Register = (props: { title: string; }) => {
   document.title = props.title;
-  
+
   return (
     <div className="bg-zinc-950">
       <div className="flex justify-center h-screen">
@@ -15,12 +15,10 @@ const Register = (props: { title: string; }) => {
               <h2 className="text-4xl font-bold text-center text-gray-700 dark:text-white">
                 Register
               </h2>
-
               <p className="mt-3 text-gray-500 dark:text-gray-300">
                 Create an account
               </p>
             </div>
-
             <div className="mt-8">
               <form>
                 <InputComponent
