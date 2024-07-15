@@ -3,6 +3,7 @@ import Login from "../pages/Auth/Login";
 import Register from "../pages/Auth/Register";
 import Home from "../pages/Home";
 import Nominees from "../pages/Nominees";
+import Winners from "../pages/Winners";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
     path: "register",
     element: <Register title="Register"/>,
   },
+  {
+    path: "winners",
+    element: <Winners title="Winners"/>,
+  }
 ]);
 
 export default router;
