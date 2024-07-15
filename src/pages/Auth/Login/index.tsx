@@ -2,8 +2,7 @@ import { Link } from "react-router-dom";
 import ImageAuthComponent from "../../../components/Auth/ImageAuthComponent";
 import InputComponent from "../../../components/InputComponent";
 
-const Login = (props: { title: string; }) => {
-  document.title = props.title;
+const Login = () => {
   return (
     <div className="bg-zinc-950">
       <div className="flex justify-center h-screen">

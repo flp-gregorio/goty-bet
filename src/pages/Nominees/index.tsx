@@ -1,8 +1,7 @@
 import CardComponent from "../../components/CardComponent";
 import LayoutComponent from "../../components/Layouts/LayoutComponent";
 
-const Bet = (props: { title: string; }) => {
-  document.title = props.title;
+const Bet = () => {
   return (
     <LayoutComponent>
       <div className="h-full w-full bg-black">

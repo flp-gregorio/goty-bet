@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import PageTitleComponent from "../components/PageTitleComponent";
 import Login from "../pages/Auth/Login";
 import Register from "../pages/Auth/Register";
 import Home from "../pages/Home";
@@ -8,24 +9,49 @@ import Winners from "../pages/Winners";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home title="Home"/>,
+    element: (
+      <>
+        <Home />
+        <PageTitleComponent title="Home" />
+      </>
+    ),
   },
   {
     path: "nominees",
-    element: <Nominees title="Nominees"/>,
+    element: (
+      <>
+        <Nominees />
+        <PageTitleComponent title="Nominees" />
+      </>
+    ),
   },
   {
     path: "login",
-    element: <Login title="Login"/>,
+    element: (
+      <>
+        <Login />
+        <PageTitleComponent title="Login" />
+      </>
+    ),
   },
   {
     path: "register",
-    element: <Register title="Register"/>,
+    element: (
+      <>
+        <Register />
+        <PageTitleComponent title="Register" />
+      </>
+    ),
   },
   {
     path: "winners",
-    element: <Winners title="Winners"/>,
-  }
+    element: (
+      <>
+        <Winners />
+        <PageTitleComponent title="Winners" />
+      </>
+    ),
+  },
 ]);
 
 export default router;

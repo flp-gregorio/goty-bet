@@ -2,9 +2,7 @@ import { Link } from "react-router-dom";
 import ImageAuthComponent from "../../../components/Auth/ImageAuthComponent";
 import InputComponent from "../../../components/InputComponent";
 
-const Register = (props: { title: string; }) => {
-  document.title = props.title;
-
+const Register = () => {
   return (
     <div className="bg-zinc-950">
       <div className="flex justify-center h-screen">
@@ -28,8 +26,7 @@ const Register = (props: { title: string; }) => {
                   id="username"
                   placeholder="Your Username"
                 />
-                <div className="mt-6">
-                </div>
+                <div className="mt-6"></div>
                 <InputComponent
                   label="Email"
                   type="email"
