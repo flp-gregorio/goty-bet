@@ -6,5 +6,13 @@ export type NomineeData = {
 };
 
 export type CategoriesData = {
-    [key: string]: NomineeData[];
+    [key: string]: {
+        description: string;
+        nominees: NomineeData[];
+    };
+};
+
+export type Category = {
+    description: string;
+    nominees: NomineeData[];
 };

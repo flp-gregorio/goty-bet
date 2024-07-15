@@ -1,9 +1,8 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, scales } from 'chart.js';
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import { NomineeData } from '../@types/NomineeType';
-import { color } from 'chart.js/helpers';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ChartDataLabels);
 
@@ -17,13 +16,17 @@ const WinnerComponent: React.FC<WinnerComponentProps> = ({ category, data }) => 
         const labels = data.map(nominee => nominee.Nominee);
         const votes = data.map(nominee => nominee.Votes);
 
+        const maxVotesIndex = votes.indexOf(Math.max(...votes));
+
+        const colors = votes.map((_, index) => index === maxVotesIndex ? 'rgba(249, 115, 22, 0.8)' : 'rgba(194, 65, 12, 0.6)');
+
         return {
             labels: labels,
             datasets: [
                 {
                     label: 'Votes',
                     data: votes,
-                    backgroundColor: 'rgba(249, 115, 22, 0.2)',
+                    backgroundColor: colors,
                     borderColor: 'rgba(194, 65, 12, 1)',
                     borderWidth: 1,
                     barThickness: 40, // Adjust bar thickness as needed
@@ -34,7 +37,7 @@ const WinnerComponent: React.FC<WinnerComponentProps> = ({ category, data }) => 
     };
 
     const options = {
-        indexAxis: 'y', // Displaying labels on the y-axis
+        indexAxis: 'y',
         elements: {
             bar: {
                 borderWidth: 2,
@@ -44,7 +47,7 @@ const WinnerComponent: React.FC<WinnerComponentProps> = ({ category, data }) => 
             y: {
                 ticks: {
                     font: {
-                        size: 14, // Adjust font size if necessary
+                        size: 14,
                         family: 'roboto',
                         weight: 'thin',
                     },
@@ -74,7 +77,6 @@ const WinnerComponent: React.FC<WinnerComponentProps> = ({ category, data }) => 
             },
         },
     };
-
 
     return (
         <div className='bg-black flex flex-col text-center justify-center uppercase '>
