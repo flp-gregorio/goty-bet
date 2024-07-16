@@ -4,19 +4,21 @@ const HeaderComponent = () => {
   return (
     <header className="text-gray-600 body-font bg-zinc-950 font-roboto-mono font-bold text-2xl w-full">
       <div className="container mx-auto flex items-center justify-between p-5">
-        <nav className="flex flex-grow justify-center items-center -ml-10">
-          <Link
-            to="/nominees"
-            className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
-          >
-            NOMINEES
-          </Link>
-          <Link
-            to="/winners"
-            className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
-          >
-            WINNERS
-          </Link>
+        <nav className="flex flex-grow justify-center items-center mx-auto">
+          <div className="w-1/4 text-right">
+            <Link
+              to="/nominees"
+              className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
+            >
+              NOMINEES
+            </Link>
+            <Link
+              to="/winners"
+              className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
+            >
+              WINNERS
+            </Link>
+          </div>
           <Link to="/" className="flex-shrink-0 mx-10">
             <svg
               viewBox="0.22 0.55 398.78999999999996 414.45"
@@ -31,18 +33,20 @@ const HeaderComponent = () => {
               />
             </svg>
           </Link>
-          <Link
-            to="/about"
-            className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
-          >
-            ABOUT
-          </Link>
-          <Link
-            to="/"
-            className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
-          >
-            USER
-          </Link>
+          <div className="w-1/4 text-left">
+            <Link
+              to="/about"
+              className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
+            >
+              ABOUT
+            </Link>
+            <Link
+              to="/"
+              className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
+            >
+              USER
+            </Link>
+          </div>
         </nav>
       </div>
     </header>
