@@ -8,7 +8,7 @@ type NavHeaderProps = {
 
 const NavigationComponent = (props: NavHeaderProps) => {
   return (
-    <div className="h-full w-full py-2 flex items-center justify-center font-bold text-2xl  bg-neutral-950">
+    <div className="flex-row text-center text-white uppercase font-montserrat h-full w-full py-2 flex items-center justify-center font-bold text-3xl  bg-neutral-950">
       <button className="uppercase mr-3" onClick={props.onPrevious}>
         <FaArrowLeft />
       </button>

@@ -11,6 +11,8 @@ export default {
         'inter': ['Inter', 'sans-serif'],
         'roboto-mono': ['Roboto Mono', 'monospace'],
         'maname': ['Maname', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'barlow': ['Barlow', 'sans-serif'],
       },
     },
   },

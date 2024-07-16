@@ -33,14 +33,14 @@ const Nominees = () => {
 
   return (
     <LayoutSystemComponent>
-      <div className="flex flex-col items-center text-center text-white uppercase font-roboto-mono w-full">
+      <div className="flex flex-col items-center text-center text-white uppercase font-roboto-mono w-full ">
         <NavigationComponent
           onPrevious={handlePreviousCategory}
           onNext={handleNextCategory}
           headerText={currentCategoryKey}
         />
         <p className="my-4">{currentCategory.description}</p>
-        <div className="grid gap-3 grid-cols-3 grid-rows-2">
+        <div className="grid gap-6 grid-cols-3 grid-rows-2">
           {cardsData.slice(0, 3).map((nomineeData, index) => (
             <CardComponent
               key={index}
@@ -53,7 +53,7 @@ const Nominees = () => {
           ))}
           {numCards % 3 !== 0 && (
             <div className="col-span-3 flex justify-center">
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 gap-6">
                 {cardsData.slice(3, numCards).map((nomineeData, index) => (
                   <CardComponent
                     key={index}

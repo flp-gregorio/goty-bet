@@ -9,7 +9,7 @@ const Register = () => {
       title="Register"
       description="Create an account"
     >
-      <form>
+      <form className="font-montserrat">
         <InputComponent
           label="Username"
           type="text"

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
@@ -11,10 +10,10 @@ type WinnerComponentProps = {
     data: NomineeData[];
 };
 
-const WinnerComponent: React.FC<WinnerComponentProps> = ({ data }) => {
+const WinnerComponent = (props : WinnerComponentProps) => {
     const createChartData = () => {
-        const labels = data.map(nominee => nominee.Nominee);
-        const votes = data.map(nominee => nominee.Votes);
+        const labels = props.data.map(nominee => nominee.Nominee.toUpperCase());
+        const votes = props.data.map(nominee => nominee.Votes);
 
         const maxVotesIndex = votes.indexOf(Math.max(...votes));
 
@@ -29,8 +28,8 @@ const WinnerComponent: React.FC<WinnerComponentProps> = ({ data }) => {
                     backgroundColor: colors,
                     borderColor: 'rgba(194, 65, 12, 1)',
                     borderWidth: 1,
-                    barThickness: 40, 
-                    maxBarThickness: 40, 
+                    barThickness: 40,
+                    maxBarThickness: 40,
                 },
             ],
         };
@@ -46,16 +45,24 @@ const WinnerComponent: React.FC<WinnerComponentProps> = ({ data }) => {
         scales: {
             y: {
                 ticks: {
+                    display: false,
                     font: {
-                        size: 14,
-                        family: 'roboto',
-                        weight: 'thin',
+                        size: 18, // Tamanho da fonte dos labels no eixo y
                     },
+                },
+                grid: {
+                    display: false, // Remove a grade do eixo y
                 },
             },
             x: {
                 ticks: {
                     display: false,
+                    font: {
+                        size: 18, // Tamanho da fonte dos labels no eixo x
+                    },
+                },
+                grid: {
+                    display: false, // Remove a grade do eixo x
                 },
             },
         },
@@ -63,14 +70,19 @@ const WinnerComponent: React.FC<WinnerComponentProps> = ({ data }) => {
             datalabels: {
                 display: true,
                 color: 'white',
-                align: 'center',
-                anchor: 'center',
+                align: 'end',
+                anchor: 'start',
+                clamp: 'true',
                 font: {
-                    size: 14,
-                    family: 'roboto',
-                    weight: 'thin',
+                    size: 20, // Tamanho da fonte dos labels dentro da barra
+                    family: 'Roboto Mono',
+                    weight: 'normal',
+
                 },
-                formatter: (value: any) => `${value}`, // Format the label value if needed
+                formatter: (value: any, context: any) => {
+                    const nomineeName = context.chart.data.labels[context.dataIndex];
+                    return `${nomineeName}    ${value}`; // Nome do indicado no início e votos no final
+                },
             },
             legend: {
                 display: false,
@@ -79,7 +91,12 @@ const WinnerComponent: React.FC<WinnerComponentProps> = ({ data }) => {
     };
 
     return (
-        <div className='bg-black flex flex-col text-center justify-center uppercase '>
+        <div className='bg-transparent grid grid-cols-2 align-middle items-center'>
+            <div className='text-right'>
+                <h1 className='text-white uppercase font-roboto-mono text-2xl font-bold'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore magni labore dolore ipsa nostrum nesciunt sint laboriosam, at dignissimos ducimus minima. Voluptatibus placeat animi, voluptatem similique numquam dicta magnam ut.
+                </h1>
+            </div>
             <div className=''>
                 <Bar data={createChartData()} options={options} />
             </div>

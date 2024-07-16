@@ -8,7 +8,7 @@ interface Props {
 
 const InputComponent = (props: Props) => {
     return (
-        <div className="mt=6">
+        <div className="mt=6 font-montserrat">
             <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
                 {props.label}
             </label>

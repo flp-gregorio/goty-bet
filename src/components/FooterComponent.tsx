@@ -1,7 +1,13 @@
 const FooterComponent = () => {
   return (
-    <footer className="fixed bottom-0 right-0 bg-black text-gray-600 body-font font-chivo-mono w-full">
-      <div className="container px-5 py-8 ml-auto flex items-center justify-end">
+    <footer className="fixed bottom-0 right-0 bg-black text-gray-600 body-font font-barlow w-full max-h-min">
+      <div className="container px-5 py-4 ml-auto flex items-center justify-end">
+        <span className="flex flex-0 left-0 mr-auto -ml-16">
+          <a href="/about" className="text-sm text-gray-500">
+            About
+          </a>
+        </span>
+        <span className="text-sm text-gray-500 pr-8">© 2024 Felipe Gregorio</span>
         <span className="inline-flex items-center">
           <a
             href="https://x.com/flp_gregorio"

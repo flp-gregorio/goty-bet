@@ -9,7 +9,7 @@ const Login = () => {
       title="Login"
       description="Sign in to access your account"
     >
-      <form>
+      <form className="font-montserrat">
         <InputComponent
           label="Username"
           type="text"
