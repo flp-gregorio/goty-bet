@@ -1,11 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import PageTitleComponent from "../components/PageTitleComponent";
+import About from "../pages/About";
 import Login from "../pages/Auth/Login";
 import Register from "../pages/Auth/Register";
 import Home from "../pages/Home";
 import Nominees from "../pages/Nominees";
+import Profile from "../pages/Profile";
 import Winners from "../pages/Winners";
-import About from "../pages/About";
 
 const router = createBrowserRouter([
   {
@@ -59,6 +60,15 @@ const router = createBrowserRouter([
       <>
         <About />
         <PageTitleComponent title="About" />
+      </>
+    ),
+  },
+  {
+    path: "profile",
+    element: (
+      <>
+        <Profile />
+        <PageTitleComponent title="Profile" />
       </>
     ),
   },

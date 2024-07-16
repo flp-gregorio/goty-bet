@@ -41,7 +41,7 @@ const HeaderComponent = () => {
               ABOUT
             </Link>
             <Link
-              to="/"
+              to="/profile"
               className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
             >
               USER
