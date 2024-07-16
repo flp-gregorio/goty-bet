@@ -25,7 +25,7 @@ const CardComponent: React.FC<CardComponentProps> = ({ nominee, aux = "NULL", ge
     >
       <div className="">
         <div className="">
-          <div className="pt-5 pl-3">
+          <div className="p-3">
             <h1 className="relative font-bold text-lg tracking-tight">{nominee}</h1>
             <h2 className={`text-sm font-semibold opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300  ${active ? 'opacity-100 ' : '-translate-x-10'}`}>{aux}</h2>
             <h3 className={`text-xs font-normal opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300  ${active ? 'opacity-100 ' : '-translate-x-10'}`}>{genre}</h3>
