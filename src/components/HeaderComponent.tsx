@@ -35,16 +35,16 @@ const HeaderComponent = () => {
           </Link>
           <div className="w-1/4 text-left">
             <Link
-              to="/about"
+              to="/leaderboard"
               className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
             >
-              ABOUT
+              LEADERBOARD
             </Link>
             <Link
               to="/profile"
               className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
             >
-              USER
+              PROFILE
             </Link>
           </div>
         </nav>
