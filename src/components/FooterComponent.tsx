@@ -4,7 +4,9 @@ const FooterComponent = () => {
       <div className="container px-5 py-8 ml-auto flex items-center justify-end">
         <span className="inline-flex items-center">
           <a
-            href="#"
+            href="https://x.com/flp_gregorio"
+            target="_blank" 
+            rel="noopener noreferrer"
             className="text-gray-500 hover:text-blue-700 transition-all duration-500"
           >
             <svg fill="currentColor" className="w-5 h-5" viewBox="0 0 24 24">
@@ -12,7 +14,9 @@ const FooterComponent = () => {
             </svg>
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/felipe.gregoriooo/"
+            target="_blank" 
+            rel="noopener noreferrer"
             className="ml-3 text-gray-500 hover:text-rose-400 transition-all duration-500"
           >
             <svg
@@ -26,7 +30,9 @@ const FooterComponent = () => {
             </svg>
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/felipe-gregorio-85bb4b1a2/"
+            target="_blank" 
+            rel="noopener noreferrer"
             className="ml-3 text-gray-500 hover:text-blue-300 transition-all duration-500"
           >
             <svg
