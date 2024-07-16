@@ -5,10 +5,16 @@ const HeaderComponent = () => {
     <header className="text-gray-600 body-font bg-zinc-950 font-roboto-mono font-bold text-2xl w-full">
       <div className="container mx-auto flex items-center justify-between p-5">
         <nav className="flex flex-grow justify-center items-center -ml-10">
-          <Link to="/nominees" className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500">
+          <Link
+            to="/nominees"
+            className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
+          >
             NOMINEES
           </Link>
-          <Link to="/winners" className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500">
+          <Link
+            to="/winners"
+            className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
+          >
             WINNERS
           </Link>
           <Link to="/" className="flex-shrink-0 mx-10">
@@ -25,10 +31,16 @@ const HeaderComponent = () => {
               />
             </svg>
           </Link>
-          <Link to="about" className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500">
+          <Link
+            to="/about"
+            className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
+          >
             ABOUT
           </Link>
-          <Link to="/" className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500">
+          <Link
+            to="/"
+            className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500"
+          >
             USER
           </Link>
         </nav>

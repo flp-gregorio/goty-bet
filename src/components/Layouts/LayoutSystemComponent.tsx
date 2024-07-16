@@ -6,7 +6,7 @@ interface Props {
   children: ReactNode;
 }
 
-const LayoutComponent = (props: Props) => {
+const LayoutSystemComponent = (props: Props) => {
   return (
     <>
       <HeaderComponent />
@@ -16,4 +16,4 @@ const LayoutComponent = (props: Props) => {
   );
 };
 
-export default LayoutComponent;
+export default LayoutSystemComponent;

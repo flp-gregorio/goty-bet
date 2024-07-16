@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import LayoutComponent from "../../components/Layouts/LayoutComponent";
-import CardComponent from '../../components/CardComponent';
-import NavHeaderComponent from '../../components/NavHeaderComponent';
+import { useState } from "react";
+import { Category, NomineeData } from "../../@types/NomineeType";
 import jsonData from "../../assets/data.json";
-import { NomineeData, Category } from '../../@types/NomineeType';
+import CardComponent from "../../components/CardComponent";
+import LayoutSystemComponent from "../../components/Layouts/LayoutSystemComponent";
+import NavHeaderComponent from "../../components/NavHeaderComponent";
 
 const Nominees = () => {
   const categories = Object.keys(jsonData);
@@ -16,7 +16,9 @@ const Nominees = () => {
   };
 
   const handlePreviousCategory = () => {
-    setCurrentCategoryIndex((prevIndex) => (prevIndex - 1 + categories.length) % categories.length);
+    setCurrentCategoryIndex(
+      (prevIndex) => (prevIndex - 1 + categories.length) % categories.length
+    );
     setActiveNominee(null);
   };
 
@@ -30,14 +32,14 @@ const Nominees = () => {
   };
 
   return (
-    <LayoutComponent>
-      <div className='flex flex-col items-center text-center text-white uppercase font-roboto-mono w-full'>
-        <NavHeaderComponent 
+    <LayoutSystemComponent>
+      <div className="flex flex-col items-center text-center text-white uppercase font-roboto-mono w-full">
+        <NavHeaderComponent
           onPrevious={handlePreviousCategory}
           onNext={handleNextCategory}
           headerText={currentCategoryKey}
         />
-        <p className='my-4'>{currentCategory.description}</p>
+        <p className="my-4">{currentCategory.description}</p>
         <div className="grid gap-3 grid-cols-3 grid-rows-2">
           {cardsData.slice(0, numCards).map((nomineeData, index) => (
             <CardComponent
@@ -51,8 +53,8 @@ const Nominees = () => {
           ))}
         </div>
       </div>
-    </LayoutComponent>
+    </LayoutSystemComponent>
   );
-}
+};
 
 export default Nominees;
