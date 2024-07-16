@@ -40,7 +40,7 @@ const Nominees = () => {
           headerText={currentCategoryKey}
         />
         <p className="my-4">{currentCategory.description}</p>
-        <div className="grid gap-3 grid-cols-3">
+        <div className="grid gap-3 grid-cols-3 grid-rows-2">
           {cardsData.slice(0, 3).map((nomineeData, index) => (
             <CardComponent
               key={index}
@@ -51,20 +51,38 @@ const Nominees = () => {
               setActiveCard={handleSetActiveCard} // Pass down setActiveCard function
             />
           ))}
-          <div className="col-span-3 flex justify-center">
-            <div className={`grid grid-cols-${numCards % 3 == 0 ? 3 : 2} gap-3`}>
-              {cardsData.slice(3, numCards).map((nomineeData, index) => (
-                <CardComponent
-                  key={index}
-                  nominee={nomineeData.Nominee}
-                  aux={nomineeData.Publisher}
-                  genre={nomineeData.Genre}
-                  active={nomineeData.Nominee === activeNominee}
-                  setActiveCard={handleSetActiveCard} // Pass down setActiveCard function
-                />
-              ))}
+          {numCards % 3 !== 0 && (
+            <div className="col-span-3 flex justify-center">
+              <div className="grid grid-cols-2 gap-3">
+                {cardsData.slice(3, numCards).map((nomineeData, index) => (
+                  <CardComponent
+                    key={index}
+                    nominee={nomineeData.Nominee}
+                    aux={nomineeData.Publisher}
+                    genre={nomineeData.Genre}
+                    active={nomineeData.Nominee === activeNominee}
+                    setActiveCard={handleSetActiveCard} // Pass down setActiveCard function
+                  />
+                ))}
+              </div>
             </div>
-          </div>
+          )}
+          {numCards % 3 === 0 && (
+            <div className="col-span-3 flex justify-center">
+              <div className="grid grid-cols-3 gap-3">
+                {cardsData.slice(0, 3).map((nomineeData, index) => (
+                  <CardComponent
+                    key={index}
+                    nominee={nomineeData.Nominee}
+                    aux={nomineeData.Publisher}
+                    genre={nomineeData.Genre}
+                    active={nomineeData.Nominee === activeNominee}
+                    setActiveCard={handleSetActiveCard} // Pass down setActiveCard function
+                  />
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </LayoutSystemComponent>
