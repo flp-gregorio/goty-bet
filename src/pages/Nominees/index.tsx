@@ -70,7 +70,7 @@ const Nominees = () => {
           {numCards % 3 === 0 && (
             <div className="col-span-3 flex justify-center">
               <div className="grid grid-cols-3 gap-3">
-                {cardsData.slice(0, 3).map((nomineeData, index) => (
+                {cardsData.slice(3, numCards).map((nomineeData, index) => (
                   <CardComponent
                     key={index}
                     nominee={nomineeData.Nominee}
