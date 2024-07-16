@@ -10,7 +10,9 @@ const LayoutSystemComponent = (props: Props) => {
   return (
     <>
       <HeaderComponent />
-      <div>{props.children}</div>
+      <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 min-h-[90vh]">
+        {props.children}
+      </div>
       <FooterComponent />
     </>
   );
