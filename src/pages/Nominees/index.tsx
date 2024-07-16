@@ -3,7 +3,7 @@ import { Category, NomineeData } from "../../@types/NomineeType";
 import jsonData from "../../assets/data.json";
 import CardComponent from "../../components/CardComponent";
 import LayoutSystemComponent from "../../components/Layouts/LayoutSystemComponent";
-import NavHeaderComponent from "../../components/NavHeaderComponent";
+import NavigationComponent from "../../components/NavigationComponent";
 
 const Nominees = () => {
   const categories = Object.keys(jsonData);
@@ -34,7 +34,7 @@ const Nominees = () => {
   return (
     <LayoutSystemComponent>
       <div className="flex flex-col items-center text-center text-white uppercase font-roboto-mono w-full">
-        <NavHeaderComponent
+        <NavigationComponent
           onPrevious={handlePreviousCategory}
           onNext={handleNextCategory}
           headerText={currentCategoryKey}

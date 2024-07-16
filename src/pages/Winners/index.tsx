@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Category } from "../../@types/NomineeType";
 import jsonData from "../../assets/data.json";
 import LayoutSystemComponent from "../../components/Layouts/LayoutSystemComponent";
-import NavHeaderComponent from "../../components/NavHeaderComponent";
+import NavigationComponent from "../../components/NavigationComponent";
 import WinnerComponent from "../../components/WinnerComponent";
 
 const Winners = () => {
@@ -25,7 +25,7 @@ const Winners = () => {
   return (
     <LayoutSystemComponent>
       <div className="flex flex-col items-center text-center text-white uppercase font-roboto-mono w-full">
-        <NavHeaderComponent
+        <NavigationComponent
           onPrevious={handlePreviousCategory}
           onNext={handleNextCategory}
           headerText={currentCategoryKey}
