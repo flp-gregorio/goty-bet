@@ -25,7 +25,7 @@ const HeaderComponent = () => {
               />
             </svg>
           </Link>
-          <Link to="/" className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500">
+          <Link to="about" className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500">
             ABOUT
           </Link>
           <Link to="/" className="mx-5 text-orange-700 hover:text-orange-500 transition-all duration-500">

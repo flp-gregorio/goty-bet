@@ -5,6 +5,7 @@ import Register from "../pages/Auth/Register";
 import Home from "../pages/Home";
 import Nominees from "../pages/Nominees";
 import Winners from "../pages/Winners";
+import About from "../pages/About";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,15 @@ const router = createBrowserRouter([
       <>
         <Winners />
         <PageTitleComponent title="Winners" />
+      </>
+    ),
+  },
+  {
+    path: "about",
+    element: (
+      <>
+        <About />
+        <PageTitleComponent title="About" />
       </>
     ),
   },

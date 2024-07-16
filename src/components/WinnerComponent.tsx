@@ -11,7 +11,7 @@ type WinnerComponentProps = {
     data: NomineeData[];
 };
 
-const WinnerComponent: React.FC<WinnerComponentProps> = ({ category, data }) => {
+const WinnerComponent: React.FC<WinnerComponentProps> = ({ data }) => {
     const createChartData = () => {
         const labels = data.map(nominee => nominee.Nominee);
         const votes = data.map(nominee => nominee.Votes);
@@ -29,8 +29,8 @@ const WinnerComponent: React.FC<WinnerComponentProps> = ({ category, data }) => 
                     backgroundColor: colors,
                     borderColor: 'rgba(194, 65, 12, 1)',
                     borderWidth: 1,
-                    barThickness: 40, // Adjust bar thickness as needed
-                    maxBarThickness: 40, // Adjust maximum bar thickness as needed
+                    barThickness: 40, 
+                    maxBarThickness: 40, 
                 },
             ],
         };

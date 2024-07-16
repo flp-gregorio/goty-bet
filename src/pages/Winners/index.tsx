@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import LayoutComponent from "../../components/Layouts/LayoutComponent";
 import WinnerComponent from "../../components/WinnerComponent";
 import NavHeaderComponent from '../../components/NavHeaderComponent';
