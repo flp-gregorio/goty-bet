@@ -75,9 +75,8 @@ const WinnerComponent = (props : WinnerComponentProps) => {
                 clamp: 'true',
                 font: {
                     size: 20, // Tamanho da fonte dos labels dentro da barra
-                    family: 'Roboto Mono',
-                    weight: 'normal',
-
+                    family: 'Barlow',
+                    weight: 'bold',
                 },
                 formatter: (value: any, context: any) => {
                     const nomineeName = context.chart.data.labels[context.dataIndex];
