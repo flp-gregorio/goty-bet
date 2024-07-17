@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import ButtonComponent from "../../components/ButtonComponent";
 
 const Home = () => {
   const [countdown, setCountdown] = useState("");
@@ -50,11 +50,7 @@ const Home = () => {
                 Days
               </p>
 
-              <Link to={"/nominees"}>
-                <button className="bg-orange-600 mt-12 w-40 h-10 rounded text-white font-bold tracking-widest">
-                  VOTE
-                </button>
-              </Link>
+              <ButtonComponent text="VOTE" to="/nominees" />
             </div>
           </div>
         </div>
