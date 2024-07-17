@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import WhiteButtonComponent from './WhiteButtonComponent';
 
 interface User {
     name: string;
@@ -73,26 +74,8 @@ const LeaderboardComponent = (props: LeaderboardComponentProps) => {
                 })}
             </ul>
             <div className="mt-4 flex flex-row justify-evenly">
-                <button className="w-40 py-2 tracking-wide text-white transition-colors duration-200 transform bg-orange-700 hover:bg-orange-600 focus:outline-none focus:bg-orange-600 focus:ring focus:ring-orange-600 focus:ring-opacity-50"
-                    style={{
-                        clipPath: "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 18px 100%, 0px calc(100% - 18px))",
-                        padding: "9px 32px 9px 39px",
-                    }}
-                    onClick={() => handlePageChange(currentPage - 1)}
-                >
-                    Previous
-                </button>
-                <button
-                    className="w-40 py-2 tracking-wide text-white transition-colors duration-200 transform bg-orange-700 hover:bg-orange-600 focus:outline-none focus:bg-orange-600 focus:ring focus:ring-orange-600 focus:ring-opacity-50"
-                    style={{
-                        clipPath:
-                            "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 18px 100%, 0px calc(100% - 18px))",
-                        padding: "9px 32px 9px 39px",
-                    }}
-                    onClick={() => handlePageChange(currentPage + 1)}
-                >
-                    Next
-                </button>
+                <WhiteButtonComponent text="Previous" type={true} click={() => handlePageChange(currentPage - 1)} />
+                <WhiteButtonComponent text="Next" type={false} click={() => handlePageChange(currentPage + 1)} />
             </div>
         </div>
     );
