@@ -92,7 +92,7 @@ const WinnerComponent = (props : WinnerComponentProps) => {
     return (
         <div className='bg-transparent grid grid-cols-2 align-middle items-center'>
             <div className='text-right'>
-                <h1 className='text-white uppercase font-roboto-mono text-2xl font-bold'>
+                <h1 className='text-white uppercase font-borlow text-2xl font-bold'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore magni labore dolore ipsa nostrum nesciunt sint laboriosam, at dignissimos ducimus minima. Voluptatibus placeat animi, voluptatem similique numquam dicta magnam ut.
                 </h1>
             </div>
