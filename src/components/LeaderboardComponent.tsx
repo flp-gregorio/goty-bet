@@ -36,30 +36,41 @@ const LeaderboardComponent = (props: LeaderboardComponentProps) => {
     const [currentPage, setCurrentPage] = useState(1);
     const usersPerPage = 10;
     const users = props.users || UsersTestData.sort((a, b) => b.points - a.points);
+    const maxPage = Math.ceil(users.length / usersPerPage);
 
     const indexOfLastUser = currentPage * usersPerPage;
     const indexOfFirstUser = indexOfLastUser - usersPerPage;
     const currentUsers = users.slice(indexOfFirstUser, indexOfLastUser);
 
     const handlePageChange = (pageNumber: number) => {
-        setCurrentPage(pageNumber);
+        if (pageNumber < 1) {
+            setCurrentPage(maxPage);
+        } else if (pageNumber > maxPage) {
+            setCurrentPage(1);
+        } else {
+            setCurrentPage(pageNumber);
+        }
+        console.log(pageNumber);
     };
 
     return (
         <div className="container mx-auto px-20 py-8 text-center antialiased">
             <h1 className="text-3xl font-bold text-white mb-4 font-montserrat uppercase">Leaderboard</h1>
             <ul className="font-montserrat uppercase">
-                {currentUsers.map((user, index) => (
-                    <li key={index} className={`font-barlow flex items-center justify-between mb-2 py-2 ${index % 2 === 0 ? 'bg-orange-700 ' : 'bg-orange-800'} `}>
-                        <div>
-                            <span className="text-white pl-4 text-lg">{index + 1}</span>
-                            <span className="text-white pl-4 text-lg">{user.name}</span>
-                        </div>
-                        <div className="text-left">
-                            <span className="text-white pr-4 text-base">Points: {user.points}</span>
-                        </div>
-                    </li>
-                ))}
+            {currentUsers.map((user, index) => {
+                    const overallIndex = indexOfFirstUser + index + 1;
+                    return (
+                        <li key={overallIndex} className={`font-barlow flex items-center justify-between mb-2 py-2 ${overallIndex % 2 === 0 ? 'bg-orange-700 ' : 'bg-orange-800'} `}>
+                            <div>
+                                <span className="text-white pl-4 text-lg">{overallIndex}</span>
+                                <span className="text-white pl-4 text-lg">{user.name}</span>
+                            </div>
+                            <div className="text-left">
+                                <span className="text-white pr-4 text-base">Points: {user.points}</span>
+                            </div>
+                        </li>
+                    );
+                })}
             </ul>
             <div className="mt-4 flex flex-row justify-evenly">
                 <button className="w-40 py-2 tracking-wide text-white transition-colors duration-200 transform bg-orange-700 hover:bg-orange-600 focus:outline-none focus:bg-orange-600 focus:ring focus:ring-orange-600 focus:ring-opacity-50"
