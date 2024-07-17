@@ -27,9 +27,7 @@ const Login = () => {
           placeholder="Your Password"
         />
         <div className="mt-6">
-          <Link to={"/nominees"}>
-            <ButtonComponent text="Login" />
-          </Link>
+          <ButtonComponent text="Login" to="/nominees" />
         </div>
       </form>
       <p className="mt-6 text-sm text-center text-gray-400">
