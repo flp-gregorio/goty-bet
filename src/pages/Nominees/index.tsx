@@ -33,13 +33,13 @@ const Nominees = () => {
 
   return (
     <LayoutSystemComponent>
-      <div className="flex flex-col items-center text-center text-white uppercase font-roboto-mono w-full ">
+      <div className="flex flex-col items-center w-full">
         <NavigationComponent
           onPrevious={handlePreviousCategory}
           onNext={handleNextCategory}
           headerText={currentCategoryKey}
         />
-        <p className="my-4">{currentCategory.description}</p>
+        <p className="my-4 text-neutral-50 font-barlow tracking-wider max-w-96">{currentCategory.description}</p>
         <div className="grid gap-6 grid-cols-3 grid-rows-1">
           {cardsData.slice(0, 3).map((nomineeData, index) => (
             <CardComponent

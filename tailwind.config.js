@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}"
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -13,6 +13,9 @@ export default {
         'maname': ['Maname', 'sans-serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
         'barlow': ['Barlow', 'sans-serif'],
+      },
+      backgroundImage: {
+        'fiery': "url('../src/assets/imgs/bg.png')",
       },
     },
   },

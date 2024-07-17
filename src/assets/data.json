@@ -1,6 +1,6 @@
 {
     "Game of the Year": {
-        "description": "Recognizes the best overall game, considering various elements like gameplay, design, narrative, and innovation.",
+        "description": "Recognizing a game that delivers the absolute best experience across all creative and technical fields.",
         "nominees": [
             {
                 "Nominee": "Alan Wake 2",
@@ -9,13 +9,13 @@
                 "Genre": "Survival Horror"
             },
             {
-                "Nominee": "Baldur\u2019s Gate 3",
+                "Nominee": "Baldur’s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
                 "Genre": "RPG"
             },
             {
-                "Nominee": "Marvel\u2019s Spider-Man 2",
+                "Nominee": "Marvel’s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
                 "Genre": "Action-Adventure"
@@ -41,7 +41,7 @@
         ]
     },
     "Best Game Direction": {
-        "description": "Honors outstanding creative vision and innovation in game direction and design.",
+        "description": "Awarded for outstanding creative vision and innovation in game direction and design.",
         "nominees": [
             {
                 "Nominee": "Alan Wake 2",
@@ -50,13 +50,13 @@
                 "Genre": "Survival Horror"
             },
             {
-                "Nominee": "Baldur\u2019s Gate 3",
+                "Nominee": "Baldur’s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
                 "Genre": "RPG"
             },
             {
-                "Nominee": "Marvel\u2019s Spider-Man 2",
+                "Nominee": "Marvel’s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
                 "Genre": "Action-Adventure"
@@ -76,42 +76,42 @@
         ]
     },
     "Best Adaptation": {
-        "description": "Awards the best adaptation of a video game into another entertainment medium.",
+        "description": "Recognizing outstanding creative work that faithfully and authentically adapts a video game to another entertainment medium",
         "nominees": [
             {
                 "Nominee": "Castlevania: Nocturne",
                 "Publisher": "Powerhouse Animation/Netflix",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Animation, Fantasy, Horror"
             },
             {
                 "Nominee": "Gran Turismo",
                 "Publisher": "PlayStation Productions/Sony Pictures",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Sports, Racing"
             },
             {
                 "Nominee": "The Last of Us",
                 "Publisher": "PlayStation Productions/HBO",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, Adventure, Drama"
             },
             {
                 "Nominee": "The Super Mario Bros. Movie",
                 "Publisher": "Illumination/Nintendo/Universal Pictures",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Animation, Adventure, Comedy"
             },
             {
                 "Nominee": "Twisted Metal",
                 "Publisher": "PlayStation Productions/Peacock",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, Comedy, Thriller"
             }
         ]
     },
     "Best Narrative": {
-        "description": "Celebrates exceptional storytelling and narrative development in a game.",
+        "description": "For outstanding storytelling and narrative development in a game.",
         "nominees": [
             {
                 "Nominee": "Alan Wake 2",
@@ -120,7 +120,7 @@
                 "Genre": "Survival Horror"
             },
             {
-                "Nominee": "Baldur\u2019s Gate 3",
+                "Nominee": "Baldur’s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
                 "Genre": "RPG"
@@ -138,7 +138,7 @@
                 "Genre": "RPG"
             },
             {
-                "Nominee": "Marvel\u2019s Spider-Man 2",
+                "Nominee": "Marvel’s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
                 "Genre": "Action-Adventure"
@@ -146,7 +146,7 @@
         ]
     },
     "Best Art Direction": {
-        "description": "Recognizes outstanding artistic design and animation in a game.",
+        "description": "For outstanding creative and/or technical achievement in artistic design and animation.",
         "nominees": [
             {
                 "Nominee": "Alan Wake 2",
@@ -158,13 +158,13 @@
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Tango Gameworks/Bethesda Softworks",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, Rhythm"
             },
             {
                 "Nominee": "Lies of P",
                 "Publisher": "Round8 Studio/Neowiz Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, Role-Playing"
             },
             {
                 "Nominee": "Super Mario Bros. Wonder",
@@ -181,7 +181,7 @@
         ]
     },
     "Best Score and Music": {
-        "description": "Awards the best original score and music composition for a game.",
+        "description": "For outstanding music, inclusive of score, original song and/or licensed soundtrack.",
         "nominees": [
             {
                 "Nominee": "Alan Wake 2",
@@ -190,7 +190,7 @@
                 "Genre": "Survival Horror"
             },
             {
-                "Nominee": "Baldur\u2019s Gate 3",
+                "Nominee": "Baldur’s Gate 3",
                 "Publisher": "Composer Borislav Slavov (Larian Studios)",
                 "Votes": 10,
                 "Genre": "RPG"
@@ -205,7 +205,7 @@
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Audio Director Shuichi Kobori (Tango Gameworks/Bethesda Softworks)",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, Rhythm"
             },
             {
                 "Nominee": "The Legend of Zelda: Tears of the Kingdom",
@@ -216,7 +216,7 @@
         ]
     },
     "Best Audio Design": {
-        "description": "Honors excellence in sound design within a game.",
+        "description": "Recognizing the best in-game audio and sound design.",
         "nominees": [
             {
                 "Nominee": "Alan Wake 2",
@@ -228,16 +228,16 @@
                 "Nominee": "Dead Space",
                 "Publisher": "Motive Studio/EA",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Survival Horror, Sci-Fi"
             },
             {
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Tango Gameworks/Bethesda Softworks",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, Rhythm"
             },
             {
-                "Nominee": "Marvel\u2019s Spider-Man 2",
+                "Nominee": "Marvel’s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
                 "Genre": "Action-Adventure"
@@ -251,69 +251,69 @@
         ]
     },
     "Best Performance": {
-        "description": "Recognizes individual voice-over, motion, and/or performance capture.",
+        "description": "Awarded to an individual for voice-over acting, motion, and/or performance capture.",
         "nominees": [
             {
                 "Nominee": "Ben Starr",
                 "Publisher": "Final Fantasy XVI",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "RPG"
             },
             {
                 "Nominee": "Cameron Monaghan",
                 "Publisher": "STAR WARS Jedi: Survivor",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action-Adventure"
             },
             {
                 "Nominee": "Idris Elba",
                 "Publisher": "Cyberpunk 2077: Phantom Liberty",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "RPG"
             },
             {
                 "Nominee": "Melanie Liburd",
                 "Publisher": "Alan Wake 2",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Survival Horror"
             },
             {
                 "Nominee": "Neil Newbon",
-                "Publisher": "Baldur\u2019s Gate 3",
+                "Publisher": "Baldur’s Gate 3",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "RPG"
             },
             {
                 "Nominee": "Yuri Lowenthal",
-                "Publisher": "Marvel\u2019s Spider-Man 2",
+                "Publisher": "Marvel’s Spider-Man 2",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action-Adventure"
             }
         ]
     },
     "Innovation in Accessibility": {
-        "description": "Awards innovation and features that provide accessibility to gaming experiences.",
+        "description": "Recognizing software and/or hardware that is pushing the medium forward by adding features, technology and content to help games be played and enjoyed by an even wider audience.",
         "nominees": [
             {
                 "Nominee": "Diablo IV",
                 "Publisher": "Blizzard Entertainment",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, RPG"
             },
             {
                 "Nominee": "Forza Motorsport",
                 "Publisher": "Turn 10 Studios/Xbox Game Studios",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Racing, Simulation"
             },
             {
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Tango Gameworks/Bethesda Softworks",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, Rhythm"
             },
             {
-                "Nominee": "Marvel\u2019s Spider-Man 2",
+                "Nominee": "Marvel’s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
                 "Genre": "Action-Adventure"
@@ -322,97 +322,97 @@
                 "Nominee": "Mortal Kombat 1",
                 "Publisher": "NetherRealm Studios/WB Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Fighting"
             },
             {
                 "Nominee": "Street Fighter 6",
                 "Publisher": "Capcom",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Fighting"
             }
         ]
     },
     "Games for Impact": {
-        "description": "Recognizes a thought-provoking game with a pro-social message or impact.",
+        "description": "For a thought-provoking game with a pro-social meaning or message.",
         "nominees": [
             {
                 "Nominee": "A Space for the Unbound",
                 "Publisher": "Mojiken Studio/Toge Productions/Chorus",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Adventure, Narrative"
             },
             {
                 "Nominee": "Chants of Sennaar",
                 "Publisher": "Rundisc/Focus Entertainment",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Puzzle, Adventure"
             },
             {
                 "Nominee": "Goodbye Volcano High",
                 "Publisher": "KO_OP",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Narrative, Adventure"
             },
             {
                 "Nominee": "Tchia",
                 "Publisher": "Awaceb/Kepler Interactive",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Adventure, Exploration"
             },
             {
                 "Nominee": "Terra Nil",
                 "Publisher": "Free Lives/Devolver Digital/Netflix",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Simulation, Strategy"
             },
             {
                 "Nominee": "Venba",
                 "Publisher": "Visai Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Narrative, Cooking"
             }
         ]
     },
     "Best Ongoing Game": {
-        "description": "Honors a game that provides ongoing content and updates to keep the community engaged.",
+        "description": "Awarded to a game for outstanding development of ongoing content that evolves the player experience over time.",
         "nominees": [
             {
                 "Nominee": "Apex Legends",
                 "Publisher": "Respawn Entertainment/EA",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Battle Royale, Shooter"
             },
             {
                 "Nominee": "Cyberpunk 2077",
                 "Publisher": "CD Projekt Red",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "RPG, Open World"
             },
             {
                 "Nominee": "Final Fantasy XIV",
                 "Publisher": "Square Enix",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "MMORPG"
             },
             {
                 "Nominee": "Fortnite",
                 "Publisher": "Epic Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Battle Royale, Sandbox"
             },
             {
                 "Nominee": "Genshin Impact",
                 "Publisher": "HoYoverse",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, RPG"
             }
         ]
     },
     "Best Community Support": {
-        "description": "Awards excellence in community management and support.",
+        "description": "Recognizing a game for outstanding community support, transparency and responsiveness, inclusive of social media activity and game updates/patches.",
         "nominees": [
             {
-                "Nominee": "Baldur\u2019s Gate 3",
+                "Nominee": "Baldur’s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
                 "Genre": "RPG"
@@ -421,170 +421,170 @@
                 "Nominee": "Cyberpunk 2077",
                 "Publisher": "CD Projekt Red",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "RPG, Open World"
             },
             {
                 "Nominee": "Destiny 2",
                 "Publisher": "Bungie",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "MMO, Shooter"
             },
             {
                 "Nominee": "Final Fantasy XIV",
                 "Publisher": "Square Enix",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "MMORPG"
             },
             {
-                "Nominee": "No Man\u2019s Sky",
+                "Nominee": "No Man’s Sky",
                 "Publisher": "Hello Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Survival, Exploration"
             }
         ]
     },
     "Best Independent Game": {
-        "description": "Recognizes the best independent game, highlighting creative and technical excellence.",
+        "description": "For outstanding creative and technical achievement in a game made outside the traditional publisher system.",
         "nominees": [
             {
                 "Nominee": "Cocoon",
                 "Publisher": "Geometric Interactive/Annapurna Interactive",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Puzzle, Adventure"
             },
             {
                 "Nominee": "Dave the Diver",
                 "Publisher": "MINTROCKET",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Simulation, Adventure"
             },
             {
                 "Nominee": "Dredge",
                 "Publisher": "Black Salt Games/Team 17",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Adventure, Simulation"
             },
             {
                 "Nominee": "Sea of Stars",
                 "Publisher": "Sabotage Studio",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "RPG"
             },
             {
                 "Nominee": "Viewfinder",
                 "Publisher": "Sad Owl Studios/Thunderful Publishing",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Puzzle, Adventure"
             }
         ]
     },
     "Best Debut Indie Game": {
-        "description": "Honors the best debut game from an independent studio.",
+        "description": "For the best debut game created by a new independent studio.",
         "nominees": [
             {
                 "Nominee": "Cocoon",
                 "Publisher": "Geometric Interactive/Annapurna Interactive",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Puzzle, Adventure"
             },
             {
                 "Nominee": "Dredge",
                 "Publisher": "Black Salt Games/Team 17",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Adventure, Simulation"
             },
             {
                 "Nominee": "Pizza Tower",
                 "Publisher": "Tour de Pizza",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Platformer, Action"
             },
             {
                 "Nominee": "Venba",
                 "Publisher": "Visai Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Narrative, Cooking"
             },
             {
                 "Nominee": "Viewfinder",
                 "Publisher": "Sad Owl Studios/Thunderful Publishing",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Puzzle, Adventure"
             }
         ]
     },
     "Best Mobile Game": {
-        "description": "Awards the best game playable on a mobile device.",
+        "description": "For the best game playable on a mobile device.",
         "nominees": [
             {
                 "Nominee": "Final Fantasy VII: Ever Crisis",
                 "Publisher": "Applibot/Square Enix",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "RPG"
             },
             {
                 "Nominee": "Honkai: Star Rail",
                 "Publisher": "HoYoverse",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "RPG"
             },
             {
                 "Nominee": "Hello Kitty Island Adventure",
                 "Publisher": "Sunblink Entertainment",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Simulation, Adventure"
             },
             {
                 "Nominee": "Monster Hunter Now",
                 "Publisher": "Niantic/Capcom",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "RPG, Augmented Reality"
             },
             {
                 "Nominee": "Terra Nil",
                 "Publisher": "Free Lives/Devolver/Netflix",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Simulation, Strategy"
             }
         ]
     },
     "Best VR/AR Game": {
-        "description": "Recognizes the best virtual or augmented reality game.",
+        "description": "For the best game experience playable in virtual or augmented reality, irrespective of platform.",
         "nominees": [
             {
                 "Nominee": "Gran Turismo 7",
                 "Publisher": "Polyphony Digital/SIE",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Racing, Simulation"
             },
             {
                 "Nominee": "Humanity",
                 "Publisher": "tha LTD/Enhance Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Puzzle, Strategy"
             },
             {
                 "Nominee": "Horizon Call of the Mountain",
                 "Publisher": "Guerrilla Games/Firesprite/SIE",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, Adventure"
             },
             {
                 "Nominee": "Resident Evil Village VR Mode",
                 "Publisher": "Capcom",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Survival Horror"
             },
             {
                 "Nominee": "Synapse",
                 "Publisher": "nDreams",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, Shooter"
             }
         ]
     },
     "Best Action Game": {
-        "description": "Honors the best game in the action genre.",
+        "description": "For the best game in the action genre focused primarily on combat.",
         "nominees": [
             {
                 "Nominee": "Armored Core VI: Fires of Rubicon",
@@ -608,7 +608,7 @@
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Tango Gameworks/Bethesda Softworks",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, Rhythm"
             },
             {
                 "Nominee": "Remnant 2",
@@ -619,7 +619,7 @@
         ]
     },
     "Best Action/Adventure Game": {
-        "description": "Awards the best action/adventure game that combines both genres effectively.",
+        "description": "For the best action/adventure game, combining combat with traversal and puzzle solving.",
         "nominees": [
             {
                 "Nominee": "Alan Wake 2",
@@ -628,7 +628,7 @@
                 "Genre": "Survival Horror"
             },
             {
-                "Nominee": "Marvel\u2019s Spider-Man 2",
+                "Nominee": "Marvel’s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
                 "Genre": "Action-Adventure"
@@ -654,10 +654,10 @@
         ]
     },
     "Best RPG": {
-        "description": "No description available",
+        "description": "For the best game designed with rich player character customization and progression, including massively multiplayer experiences.",
         "nominees": [
             {
-                "Nominee": "Baldur\u2019s Gate 3",
+                "Nominee": "Baldur’s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
                 "Genre": "RPG"
@@ -672,13 +672,13 @@
                 "Nominee": "Lies of P",
                 "Publisher": "Round8 Studio/Neowiz Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, Role-Playing"
             },
             {
                 "Nominee": "Sea of Stars",
                 "Publisher": "Sabotage Studio",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "RPG"
             },
             {
                 "Nominee": "Starfield",
@@ -689,7 +689,7 @@
         ]
     },
     "Best Fighting Game": {
-        "description": "No description available",
+        "description": "For the best game designed primarily around head-to-head combat.",
         "nominees": [
             {
                 "Nominee": "God of Rock",
@@ -701,7 +701,7 @@
                 "Nominee": "Mortal Kombat 1",
                 "Publisher": "NetherRealm Studios/WB Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Fighting"
             },
             {
                 "Nominee": "Nickelodeon All-Star Brawl 2",
@@ -719,12 +719,12 @@
                 "Nominee": "Street Fighter 6",
                 "Publisher": "Capcom",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Fighting"
             }
         ]
     },
     "Best Family Game": {
-        "description": "No description available",
+        "description": "For the best game appropriate for family play, irrespective of genre or platform.",
         "nominees": [
             {
                 "Nominee": "Disney Illusion Island",
@@ -759,7 +759,7 @@
         ]
     },
     "Best Sim/Strategy Game": {
-        "description": "No description available",
+        "description": "Best game focused on real time or turn-based simulation or strategy gameplay, irrespective of platform.",
         "nominees": [
             {
                 "Nominee": "Advance Wars 1+2: Re-Boot Camp",
@@ -794,7 +794,7 @@
         ]
     },
     "Best Sports/Racing": {
-        "description": "No description available",
+        "description": "For the best traditional and non-traditional sports and racing game.",
         "nominees": [
             {
                 "Nominee": "EA Sports FC 24",
@@ -812,7 +812,7 @@
                 "Nominee": "Forza Motorsport",
                 "Publisher": "Turn 10 Studios/Xbox Game Studios",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Racing, Simulation"
             },
             {
                 "Nominee": "Hot Wheels Unleashed 2: Turbocharged",
@@ -829,10 +829,10 @@
         ]
     },
     "Best Multiplayer": {
-        "description": "No description available",
+        "description": "For outstanding online multiplayer gameplay and design, including co-op and massively multiplayer experiences, irrespective of game genre or platform.",
         "nominees": [
             {
-                "Nominee": "Baldur\u2019s Gate 3",
+                "Nominee": "Baldur’s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
                 "Genre": "RPG"
@@ -841,7 +841,7 @@
                 "Nominee": "Diablo IV",
                 "Publisher": "Blizzard Entertainment",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Action, RPG"
             },
             {
                 "Nominee": "Party Animals",
@@ -853,7 +853,7 @@
                 "Nominee": "Street Fighter 6",
                 "Publisher": "Capcom",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Fighting"
             },
             {
                 "Nominee": "Super Mario Bros. Wonder",
@@ -864,7 +864,7 @@
         ]
     },
     "Most Anticipated Game": {
-        "description": "No description available",
+        "description": "Recognizing an announced game that has demonstrably illustrated potential to push the gaming medium forward.",
         "nominees": [
             {
                 "Nominee": "Final Fantasy VII Rebirth",
@@ -899,7 +899,7 @@
         ]
     },
     "Content Creator of the Year": {
-        "description": "No description available",
+        "description": "For a streamer or content creator who has made an important and positive impact on the community in 2023.",
         "nominees": [
             {
                 "Nominee": "IronMouse",
@@ -934,7 +934,7 @@
         ]
     },
     "Best Esports Game": {
-        "description": "No description available",
+        "description": "For the game that has delivered the best overall esports experience to players (inclusive of tournaments, community support and content updates), irrespective of genre or platform.",
         "nominees": [
             {
                 "Nominee": "Counter-Strike 2",
@@ -969,40 +969,40 @@
         ]
     },
     "Best Esports Athlete": {
-        "description": "No description available",
+        "description": "The esports athlete judged to be the most outstanding for performance and conduct in 2023, irrespective of game.",
         "nominees": [
             {
-                "Nominee": "Lee \u201cFaker\u201d Sang-hyeok",
+                "Nominee": "Lee “Faker” Sang-hyeok",
                 "Publisher": "League of Legends",
                 "Votes": 0,
                 "Genre": "Unknown"
             },
             {
-                "Nominee": "Mathieu \u201cZywOo\u201d Herbaut",
+                "Nominee": "Mathieu “ZywOo” Herbaut",
                 "Publisher": "CS:GO",
                 "Votes": 0,
                 "Genre": "Unknown"
             },
             {
-                "Nominee": "Max \u201cDemon1\u2033 Mazanov",
+                "Nominee": "Max “Demon1″ Mazanov",
                 "Publisher": "Valorant",
                 "Votes": 0,
                 "Genre": "Unknown"
             },
             {
-                "Nominee": "Paco \u201cHyDra\u201d Rusiewiez",
+                "Nominee": "Paco “HyDra” Rusiewiez",
                 "Publisher": "Call of Duty",
                 "Votes": 0,
                 "Genre": "Unknown"
             },
             {
-                "Nominee": "Park \u201cRuler\u201d Jae-hyuk",
+                "Nominee": "Park “Ruler” Jae-hyuk",
                 "Publisher": "League of Legends",
                 "Votes": 0,
                 "Genre": "Unknown"
             },
             {
-                "Nominee": "Phillip \u201cImperialHal\u201d Dosen",
+                "Nominee": "Phillip “ImperialHal” Dosen",
                 "Publisher": "Apex Legends",
                 "Votes": 0,
                 "Genre": "Unknown"
@@ -1010,107 +1010,107 @@
         ]
     },
     "Best Esports Team": {
-        "description": "No description available",
+        "description": "Recognizing a specific esports team for outstanding performance in 2023, irrespective of game.",
         "nominees": [
             {
                 "Nominee": "Evil Geniuses",
                 "Publisher": "Valorant",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Team"
             },
             {
                 "Nominee": "Fnatic",
                 "Publisher": "Valorant",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Team"
             },
             {
                 "Nominee": "Gaimin Gladiators",
                 "Publisher": "Dota 2",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Team"
             },
             {
                 "Nominee": "JD Gaming",
                 "Publisher": "League of Legends",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Team"
             },
             {
                 "Nominee": "Team Vitality",
                 "Publisher": "Counter-Strike",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Team"
             }
         ]
     },
     "Best Esports Coach": {
-        "description": "No description available",
+        "description": "The esports coach judged to be the most outstanding for performance and conduct in 2023.",
         "nominees": [
             {
-                "Nominee": "Christine \u201cpotter\u201d Chi",
+                "Nominee": "Christine “potter” Chi",
                 "Publisher": "Evil Geniuses - Valorant",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Coach"
             },
             {
-                "Nominee": "Danny \u201czonic\u201d Sorensen",
+                "Nominee": "Danny “zonic” Sorensen",
                 "Publisher": "Team Falcons - Counter-Strike",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Coach"
             },
             {
-                "Nominee": "Jordan \u201cGunba\u201d Graham",
+                "Nominee": "Jordan “Gunba” Graham",
                 "Publisher": "Florida Mayhem - Overwatch",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Coach"
             },
             {
-                "Nominee": "Remy \u201cXTQZZZ\u201d Quoniam",
+                "Nominee": "Remy “XTQZZZ” Quoniam",
                 "Publisher": "Team Vitality - Counter-Strike",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Coach"
             },
             {
-                "Nominee": "Yoon \u201cHomme\u201d Sung-young",
+                "Nominee": "Yoon “Homme” Sung-young",
                 "Publisher": "JD Gaming - League of Legends",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Coach"
             }
         ]
     },
     "Best Esports Event": {
-        "description": "No description available",
+        "description": "Recognizing an event (across single or multiple days) that delivered a best-of-class experience for participants and the broadcast audience.",
         "nominees": [
             {
                 "Nominee": "2023 League of Legends World Championship",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Event"
             },
             {
                 "Nominee": "Blast.tv Paris Major 2023",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Event"
             },
             {
                 "Nominee": "EVO 2023",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Event"
             },
             {
                 "Nominee": "The International Dota 2 Championships 2023",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Event"
             },
             {
                 "Nominee": "VALORANT Champions 2023",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Esports Event"
             }
         ]
     }

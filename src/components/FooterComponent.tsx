@@ -1,24 +1,14 @@
 const FooterComponent = () => {
   return (
-    <footer className="fixed bottom-0 right-0 bg-black text-gray-600 body-font font-barlow w-full max-h-min">
-      <div className="container px-5 py-4 ml-auto flex items-center justify-end">
-        <span className="flex flex-0 left-0 mr-auto -ml-16">
+    <footer className="fixed bottom-0 right-0 bg-transparent text-gray-600 body-font font-barlow w-full max-h-min">
+      <div className="container py-2 flex justify-evenly mx-auto">
+        <span className="mr-auto pl-3">
           <a href="/about" className="text-sm text-gray-500">
             About
           </a>
         </span>
-        <span className="text-sm text-gray-500 pr-8">© 2024 Felipe Gregorio</span>
-        <span className="inline-flex items-center">
-          <a
-            href="https://x.com/flp_gregorio"
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-gray-500 hover:text-blue-700 transition-all duration-500"
-          >
-            <svg fill="currentColor" className="w-5 h-5" viewBox="0 0 24 24">
-              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-            </svg>
-          </a>
+        <span className="inline-flex items-center pr-2">
+          <span className="text-sm text-gray-500 pr-3 ml-auto">© 2024 Felipe Gregorio</span>
           <a
             href="https://www.instagram.com/felipe.gregoriooo/"
             target="_blank" 
@@ -28,7 +18,7 @@ const FooterComponent = () => {
             <svg
               fill="none"
               stroke="currentColor"
-              className="w-5 h-5"
+              className="w-4 h-4"
               viewBox="0 0 24 24"
             >
               <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
@@ -44,7 +34,7 @@ const FooterComponent = () => {
             <svg
               fill="currentColor"
               stroke="currentColor"
-              className="w-5 h-5"
+              className="w-4 h-4"
               viewBox="0 0 24 24"
             >
               <path
