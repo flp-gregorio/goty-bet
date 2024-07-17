@@ -42,7 +42,7 @@ const Register = () => {
           id="confirmPassword"
           placeholder="Confirm Password"
         />
-        <div className="mt-6">
+        <div className="mt-6 w-40 mx-auto">
           <ButtonComponent text="Sign in" to="/nominees" />
         </div>
       </form>
@@ -50,7 +50,7 @@ const Register = () => {
         Already have an account?{" "}
         <Link
           to={"/login"}
-          className="text-blue-500 focus:outline-none focus:underline hover:underline"
+          className="text-orange-500 focus:outline-none focus:underline hover:underline"
         >
           Sign in
         </Link>

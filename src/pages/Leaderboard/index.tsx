@@ -1,9 +1,10 @@
 import LayoutSystemComponent from "../../components/Layouts/LayoutSystemComponent";
+import LeaderboardComponent from "../../components/LeaderboardComponent";
 
 const Leaderboard = () => {
   return (
     <LayoutSystemComponent>
-      <h1 className="text-white">Leaderboard</h1>;
+      <LeaderboardComponent/>
     </LayoutSystemComponent>
   );
 };

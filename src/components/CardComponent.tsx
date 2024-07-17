@@ -23,14 +23,10 @@ const CardComponent: React.FC<CardComponentProps> = ({ nominee, aux = "NULL", ge
       `}
       onClick={handleCardClick}
     >
-      <div className="">
-        <div className=" ">
-          <div className="p-3 ">
-            <h1 className="font-montserrat font-bold relative text-lg tracking-tight">{nominee}</h1>
-            <h2 className={`font-barlow text-sm font-semibold opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300  ${active ? 'opacity-100 ' : '-translate-x-10'}`}>{aux}</h2>
-            <h3 className={`font-barlow text-xs font-normal opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300  ${active ? 'opacity-100 ' : '-translate-x-10'}`}>{genre}</h3>
-          </div>
-        </div>
+      <div className="p-3 ">
+        <h1 className="font-montserrat font-bold relative text-lg tracking-tight">{nominee}</h1>
+        <h2 className={`font-barlow text-sm font-semibold opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300  ${active ? 'opacity-100 ' : '-translate-x-10'}`}>{aux}</h2>
+        <h3 className={`font-barlow text-xs font-normal opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300  ${active ? 'opacity-100 ' : '-translate-x-10'}`}>{genre}</h3>
       </div>
     </div>
   );

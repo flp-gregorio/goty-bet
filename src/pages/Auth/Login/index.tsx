@@ -26,7 +26,7 @@ const Login = () => {
           id="password"
           placeholder="Your Password"
         />
-        <div className="mt-6">
+        <div className="mt-6 w-40 mx-auto">
           <ButtonComponent text="Login" to="/nominees" />
         </div>
       </form>
@@ -34,7 +34,7 @@ const Login = () => {
         Don&#x27;t have an account yet?{" "}
         <Link
           to={"/register"}
-          className="text-blue-500 focus:outline-none focus:underline hover:underline"
+          className="text-orange-500 focus:outline-none focus:underline hover:underline"
         >
           Sign up
         </Link>
@@ -43,7 +43,7 @@ const Login = () => {
       <p className="text-sm text-center text-gray-400">
         <Link
           to={"/forgot-password"}
-          className="text-blue-500 focus:outline-none focus:underline hover:underline"
+          className="text-orange-500 focus:outline-none focus:underline hover:underline"
         >
           Forgot your password?
         </Link>

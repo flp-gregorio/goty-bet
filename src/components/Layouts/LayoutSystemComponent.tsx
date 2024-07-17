@@ -11,7 +11,7 @@ const LayoutSystemComponent = (props: Props) => {
   return (
     <>
       <HeaderComponent />
-      <div className="bg-fiery bg-cover min-h-[100vh]">
+      <div className="bg-fiery bg-cover min-h-screen antialiased">
         {props.children}
       </div>
       <FooterComponent />

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const HeaderComponent = () => {
   return (
-    <header className="text-gray-600 body-font bg-zinc-950 font-montserrat font-bold text-1xl w-full tracking-tight">
+    <header className="text-gray-600 antialiased bg-zinc-950 font-montserrat font-bold text-1xl w-full tracking-tight">
       <div className="container mx-auto flex items-center justify-between px-3">
         <nav className="flex flex-grow justify-center items-center mx-auto">
           <div className="w-1/4 text-right">
