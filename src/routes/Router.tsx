@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import PageTitleComponent from "../components/PageTitleComponent";
 import About from "../pages/About";
 import Login from "../pages/Auth/Login";
@@ -6,6 +6,7 @@ import Register from "../pages/Auth/Register";
 import Home from "../pages/Home";
 import Leaderboard from "../pages/Leaderboard";
 import Nominees from "../pages/Nominees";
+import NotFound from "../pages/NotFound";
 import Profile from "../pages/Profile";
 import Winners from "../pages/Winners";
 
@@ -81,6 +82,19 @@ const router = createBrowserRouter([
         <PageTitleComponent title="Leaderboard" />
       </>
     ),
+  },
+  {
+    path: "404",
+    element: (
+      <>
+        <NotFound />
+        <PageTitleComponent title="404" />
+      </>
+    ),
+  },
+  {
+    path: "*",
+    element: <Navigate to={"404"} />,
   },
 ]);
 
