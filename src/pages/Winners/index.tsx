@@ -29,7 +29,7 @@ const Winners = () => {
                 onNext={handleNextCategory}
                 headerText={currentCategoryKey}
             />
-            <div className="m-auto align-middle min-h-screen">
+            <div className="m-auto align-middle min-h-[75vh] flex">
                 <WinnerComponent
                     category={currentCategory.description}
                     data={currentCategory.nominees}
