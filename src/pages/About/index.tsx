@@ -27,7 +27,7 @@ const About = () => {
             as a self imposed challenge while I'm on break.
           </p>
           <p>
-            Many thanks to <a className="underline" href="https://github.com/douglasew">Leandro Rocha</a> and <a className="underline" href="https://github.com/douglasew">Douglas Ewerton</a> for the help with the project organization. It woundn't be possible without them.
+            Many thanks to <a className="underline" href="https://github.com/LeandroRochAlg">Leandro Rocha</a> and <a className="underline" href="https://github.com/douglasew">Douglas Ewerton</a> for the help with the project organization. It woundn't be possible without them.
           </p>
         </div>
       </div>
