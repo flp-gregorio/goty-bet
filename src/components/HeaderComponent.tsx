@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 const HeaderComponent = () => {
   return (
     <header className="text-gray-600 antialiased bg-zinc-950 font-montserrat font-bold text-xl md:text-1xl w-full tracking-tight">
-      <div className="container mx-auto flex flex-wrap items-center justify-between px-3">
-        <nav className="lg:flex lg:items-center mx-auto grid grid-cols-1 ">
-          <div className="flex justify-between md:flex-row md:order-1 order-2">
+      <div className="container mx-auto flex items-center justify-between px-5">
+        <nav className="md:flex md:items-center mx-auto grid grid-cols-1 w-full md:mx-56 md:max-w-screen-lg sm:w-full">
+          <div className="flex justify-between md:flex-row md:order-1 order-2 md:w-2/5 md:text-right">
             <Link
               to="/nominees"
               className="md:mx-5 mr-5 text-white hover:text-orange-600 transition-all duration-500"
@@ -37,7 +37,7 @@ const HeaderComponent = () => {
               />
             </svg>
           </Link>
-          <div className="flex justify-between md:flex-row md:order-3 order-3">
+          <div className="flex justify-between md:flex-row md:order-3 order-3 md:w-2/5 md:text-left">
             <Link
               to="/leaderboard"
               className="md:mx-5 mr-5 text-white hover:text-orange-600 transition-all duration-500"
