@@ -29,13 +29,12 @@ const Winners = () => {
                 onNext={handleNextCategory}
                 headerText={currentCategoryKey}
             />
-            <div className="m-auto align-middle min-h-[75vh] flex">
+            <div className="flex justify-center w-screen">
                 <WinnerComponent
                     category={currentCategory.description}
                     data={currentCategory.nominees}
                 />
             </div>
-
         </LayoutSystemComponent>
     );
 };

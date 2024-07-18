@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const HeaderComponent = () => {
   return (
-    <header className="text-gray-600 antialiased bg-zinc-950 font-montserrat font-bold text-1xl w-full tracking-tight">
+    <header className="text-gray-600 antialiased bg-zinc-950 font-montserrat font-bold text-2xl md:text-1xl w-full tracking-tight">
       <div className="container mx-auto flex flex-wrap items-center justify-between px-3">
         <nav className="lg:flex lg:items-center mx-auto grid grid-cols-1 ">
           <div className="flex justify-between md:flex-row md:order-1 order-2">
@@ -19,7 +19,7 @@ const HeaderComponent = () => {
               WINNERS
             </Link>
           </div>
-          <Link to="/" className="group order-1 md:order-2 m-auto mx-5">
+          <Link to="/" className="group order-1 md:order-2 m-auto">
             <svg
               className="w-16 h-16 text-black py-1 transition duration-300 ease-in-out filter hover:drop-shadow-[0_0_10px_rgba(234,88,12,0.3)]"
               xmlns="http://www.w3.org/2000/svg"
