@@ -39,7 +39,7 @@ const Nominees = () => {
           onNext={handleNextCategory}
           headerText={currentCategoryKey}
         />
-        <p className="my-4 text-neutral-50 font-barlow tracking-wider max-w-2xl text-center">{currentCategory.description}</p>
+        <p className="my-4 text-neutral-50 font-barlow tracking-wider md:max-w-2xl text-center mx-2">{currentCategory.description}</p>
         <div className="hidden lg:flex flex-col">
           <div className="grid gap-6 grid-cols-3 grid-rows-1">
             {cardsData.slice(0, 3).map((nomineeData, index) => (
