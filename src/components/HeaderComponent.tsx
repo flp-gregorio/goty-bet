@@ -4,22 +4,22 @@ const HeaderComponent = () => {
   return (
     <header className="text-gray-600 antialiased bg-zinc-950 font-montserrat font-bold text-1xl w-full tracking-tight">
       <div className="container mx-auto flex flex-wrap items-center justify-between px-3">
-        <nav className="flex md:flex-grow md:justify-center items-center w-full flex-row flex-wrap">
-          <div className="text-right flex-shrink-0 order-2 md:order-1">
+        <nav className="lg:flex lg:items-center mx-auto grid grid-cols-1 ">
+          <div className="flex justify-between md:flex-row md:order-1 order-2">
             <Link
               to="/nominees"
-              className="mx-5 text-white hover:text-orange-600 transition-all duration-500"
+              className="md:mx-5 mr-5 text-white hover:text-orange-600 transition-all duration-500"
             >
               NOMINEES
             </Link>
             <Link
               to="/winners"
-              className="mx-5 text-white hover:text-orange-600 transition-all duration-500"
+              className="md:mx-5 text-white hover:text-orange-600 transition-all duration-500"
             >
               WINNERS
             </Link>
           </div>
-          <Link to="/" className="flex-shrink-0 mx-10 group order-1 md:order-2 m-auto">
+          <Link to="/" className="group order-1 md:order-2 m-auto mx-5">
             <svg
               className="w-16 h-16 text-black py-1 transition duration-300 ease-in-out filter hover:drop-shadow-[0_0_10px_rgba(234,88,12,0.3)]"
               xmlns="http://www.w3.org/2000/svg"
@@ -37,16 +37,16 @@ const HeaderComponent = () => {
               />
             </svg>
           </Link>
-          <div className="text-left flex-shrink-0 order-3 md:order-3">
+          <div className="flex justify-between md:flex-row md:order-3 order-3">
             <Link
               to="/leaderboard"
-              className="mx-5 text-white hover:text-orange-600 transition-all duration-500"
+              className="md:mx-5 mr-5 text-white hover:text-orange-600 transition-all duration-500"
             >
               LEADERBOARD
             </Link>
             <Link
               to="/profile"
-              className="mx-5 text-white hover:text-orange-600 transition-all duration-500"
+              className="md:mx-5 text-white hover:text-orange-600 transition-all duration-500"
             >
               PROFILE
             </Link>

@@ -68,7 +68,7 @@ const Nominees = () => {
             </div>
           </div>
         </div>
-        <div className="lg:hidden grid gap-6 grid-cols-1">
+        <div className="lg:hidden grid gap-6 grid-cols-1 pb-12">
           {cardsData.map((nomineeData, index) => (
             <CardComponent
               key={index}
