@@ -12,7 +12,7 @@ const NavigationComponent = (props: NavHeaderProps) => {
       <button className="uppercase mr-2 text-xl" onClick={props.onPrevious}>
         <FaArrowLeft />
       </button>
-      <h1 className="font-bold min-w-[24rem]">{props.headerText}</h1>
+      <h1 className="font-bold min-w-[24rem] text-xl">{props.headerText}</h1>
       <button className="uppercase ml-2 text-xl" onClick={props.onNext}>
         <FaArrowRight />
       </button>

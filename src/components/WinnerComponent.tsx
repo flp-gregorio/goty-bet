@@ -1,25 +1,4 @@
-import {
-  BarElement,
-  CategoryScale,
-  Chart as ChartJS,
-  Legend,
-  LinearScale,
-  Title,
-  Tooltip,
-} from "chart.js";
-import ChartDataLabels from "chartjs-plugin-datalabels";
-import { Bar } from "react-chartjs-2";
 import { NomineeData } from "../@types/NomineeType";
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend,
-  ChartDataLabels
-);
 
 type WinnerComponentProps = {
   category: string;
@@ -27,101 +6,52 @@ type WinnerComponentProps = {
 };
 
 const WinnerComponent = (props: WinnerComponentProps) => {
-  const createChartData = () => {
-    const labels = props.data.map((nominee) => nominee.Nominee.toUpperCase());
-    const votes = props.data.map((nominee) => nominee.Votes);
+  const getMaxVotes = () => {
+    return Math.max(...props.data.map((nominee) => nominee.Votes));
+  };
 
-    const maxVotesIndex = votes.indexOf(Math.max(...votes));
+  const renderProgressBar = (nominee: NomineeData, maxVotes: number, isWinner: boolean) => {
+    const now = (nominee.Votes / maxVotes) * 100;
+    const labelName = isWinner ? `${nominee.Nominee.toUpperCase()} • winner` : `${nominee.Nominee.toUpperCase()}`;
+    const labelVotes = `${nominee.Votes}`;
+    const progressBarBg = isWinner ? "bg-red-600" : "bg-orange-600";
 
-    const colors = votes.map((_, index) =>
-      index === maxVotesIndex
-        ? "rgba(249, 115, 22, 0.8)"
-        : "rgba(194, 65, 12, 0.6)"
+    return (
+      <div key={nominee.Nominee} className="flex mb-3">
+        <div className="w-full font-barlow">
+          <div className="w-full h-10 bg-neutral-950">
+            <div
+              className={`h-10 ${progressBarBg} flex items-center text-white font-bold`}
+              style={{ width: `${now}%` }}
+            >
+              <div className="flex justify-between w-full px-4">
+                <div className="flex-grow text-nowrap text-white font-bold uppercase tracking-wider antialiased overflow-clip">
+                  {labelName}
+                </div>
+                <div className={`${nominee.Votes === 0 ? 'hidden' : 'shown'}`}>
+                  {labelVotes}
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
     );
-
-    return {
-      labels: labels,
-      datasets: [
-        {
-          label: "Votes",
-          data: votes,
-          backgroundColor: colors,
-          borderColor: "rgba(194, 65, 12, 1)",
-          borderWidth: 1,
-          barThickness: 40,
-          maxBarThickness: 40,
-        },
-      ],
-    };
   };
 
-  const options = {
-    indexAxis: "y",
-    elements: {
-      bar: {
-        borderWidth: 2,
-      },
-    },
-    scales: {
-      y: {
-        ticks: {
-          display: false,
-          font: {
-            size: 18, // Tamanho da fonte dos labels no eixo y
-          },
-        },
-        grid: {
-          display: false, // Remove a grade do eixo y
-        },
-      },
-      x: {
-        ticks: {
-          display: false,
-          font: {
-            size: 18, // Tamanho da fonte dos labels no eixo x
-          },
-        },
-        grid: {
-          display: false, // Remove a grade do eixo x
-        },
-      },
-    },
-    plugins: {
-      datalabels: {
-        display: true,
-        color: "white",
-        align: "end",
-        anchor: "start",
-        clamp: "true",
-        font: {
-          size: 20, // Tamanho da fonte dos labels dentro da barra
-          family: "Barlow",
-          weight: "bold",
-        },
-        formatter: (value: any, context: any) => {
-          const nomineeName = context.chart.data.labels[context.dataIndex];
-          return `${nomineeName}    ${value}`; // Nome do indicado no início e votos no final
-        },
-      },
-      legend: {
-        display: false,
-      },
-    },
-  };
+  const maxVotes = getMaxVotes();
+  const winnerIndex = props.data.findIndex((nominee) => nominee.Votes === maxVotes);
 
   return (
-    <div className="bg-transparent grid grid-cols-2 align-middle items-center px-10">
-      <div className="text-right">
-        <h1 className="text-white uppercase font-borlow text-2xl font-bold">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore magni
-          labore dolore ipsa nostrum nesciunt sint laboriosam, at dignissimos
-          ducimus minima. Voluptatibus placeat animi, voluptatem similique
-          numquam dicta magnam ut.
+    <div className="bg-transparent px-10 flex flex-col w-2/3 mx-auto">
+      <div className="flex justify-end mb-4 ">
+        <h1 className="text-white uppercase font-barlow text-2xl font-bold">
+          {props.category}
         </h1>
       </div>
-      <div className="">
-        <Bar data={createChartData()} options={options} />
-      </div>
+      {props.data.map((nominee, index) =>
+        renderProgressBar(nominee, maxVotes, index === winnerIndex)
+      )}
     </div>
   );
 };

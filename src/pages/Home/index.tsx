@@ -40,17 +40,18 @@ const Home = () => {
         <div className="mt-6 text-center">
           <div className="container px-5 mx-auto flex flex-wrap">
             <div className="w-full sm:p-4 mb-6 ">
-              <h1 className="font-bold text-3xl text-gray-100 tracking-wider -mb-16">
+              <h1 className="font-bold text-3xl text-gray-100 tracking-wider ">
                 The Game Awards are happening in:
               </h1>
               <h2 className="font-bold text-[200px] font-barlow text-gray-100 ">
                 {countdown}
               </h2>
-              <p className="text-gray-100 text-xl font-bold tracking-wider -mt-14">
+              <p className="text-gray-100 text-xl font-bold tracking-wider -mt-10 mb-10">
                 Days
               </p>
-
-              <ButtonComponent text="VOTE" to="/nominees" />
+              <div className="w-60 mx-auto font-bold tracking-wider">
+                <ButtonComponent text="Vote" to="/nominees" />
+              </div>
             </div>
           </div>
         </div>
