@@ -39,7 +39,7 @@ const Nominees = () => {
           onNext={handleNextCategory}
           headerText={currentCategoryKey}
         />
-        <p className="my-4 text-neutral-50 font-barlow tracking-wider max-w-screen-xl max-w-lg text-center">{currentCategory.description}</p>
+        <p className="my-4 text-neutral-50 font-barlow tracking-wider max-w-2xl text-center">{currentCategory.description}</p>
         <div className="grid gap-6 grid-cols-3 grid-rows-1">
           {cardsData.slice(0, 3).map((nomineeData, index) => (
             <CardComponent
@@ -52,8 +52,8 @@ const Nominees = () => {
             />
           ))}
         </div>
-        <div className="col-span-3 flex justify-center mt-6">
-          <div className={`grid grid-cols-${numCards % 3 == 0 ? 3 : 2} gap-6`}>
+        <div className="col-span-3 flex justify-center mt-6 flex-row">
+          <div className={`grid gap-6 ${numCards % 3 == 0 ? 'grid-cols-3' : 'grid-cols-2'} grid-rows-1`}>
             {cardsData.slice(3, numCards).map((nomineeData, index) => (
               <CardComponent
                 key={index}
