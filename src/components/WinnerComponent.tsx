@@ -44,9 +44,9 @@ const WinnerComponent = (props: WinnerComponentProps) => {
 
   return (
     <div className="bg-transparent px-10 flex flex-col w-2/3 mx-auto">
-      <div className="flex justify-end mb-4 ">
+      <div className="flex justify-end my-4 ">
         <h1 className="text-white uppercase font-barlow text-2xl font-bold">
-          {props.category}
+          {props.data[winnerIndex].Description}
         </h1>
       </div>
       {props.data.map((nominee, index) =>

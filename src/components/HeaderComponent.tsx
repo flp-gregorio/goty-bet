@@ -19,7 +19,7 @@ const HeaderComponent = () => {
               WINNERS
             </Link>
           </div>
-          <Link to="/" className="flex-shrink-0 mx-10 group order-1 md:order-2 my-auto">
+          <Link to="/" className="flex-shrink-0 mx-10 group order-1 md:order-2 m-auto">
             <svg
               className="w-16 h-16 text-black py-1 transition duration-300 ease-in-out filter hover:drop-shadow-[0_0_10px_rgba(234,88,12,0.3)]"
               xmlns="http://www.w3.org/2000/svg"
