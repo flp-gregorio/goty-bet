@@ -29,7 +29,7 @@ const Winners = () => {
                 onNext={handleNextCategory}
                 headerText={currentCategoryKey}
             />
-            <div className="flex justify-center w-screen">
+            <div className="flex justify-center w-full">
                 <WinnerComponent
                     category={currentCategory.description}
                     data={currentCategory.nominees}
