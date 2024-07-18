@@ -3,6 +3,7 @@ export type NomineeData = {
     Publisher: string;
     Votes: number;
     Genre: string;
+    Description: string;
 };
 
 export type CategoriesData = {

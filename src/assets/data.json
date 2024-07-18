@@ -6,37 +6,43 @@
                 "Nominee": "Alan Wake 2",
                 "Publisher": "Remedy Entertainment/Epic Games Publishing",
                 "Votes": 5,
-                "Genre": "Survival Horror"
+                "Genre": "Survival Horror",
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
             },
             {
-                "Nominee": "Baldur’s Gate 3",
+                "Nominee": "Baldur\u2019s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
             },
             {
-                "Nominee": "Marvel’s Spider-Man 2",
+                "Nominee": "Marvel\u2019s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City."
             },
             {
                 "Nominee": "Resident Evil 4",
                 "Publisher": "Capcom",
                 "Votes": 4,
-                "Genre": "Survival Horror"
+                "Genre": "Survival Horror",
+                "Description": "A survival horror game where players face terrifying enemies in a bid to rescue the President's daughter."
             },
             {
                 "Nominee": "Super Mario Bros. Wonder",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 6,
-                "Genre": "Platform"
+                "Genre": "Platform",
+                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series."
             },
             {
                 "Nominee": "The Legend of Zelda: Tears of the Kingdom",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 8,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule."
             }
         ]
     },
@@ -47,31 +53,36 @@
                 "Nominee": "Alan Wake 2",
                 "Publisher": "Remedy Entertainment/Epic Games Publishing",
                 "Votes": 5,
-                "Genre": "Survival Horror"
+                "Genre": "Survival Horror",
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
             },
             {
-                "Nominee": "Baldur’s Gate 3",
+                "Nominee": "Baldur\u2019s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
             },
             {
-                "Nominee": "Marvel’s Spider-Man 2",
+                "Nominee": "Marvel\u2019s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City."
             },
             {
                 "Nominee": "Super Mario Bros. Wonder",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 6,
-                "Genre": "Platform"
+                "Genre": "Platform",
+                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series."
             },
             {
                 "Nominee": "The Legend of Zelda: Tears of the Kingdom",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 8,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule."
             }
         ]
     },
@@ -82,31 +93,36 @@
                 "Nominee": "Castlevania: Nocturne",
                 "Publisher": "Powerhouse Animation/Netflix",
                 "Votes": 0,
-                "Genre": "Animation, Fantasy, Horror"
+                "Genre": "Animation, Fantasy, Horror",
+                "Description": "An animated series adaptation that brings the iconic vampire hunting saga to life."
             },
             {
                 "Nominee": "Gran Turismo",
                 "Publisher": "PlayStation Productions/Sony Pictures",
                 "Votes": 0,
-                "Genre": "Sports, Racing"
+                "Genre": "Sports, Racing",
+                "Description": "A racing game that offers realistic driving experiences with a wide range of cars and tracks."
             },
             {
                 "Nominee": "The Last of Us",
                 "Publisher": "PlayStation Productions/HBO",
                 "Votes": 0,
-                "Genre": "Action, Adventure, Drama"
+                "Genre": "Action, Adventure, Drama",
+                "Description": "An adaptation that follows the emotional journey of survival in a post-apocalyptic world."
             },
             {
                 "Nominee": "The Super Mario Bros. Movie",
                 "Publisher": "Illumination/Nintendo/Universal Pictures",
                 "Votes": 0,
-                "Genre": "Animation, Adventure, Comedy"
+                "Genre": "Animation, Adventure, Comedy",
+                "Description": "An animated film bringing the adventures of Mario and Luigi to the big screen."
             },
             {
                 "Nominee": "Twisted Metal",
                 "Publisher": "PlayStation Productions/Peacock",
                 "Votes": 0,
-                "Genre": "Action, Comedy, Thriller"
+                "Genre": "Action, Comedy, Thriller",
+                "Description": "A series that combines high-octane vehicle combat with dark humor and thrilling action."
             }
         ]
     },
@@ -117,31 +133,36 @@
                 "Nominee": "Alan Wake 2",
                 "Publisher": "Remedy Entertainment/Epic Games Publishing",
                 "Votes": 5,
-                "Genre": "Survival Horror"
+                "Genre": "Survival Horror",
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
             },
             {
-                "Nominee": "Baldur’s Gate 3",
+                "Nominee": "Baldur\u2019s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
             },
             {
                 "Nominee": "Cyberpunk 2077: Phantom Liberty",
                 "Publisher": "CD Projekt Red",
                 "Votes": 5,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "An expansion that adds new stories and content to the cyberpunk-themed RPG."
             },
             {
                 "Nominee": "Final Fantasy XVI",
                 "Publisher": "Square Enix",
                 "Votes": 3,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "A role-playing game with a rich storyline and engaging combat set in a fantasy world."
             },
             {
-                "Nominee": "Marvel’s Spider-Man 2",
+                "Nominee": "Marvel\u2019s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City."
             }
         ]
     },
@@ -152,31 +173,36 @@
                 "Nominee": "Alan Wake 2",
                 "Publisher": "Remedy Entertainment/Epic Games Publishing",
                 "Votes": 5,
-                "Genre": "Survival Horror"
+                "Genre": "Survival Horror",
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
             },
             {
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Tango Gameworks/Bethesda Softworks",
                 "Votes": 0,
-                "Genre": "Action, Rhythm"
+                "Genre": "Action, Rhythm",
+                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay."
             },
             {
                 "Nominee": "Lies of P",
                 "Publisher": "Round8 Studio/Neowiz Games",
                 "Votes": 0,
-                "Genre": "Action, Role-Playing"
+                "Genre": "Action, Role-Playing",
+                "Description": "An action RPG inspired by the story of Pinocchio, featuring dark and challenging gameplay."
             },
             {
                 "Nominee": "Super Mario Bros. Wonder",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 6,
-                "Genre": "Platform"
+                "Genre": "Platform",
+                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series."
             },
             {
                 "Nominee": "The Legend of Zelda: Tears of the Kingdom",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 8,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule."
             }
         ]
     },
@@ -187,31 +213,36 @@
                 "Nominee": "Alan Wake 2",
                 "Publisher": "Composer Petri Alanko (Remedy Entertainment/Epic Games Publishing)",
                 "Votes": 5,
-                "Genre": "Survival Horror"
+                "Genre": "Survival Horror",
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
             },
             {
-                "Nominee": "Baldur’s Gate 3",
+                "Nominee": "Baldur\u2019s Gate 3",
                 "Publisher": "Composer Borislav Slavov (Larian Studios)",
                 "Votes": 10,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
             },
             {
                 "Nominee": "Final Fantasy XVI",
                 "Publisher": "Composer Masayoshi Soken (Square Enix)",
                 "Votes": 3,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "A role-playing game with a rich storyline and engaging combat set in a fantasy world."
             },
             {
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Audio Director Shuichi Kobori (Tango Gameworks/Bethesda Softworks)",
                 "Votes": 0,
-                "Genre": "Action, Rhythm"
+                "Genre": "Action, Rhythm",
+                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay."
             },
             {
                 "Nominee": "The Legend of Zelda: Tears of the Kingdom",
                 "Publisher": "Composed by Nintendo Sound Team (Nintendo EPD/Nintendo)",
                 "Votes": 8,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule."
             }
         ]
     },
@@ -222,31 +253,36 @@
                 "Nominee": "Alan Wake 2",
                 "Publisher": "Remedy Entertainment/Epic Games Publishing",
                 "Votes": 5,
-                "Genre": "Survival Horror"
+                "Genre": "Survival Horror",
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
             },
             {
                 "Nominee": "Dead Space",
                 "Publisher": "Motive Studio/EA",
                 "Votes": 0,
-                "Genre": "Survival Horror, Sci-Fi"
+                "Genre": "Survival Horror, Sci-Fi",
+                "Description": "A survival horror game set in space, where players confront grotesque creatures and unravel a terrifying mystery."
             },
             {
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Tango Gameworks/Bethesda Softworks",
                 "Votes": 0,
-                "Genre": "Action, Rhythm"
+                "Genre": "Action, Rhythm",
+                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay."
             },
             {
-                "Nominee": "Marvel’s Spider-Man 2",
+                "Nominee": "Marvel\u2019s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City."
             },
             {
                 "Nominee": "Resident Evil 4",
                 "Publisher": "Capcom",
                 "Votes": 4,
-                "Genre": "Survival Horror"
+                "Genre": "Survival Horror",
+                "Description": "A survival horror game where players face terrifying enemies in a bid to rescue the President's daughter."
             }
         ]
     },
@@ -279,13 +315,13 @@
             },
             {
                 "Nominee": "Neil Newbon",
-                "Publisher": "Baldur’s Gate 3",
+                "Publisher": "Baldur\u2019s Gate 3",
                 "Votes": 0,
                 "Genre": "RPG"
             },
             {
                 "Nominee": "Yuri Lowenthal",
-                "Publisher": "Marvel’s Spider-Man 2",
+                "Publisher": "Marvel\u2019s Spider-Man 2",
                 "Votes": 0,
                 "Genre": "Action-Adventure"
             }
@@ -298,25 +334,29 @@
                 "Nominee": "Diablo IV",
                 "Publisher": "Blizzard Entertainment",
                 "Votes": 0,
-                "Genre": "Action, RPG"
+                "Genre": "Action, RPG",
+                "Description": "An action RPG set in a dark fantasy world, featuring intense combat and deep character customization."
             },
             {
                 "Nominee": "Forza Motorsport",
                 "Publisher": "Turn 10 Studios/Xbox Game Studios",
                 "Votes": 0,
-                "Genre": "Racing, Simulation"
+                "Genre": "Racing, Simulation",
+                "Description": "A racing simulation game that offers realistic driving experiences with a wide range of vehicles and tracks."
             },
             {
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Tango Gameworks/Bethesda Softworks",
                 "Votes": 0,
-                "Genre": "Action, Rhythm"
+                "Genre": "Action, Rhythm",
+                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay."
             },
             {
-                "Nominee": "Marvel’s Spider-Man 2",
+                "Nominee": "Marvel\u2019s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City."
             },
             {
                 "Nominee": "Mortal Kombat 1",
@@ -339,37 +379,43 @@
                 "Nominee": "A Space for the Unbound",
                 "Publisher": "Mojiken Studio/Toge Productions/Chorus",
                 "Votes": 0,
-                "Genre": "Adventure, Narrative"
+                "Genre": "Adventure, Narrative",
+                "Description": "An adventure game that explores the relationship between a boy and a girl with supernatural powers."
             },
             {
                 "Nominee": "Chants of Sennaar",
                 "Publisher": "Rundisc/Focus Entertainment",
                 "Votes": 0,
-                "Genre": "Puzzle, Adventure"
+                "Genre": "Puzzle, Adventure",
+                "Description": "A puzzle-adventure game where players decipher an ancient language to unravel the mysteries of a forgotten civilization."
             },
             {
                 "Nominee": "Goodbye Volcano High",
                 "Publisher": "KO_OP",
                 "Votes": 0,
-                "Genre": "Narrative, Adventure"
+                "Genre": "Narrative, Adventure",
+                "Description": "A narrative-adventure game set in a high school for dinosaur students facing the end of an era."
             },
             {
                 "Nominee": "Tchia",
                 "Publisher": "Awaceb/Kepler Interactive",
                 "Votes": 0,
-                "Genre": "Adventure, Exploration"
+                "Genre": "Adventure, Exploration",
+                "Description": "An exploration-adventure game where players navigate a tropical archipelago and interact with its unique flora and fauna."
             },
             {
                 "Nominee": "Terra Nil",
                 "Publisher": "Free Lives/Devolver Digital/Netflix",
                 "Votes": 0,
-                "Genre": "Simulation, Strategy"
+                "Genre": "Simulation, Strategy",
+                "Description": "A simulation-strategy game focused on ecosystem restoration and environmental management."
             },
             {
                 "Nominee": "Venba",
                 "Publisher": "Visai Games",
                 "Votes": 0,
-                "Genre": "Narrative, Cooking"
+                "Genre": "Narrative, Cooking",
+                "Description": "A narrative-driven cooking game that explores cultural and familial themes."
             }
         ]
     },
@@ -380,7 +426,8 @@
                 "Nominee": "Apex Legends",
                 "Publisher": "Respawn Entertainment/EA",
                 "Votes": 0,
-                "Genre": "Battle Royale, Shooter"
+                "Genre": "Battle Royale, Shooter",
+                "Description": "A battle royale game that features a diverse cast of characters, each with unique abilities."
             },
             {
                 "Nominee": "Cyberpunk 2077",
@@ -392,19 +439,22 @@
                 "Nominee": "Final Fantasy XIV",
                 "Publisher": "Square Enix",
                 "Votes": 0,
-                "Genre": "MMORPG"
+                "Genre": "MMORPG",
+                "Description": "A massively multiplayer online role-playing game set in the Final Fantasy universe, with ongoing content updates."
             },
             {
                 "Nominee": "Fortnite",
                 "Publisher": "Epic Games",
                 "Votes": 0,
-                "Genre": "Battle Royale, Sandbox"
+                "Genre": "Battle Royale, Sandbox",
+                "Description": "A battle royale game known for its building mechanics, frequent updates, and crossovers with popular media."
             },
             {
                 "Nominee": "Genshin Impact",
                 "Publisher": "HoYoverse",
                 "Votes": 0,
-                "Genre": "Action, RPG"
+                "Genre": "Action, RPG",
+                "Description": "An action RPG set in a vast open world, where players can explore, fight, and unlock characters."
             }
         ]
     },
@@ -412,10 +462,11 @@
         "description": "Recognizing a game for outstanding community support, transparency and responsiveness, inclusive of social media activity and game updates/patches.",
         "nominees": [
             {
-                "Nominee": "Baldur’s Gate 3",
+                "Nominee": "Baldur\u2019s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
             },
             {
                 "Nominee": "Cyberpunk 2077",
@@ -427,16 +478,18 @@
                 "Nominee": "Destiny 2",
                 "Publisher": "Bungie",
                 "Votes": 0,
-                "Genre": "MMO, Shooter"
+                "Genre": "MMO, Shooter",
+                "Description": "An online multiplayer shooter with expansive lore, cooperative gameplay, and regular updates."
             },
             {
                 "Nominee": "Final Fantasy XIV",
                 "Publisher": "Square Enix",
                 "Votes": 0,
-                "Genre": "MMORPG"
+                "Genre": "MMORPG",
+                "Description": "A massively multiplayer online role-playing game set in the Final Fantasy universe, with ongoing content updates."
             },
             {
-                "Nominee": "No Man’s Sky",
+                "Nominee": "No Man\u2019s Sky",
                 "Publisher": "Hello Games",
                 "Votes": 0,
                 "Genre": "Survival, Exploration"
@@ -450,31 +503,36 @@
                 "Nominee": "Cocoon",
                 "Publisher": "Geometric Interactive/Annapurna Interactive",
                 "Votes": 0,
-                "Genre": "Puzzle, Adventure"
+                "Genre": "Puzzle, Adventure",
+                "Description": "A puzzle-adventure game that invites players to explore intricate worlds and solve complex puzzles."
             },
             {
                 "Nominee": "Dave the Diver",
                 "Publisher": "MINTROCKET",
                 "Votes": 0,
-                "Genre": "Simulation, Adventure"
+                "Genre": "Simulation, Adventure",
+                "Description": "A simulation-adventure game where players dive into the ocean to discover marine life and mysteries."
             },
             {
                 "Nominee": "Dredge",
                 "Publisher": "Black Salt Games/Team 17",
                 "Votes": 0,
-                "Genre": "Adventure, Simulation"
+                "Genre": "Adventure, Simulation",
+                "Description": "An adventure-simulation game where players manage a fishing boat and uncover the secrets of the deep sea."
             },
             {
                 "Nominee": "Sea of Stars",
                 "Publisher": "Sabotage Studio",
                 "Votes": 0,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "An RPG that combines classic turn-based combat with a vibrant world and compelling narrative."
             },
             {
                 "Nominee": "Viewfinder",
                 "Publisher": "Sad Owl Studios/Thunderful Publishing",
                 "Votes": 0,
-                "Genre": "Puzzle, Adventure"
+                "Genre": "Puzzle, Adventure",
+                "Description": "A puzzle-adventure game that challenges players to manipulate perspectives to solve puzzles."
             }
         ]
     },
@@ -485,13 +543,15 @@
                 "Nominee": "Cocoon",
                 "Publisher": "Geometric Interactive/Annapurna Interactive",
                 "Votes": 0,
-                "Genre": "Puzzle, Adventure"
+                "Genre": "Puzzle, Adventure",
+                "Description": "A puzzle-adventure game that invites players to explore intricate worlds and solve complex puzzles."
             },
             {
                 "Nominee": "Dredge",
                 "Publisher": "Black Salt Games/Team 17",
                 "Votes": 0,
-                "Genre": "Adventure, Simulation"
+                "Genre": "Adventure, Simulation",
+                "Description": "An adventure-simulation game where players manage a fishing boat and uncover the secrets of the deep sea."
             },
             {
                 "Nominee": "Pizza Tower",
@@ -503,13 +563,15 @@
                 "Nominee": "Venba",
                 "Publisher": "Visai Games",
                 "Votes": 0,
-                "Genre": "Narrative, Cooking"
+                "Genre": "Narrative, Cooking",
+                "Description": "A narrative-driven cooking game that explores cultural and familial themes."
             },
             {
                 "Nominee": "Viewfinder",
                 "Publisher": "Sad Owl Studios/Thunderful Publishing",
                 "Votes": 0,
-                "Genre": "Puzzle, Adventure"
+                "Genre": "Puzzle, Adventure",
+                "Description": "A puzzle-adventure game that challenges players to manipulate perspectives to solve puzzles."
             }
         ]
     },
@@ -526,25 +588,29 @@
                 "Nominee": "Honkai: Star Rail",
                 "Publisher": "HoYoverse",
                 "Votes": 0,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "An RPG set in a sci-fi universe, offering strategic combat and an engaging storyline."
             },
             {
                 "Nominee": "Hello Kitty Island Adventure",
                 "Publisher": "Sunblink Entertainment",
                 "Votes": 0,
-                "Genre": "Simulation, Adventure"
+                "Genre": "Simulation, Adventure",
+                "Description": "A simulation-adventure game featuring beloved characters in a charming island setting."
             },
             {
                 "Nominee": "Monster Hunter Now",
                 "Publisher": "Niantic/Capcom",
                 "Votes": 0,
-                "Genre": "RPG, Augmented Reality"
+                "Genre": "RPG, Augmented Reality",
+                "Description": "An augmented reality RPG that brings the monster-hunting experience to mobile devices."
             },
             {
                 "Nominee": "Terra Nil",
                 "Publisher": "Free Lives/Devolver/Netflix",
                 "Votes": 0,
-                "Genre": "Simulation, Strategy"
+                "Genre": "Simulation, Strategy",
+                "Description": "A simulation-strategy game focused on ecosystem restoration and environmental management."
             }
         ]
     },
@@ -608,7 +674,8 @@
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Tango Gameworks/Bethesda Softworks",
                 "Votes": 0,
-                "Genre": "Action, Rhythm"
+                "Genre": "Action, Rhythm",
+                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay."
             },
             {
                 "Nominee": "Remnant 2",
@@ -625,19 +692,22 @@
                 "Nominee": "Alan Wake 2",
                 "Publisher": "Remedy Entertainment/Epic Games Publishing",
                 "Votes": 5,
-                "Genre": "Survival Horror"
+                "Genre": "Survival Horror",
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
             },
             {
-                "Nominee": "Marvel’s Spider-Man 2",
+                "Nominee": "Marvel\u2019s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City."
             },
             {
                 "Nominee": "Resident Evil 4",
                 "Publisher": "Capcom",
                 "Votes": 4,
-                "Genre": "Survival Horror"
+                "Genre": "Survival Horror",
+                "Description": "A survival horror game where players face terrifying enemies in a bid to rescue the President's daughter."
             },
             {
                 "Nominee": "Star Wars Jedi: Survivor",
@@ -649,7 +719,8 @@
                 "Nominee": "The Legend of Zelda: Tears of the Kingdom",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 8,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule."
             }
         ]
     },
@@ -657,28 +728,32 @@
         "description": "For the best game designed with rich player character customization and progression, including massively multiplayer experiences.",
         "nominees": [
             {
-                "Nominee": "Baldur’s Gate 3",
+                "Nominee": "Baldur\u2019s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
             },
             {
                 "Nominee": "Final Fantasy XVI",
                 "Publisher": "Square Enix",
                 "Votes": 3,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "A role-playing game with a rich storyline and engaging combat set in a fantasy world."
             },
             {
                 "Nominee": "Lies of P",
                 "Publisher": "Round8 Studio/Neowiz Games",
                 "Votes": 0,
-                "Genre": "Action, Role-Playing"
+                "Genre": "Action, Role-Playing",
+                "Description": "An action RPG inspired by the story of Pinocchio, featuring dark and challenging gameplay."
             },
             {
                 "Nominee": "Sea of Stars",
                 "Publisher": "Sabotage Studio",
                 "Votes": 0,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "An RPG that combines classic turn-based combat with a vibrant world and compelling narrative."
             },
             {
                 "Nominee": "Starfield",
@@ -754,7 +829,8 @@
                 "Nominee": "Super Mario Bros. Wonder",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 6,
-                "Genre": "Platform"
+                "Genre": "Platform",
+                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series."
             }
         ]
     },
@@ -812,7 +888,8 @@
                 "Nominee": "Forza Motorsport",
                 "Publisher": "Turn 10 Studios/Xbox Game Studios",
                 "Votes": 0,
-                "Genre": "Racing, Simulation"
+                "Genre": "Racing, Simulation",
+                "Description": "A racing simulation game that offers realistic driving experiences with a wide range of vehicles and tracks."
             },
             {
                 "Nominee": "Hot Wheels Unleashed 2: Turbocharged",
@@ -832,16 +909,18 @@
         "description": "For outstanding online multiplayer gameplay and design, including co-op and massively multiplayer experiences, irrespective of game genre or platform.",
         "nominees": [
             {
-                "Nominee": "Baldur’s Gate 3",
+                "Nominee": "Baldur\u2019s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
             },
             {
                 "Nominee": "Diablo IV",
                 "Publisher": "Blizzard Entertainment",
                 "Votes": 0,
-                "Genre": "Action, RPG"
+                "Genre": "Action, RPG",
+                "Description": "An action RPG set in a dark fantasy world, featuring intense combat and deep character customization."
             },
             {
                 "Nominee": "Party Animals",
@@ -859,7 +938,8 @@
                 "Nominee": "Super Mario Bros. Wonder",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 6,
-                "Genre": "Platform"
+                "Genre": "Platform",
+                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series."
             }
         ]
     },
@@ -972,37 +1052,37 @@
         "description": "The esports athlete judged to be the most outstanding for performance and conduct in 2023, irrespective of game.",
         "nominees": [
             {
-                "Nominee": "Lee “Faker” Sang-hyeok",
+                "Nominee": "Lee \u201cFaker\u201d Sang-hyeok",
                 "Publisher": "League of Legends",
                 "Votes": 0,
                 "Genre": "Unknown"
             },
             {
-                "Nominee": "Mathieu “ZywOo” Herbaut",
+                "Nominee": "Mathieu \u201cZywOo\u201d Herbaut",
                 "Publisher": "CS:GO",
                 "Votes": 0,
                 "Genre": "Unknown"
             },
             {
-                "Nominee": "Max “Demon1″ Mazanov",
+                "Nominee": "Max \u201cDemon1\u2033 Mazanov",
                 "Publisher": "Valorant",
                 "Votes": 0,
                 "Genre": "Unknown"
             },
             {
-                "Nominee": "Paco “HyDra” Rusiewiez",
+                "Nominee": "Paco \u201cHyDra\u201d Rusiewiez",
                 "Publisher": "Call of Duty",
                 "Votes": 0,
                 "Genre": "Unknown"
             },
             {
-                "Nominee": "Park “Ruler” Jae-hyuk",
+                "Nominee": "Park \u201cRuler\u201d Jae-hyuk",
                 "Publisher": "League of Legends",
                 "Votes": 0,
                 "Genre": "Unknown"
             },
             {
-                "Nominee": "Phillip “ImperialHal” Dosen",
+                "Nominee": "Phillip \u201cImperialHal\u201d Dosen",
                 "Publisher": "Apex Legends",
                 "Votes": 0,
                 "Genre": "Unknown"
@@ -1048,31 +1128,31 @@
         "description": "The esports coach judged to be the most outstanding for performance and conduct in 2023.",
         "nominees": [
             {
-                "Nominee": "Christine “potter” Chi",
+                "Nominee": "Christine \u201cpotter\u201d Chi",
                 "Publisher": "Evil Geniuses - Valorant",
                 "Votes": 0,
                 "Genre": "Esports Coach"
             },
             {
-                "Nominee": "Danny “zonic” Sorensen",
+                "Nominee": "Danny \u201czonic\u201d Sorensen",
                 "Publisher": "Team Falcons - Counter-Strike",
                 "Votes": 0,
                 "Genre": "Esports Coach"
             },
             {
-                "Nominee": "Jordan “Gunba” Graham",
+                "Nominee": "Jordan \u201cGunba\u201d Graham",
                 "Publisher": "Florida Mayhem - Overwatch",
                 "Votes": 0,
                 "Genre": "Esports Coach"
             },
             {
-                "Nominee": "Remy “XTQZZZ” Quoniam",
+                "Nominee": "Remy \u201cXTQZZZ\u201d Quoniam",
                 "Publisher": "Team Vitality - Counter-Strike",
                 "Votes": 0,
                 "Genre": "Esports Coach"
             },
             {
-                "Nominee": "Yoon “Homme” Sung-young",
+                "Nominee": "Yoon \u201cHomme\u201d Sung-young",
                 "Publisher": "JD Gaming - League of Legends",
                 "Votes": 0,
                 "Genre": "Esports Coach"
