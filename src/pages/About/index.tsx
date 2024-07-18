@@ -26,6 +26,9 @@ const About = () => {
             </a>{" "}
             as a self imposed challenge while I'm on break.
           </p>
+          <p>
+            Many thanks to <a href="https://github.com/douglasew"> Leandro Rocha </a> and <a href="https://github.com/douglasew"> Douglas Ewerton </a> for the help with the project organization. It woundn't be possible without them.
+          </p>
         </div>
       </div>
     </LayoutSystemComponent>
