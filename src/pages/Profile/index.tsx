@@ -1,72 +1,78 @@
-import { useState } from "react";
+//import ButtonComponent from "../../components/ButtonComponent";
+//import InputComponent from "../../components/InputComponent";
+import { useForm } from "react-hook-form";
 import ButtonComponent from "../../components/ButtonComponent";
 import InputComponent from "../../components/InputComponent";
 import LayoutSystemComponent from "../../components/Layouts/LayoutSystemComponent";
 
+interface IFormInput {
+  username: string;
+  email: string;
+  password: string;
+  newPassword: string;
+  confirmPassword: string;
+}
+
 const Profile = () => {
-  const [email, setEmail] = useState("");
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const { register, handleSubmit } = useForm<IFormInput>();
 
-  const handleChangeEmail = () => {
-    // Add functionality to change email
+  const onSubmit = (data: IFormInput) => {
+    console.log(data);
   };
-
-  const handleChangeUsername = () => {
-    // Add functionality to change username
-  };
-
-  const handleChangePassword = () => {
-    // Add functionality to change password
-  };
-
-  const handleConfirmChanges = () => {
-    // Add functionality to confirm changes
-  }
 
   return (
     <LayoutSystemComponent>
-      <div className="container flex align-middle content-center justify-center mx-auto">
-        <form className="font-montserrat">
-          <InputComponent
-            label="Email"
-            type="email"
-            name="email"
-            id="email"
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Your Email"
-          />
-          <div className="mt-6"></div>
-          <InputComponent
-            label="Username"
-            type="text"
-            name="username"
-            id="username"
-            onChange={(e) => setUsername(e.target.value)}
-            placeholder="Your Username"
-          />
-          <div className="mt-6"></div>
-          <InputComponent
-            label="New Password"
-            type="password"
-            name="password"
-            id="password"
-            onChange={(e) => setPassword(e.target.value)}
-            placeholder="Your New Password"
-          />
-          <div className="mt-6"></div>
-          <InputComponent
-            label="Confirm Password"
-            type="password"
-            name="confirmPassword"
-            id="confirmPassword"
-            onChange={(e) => setConfirmPassword(e.target.value)}
-            placeholder="Confirm Your Password"
-          />
-          <div className="mt-6 w-40 mx-auto">
-            <ButtonComponent text="Confirm Changes" onClick={handleConfirmChanges} />
-          </div>
-        </form>
+      <div className="flex items-center justify-center min-h-[85vh]">
+        <div className="bg-zinc-900 p-8 rounded shadow-md max-w-xl w-full mx-auto">
+          <form onSubmit={handleSubmit(onSubmit)}>
+            <div className="grid grid-cols-2 gap-4">
+              <InputComponent
+                label="Username"
+                type="text"
+                placeholder="Your Username"
+                {...register("username")}
+              />
+              <div>
+                <InputComponent
+                  label="Email"
+                  type="email"
+                  placeholder="Your Username"
+                  {...register("email")}
+                />
+              </div>
+            </div>
+            <p className="text-white text-3xl mt-8">Change Password</p>
+            <div className="mt-4">
+              <InputComponent
+                label="CURRENT PASSWORD"
+                type="password"
+                placeholder=""
+                {...register("password")}
+              />
+            </div>
+
+            <div className="mt-4">
+              <InputComponent
+                label="NEW PASSWORD"
+                type="password"
+                placeholder=""
+                {...register("newPassword")}
+              />
+            </div>
+            <div className="mt-4">
+              <InputComponent
+                label="CONFIRM NEW PASSWORD"
+                type="password"
+                placeholder=""
+                {...register("confirmPassword")}
+              />
+            </div>
+
+            <div className="mt-6">
+              <ButtonComponent text="SALVAR ALTERAÇÕES" type="submit" />
+            </div>
+          </form>
+        </div>
       </div>
     </LayoutSystemComponent>
   );
