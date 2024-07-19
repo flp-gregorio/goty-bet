@@ -19,7 +19,7 @@ const WinnerComponent = (props: WinnerComponentProps) => {
     return (
       <div key={nominee.Nominee} className="flex mb-3 md:h-10 h-fit ">
         <div className="w-full font-barlow">
-          <div className="w-full bg-neutral-950 pb-2 md:pb-0">
+          <div className="w-full bg-zinc-900 pb-2 md:pb-0">
             <div
               className={`min-h-10 ${progressBarBg} flex text-white font-bold`}
               style={{ width: `${now}%` }}
