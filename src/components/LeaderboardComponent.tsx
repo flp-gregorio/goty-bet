@@ -42,7 +42,7 @@ const LeaderboardComponent = (props: LeaderboardComponentProps) => {
           return (
             <li
               key={overallIndex}
-              className={`font-barlow font-bold uppercase tracking-wider flex items-center justify-between mb-2 py-2 ${overallIndex % 2 === 0 ? "bg-orange-700 " : "bg-orange-800"} `}
+              className={`font-barlow font-bold uppercase tracking-wider flex items-center justify-between mb-2 py-2 ${overallIndex % 2 === 0 ? "bg-orange-700 " : "bg-orange-800"} hover:filter hover:brightness-125`}
             >
               <div>
                 <span className="text-white pl-4">{overallIndex}</span>
