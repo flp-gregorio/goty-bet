@@ -19,7 +19,7 @@ const CardComponent: React.FC<CardComponentProps> = ({ nominee, aux = "NULL", ge
   return (
     <div
       className={`relative overflow-hidden aspect-square w-52 container text-left group hover:translate-x-3 hover:translate-y-3  transition-all duration-300 cursor-pointer 
-        ${active ? 'bg-black text-white' : 'bg-white text-black'}
+        ${active ? 'bg-black text-white translate-x-3 translate-y-3' : 'bg-white text-black'}
       `}
       onClick={handleCardClick}
     >

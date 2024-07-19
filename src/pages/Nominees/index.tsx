@@ -8,27 +8,30 @@ import NavigationComponent from "../../components/NavigationComponent";
 const Nominees = () => {
   const categories = Object.keys(jsonData);
   const [currentCategoryIndex, setCurrentCategoryIndex] = useState(0);
-  const [activeNominee, setActiveNominee] = useState<string | null>(null);
+  const [activeNominees, setActiveNominees] = useState<{ [key: string]: string | null }>({});
 
   const handleNextCategory = () => {
     setCurrentCategoryIndex((prevIndex) => (prevIndex + 1) % categories.length);
-    setActiveNominee(null);
   };
 
   const handlePreviousCategory = () => {
     setCurrentCategoryIndex(
       (prevIndex) => (prevIndex - 1 + categories.length) % categories.length
     );
-    setActiveNominee(null);
   };
 
   const currentCategoryKey = categories[currentCategoryIndex];
   const currentCategory: Category = jsonData[currentCategoryKey];
   const cardsData: NomineeData[] = currentCategory.nominees;
   const numCards = cardsData ? Math.min(cardsData.length, 6) : 0;
+  const activeNominee = activeNominees[currentCategoryKey] || null;
 
   const handleSetActiveCard = (nominee: string) => {
-    setActiveNominee(nominee === activeNominee ? null : nominee); // Toggle active state
+    setActiveNominees((prevActiveNominees) => ({
+      ...prevActiveNominees,
+      [currentCategoryKey]: nominee === activeNominee ? null : nominee,
+    }));
+    console.log(activeNominees);
   };
 
   return (
@@ -49,12 +52,12 @@ const Nominees = () => {
                 aux={nomineeData.Publisher}
                 genre={nomineeData.Genre}
                 active={nomineeData.Nominee === activeNominee}
-                setActiveCard={handleSetActiveCard} // Pass down setActiveCard function
+                setActiveCard={handleSetActiveCard}
               />
             ))}
           </div>
           <div className="col-span-3 flex justify-center mt-6 flex-row">
-            <div className={`grid gap-6 ${numCards % 3 == 0 ? 'grid-cols-3' : 'grid-cols-2'} grid-rows-1`}>
+            <div className={`grid gap-6 ${numCards % 3 === 0 ? 'grid-cols-3' : 'grid-cols-2'} grid-rows-1`}>
               {cardsData.slice(3, numCards).map((nomineeData, index) => (
                 <CardComponent
                   key={index}
@@ -62,7 +65,7 @@ const Nominees = () => {
                   aux={nomineeData.Publisher}
                   genre={nomineeData.Genre}
                   active={nomineeData.Nominee === activeNominee}
-                  setActiveCard={handleSetActiveCard} // Pass down setActiveCard function
+                  setActiveCard={handleSetActiveCard}
                 />
               ))}
             </div>
@@ -76,7 +79,7 @@ const Nominees = () => {
               aux={nomineeData.Publisher}
               genre={nomineeData.Genre}
               active={nomineeData.Nominee === activeNominee}
-              setActiveCard={handleSetActiveCard} // Pass down setActiveCard function
+              setActiveCard={handleSetActiveCard}
             />
           ))}
         </div>

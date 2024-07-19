@@ -23,7 +23,7 @@ const Profile = () => {
   return (
     <LayoutSystemComponent>
       <div className="flex items-center justify-center min-h-[85vh]">
-        <div className="bg-zinc-900 p-8 rounded shadow-md max-w-xl w-full mx-auto">
+        <div className="bg-zinc-900 p-8 shadow-md max-w-xl w-full mx-auto my-2">
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="grid grid-cols-2 gap-4">
               <InputComponent
