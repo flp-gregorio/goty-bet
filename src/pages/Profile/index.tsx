@@ -36,7 +36,7 @@ const Profile = () => {
                 <InputComponent
                   label="Email"
                   type="email"
-                  placeholder="Your Username"
+                  placeholder="Your Email"
                   {...register("email")}
                 />
               </div>
@@ -69,7 +69,7 @@ const Profile = () => {
             </div>
 
             <div className="mt-6">
-              <ButtonComponent text="SALVAR ALTERAÇÕES" type="submit" />
+              <ButtonComponent text="SAVE CHANGES" type="submit" />
             </div>
           </form>
         </div>
