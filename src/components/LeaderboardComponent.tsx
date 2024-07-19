@@ -32,8 +32,8 @@ const LeaderboardComponent = (props: LeaderboardComponentProps) => {
   };
 
   return (
-    <div className="container mx-auto px-20 pt-4 text-center antialiased overflow-hidden">
-      <h1 className="text-3xl font-bold text-white mb-4 font-montserrat uppercase">
+    <div className="container mx-auto px-20 pt-4 text-center antialiased md:h-16 ">
+      <h1 className="font-bold text-white mb-4 font-montserrat uppercase">
         Leaderboard
       </h1>
       <ul className="font-montserrat uppercase">

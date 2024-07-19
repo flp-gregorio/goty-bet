@@ -12,7 +12,7 @@ const WhiteButtonComponent = (props: Props) => {
     return (
         <button
             onClick={props.click}
-            className="bg-white min-w-32 px-4 py-1 mb-6 uppercase font-bold hover:bg-orange-800 hover:text-white transition-all duration-300"
+            className="bg-white min-w-32 px-4 py-1 mb-6 uppercase font-bold hover:bg-orange-600 hover:text-white transition-all duration-300"
             style={{ clipPath }}
         >
             {props.text}
