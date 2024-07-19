@@ -7,42 +7,48 @@
                 "Publisher": "Remedy Entertainment/Epic Games Publishing",
                 "Votes": 5,
                 "Genre": "Survival Horror",
-                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/alanwake2.jpg"
             },
             {
                 "Nominee": "Baldur\u2019s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
                 "Genre": "RPG",
-                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/baldurs_gate_3.jpg"
             },
             {
                 "Nominee": "Marvel\u2019s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
                 "Genre": "Action-Adventure",
-                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City."
+                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/spider_man_2.jpg"
             },
             {
                 "Nominee": "Resident Evil 4",
                 "Publisher": "Capcom",
                 "Votes": 4,
                 "Genre": "Survival Horror",
-                "Description": "A survival horror game where players face terrifying enemies in a bid to rescue the President's daughter."
+                "Description": "A survival horror game where players face terrifying enemies in a bid to rescue the President's daughter.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/resident_evil_4.jpg"
             },
             {
                 "Nominee": "Super Mario Bros. Wonder",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 6,
                 "Genre": "Platform",
-                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series."
+                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/super_mario_bros_wonder.jpg"
             },
             {
                 "Nominee": "The Legend of Zelda: Tears of the Kingdom",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 8,
                 "Genre": "Action-Adventure",
-                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule."
+                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/zelda_tears_of_the_kingdom-2.jpg"
             }
         ]
     },
@@ -54,35 +60,40 @@
                 "Publisher": "Remedy Entertainment/Epic Games Publishing",
                 "Votes": 5,
                 "Genre": "Survival Horror",
-                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/alanwake2.jpg"
             },
             {
                 "Nominee": "Baldur\u2019s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
                 "Genre": "RPG",
-                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/baldurs_gate_3.jpg"
             },
             {
                 "Nominee": "Marvel\u2019s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
                 "Genre": "Action-Adventure",
-                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City."
+                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/spider_man_2.jpg"
             },
             {
                 "Nominee": "Super Mario Bros. Wonder",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 6,
                 "Genre": "Platform",
-                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series."
+                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/super_mario_bros_wonder.jpg"
             },
             {
                 "Nominee": "The Legend of Zelda: Tears of the Kingdom",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 8,
                 "Genre": "Action-Adventure",
-                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule."
+                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/zelda_tears_of_the_kingdom-2.jpg"
             }
         ]
     },
@@ -94,35 +105,40 @@
                 "Publisher": "Powerhouse Animation/Netflix",
                 "Votes": 0,
                 "Genre": "Animation, Fantasy, Horror",
-                "Description": "An animated series adaptation that brings the iconic vampire hunting saga to life."
+                "Description": "An animated series adaptation that brings the iconic vampire hunting saga to life.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/castlevania_nocturne.jpg"
             },
             {
                 "Nominee": "Gran Turismo",
                 "Publisher": "PlayStation Productions/Sony Pictures",
                 "Votes": 0,
                 "Genre": "Sports, Racing",
-                "Description": "A racing game that offers realistic driving experiences with a wide range of cars and tracks."
+                "Description": "A racing game that offers realistic driving experiences with a wide range of cars and tracks.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/gran_turismo.jpg"
             },
             {
                 "Nominee": "The Last of Us",
                 "Publisher": "PlayStation Productions/HBO",
                 "Votes": 0,
                 "Genre": "Action, Adventure, Drama",
-                "Description": "An adaptation that follows the emotional journey of survival in a post-apocalyptic world."
+                "Description": "An adaptation that follows the emotional journey of survival in a post-apocalyptic world.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/the_last_of_us_hbo.jpg"
             },
             {
                 "Nominee": "The Super Mario Bros. Movie",
                 "Publisher": "Illumination/Nintendo/Universal Pictures",
                 "Votes": 0,
                 "Genre": "Animation, Adventure, Comedy",
-                "Description": "An animated film bringing the adventures of Mario and Luigi to the big screen."
+                "Description": "An animated film bringing the adventures of Mario and Luigi to the big screen.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/super_mario_bros_movie.jpg"
             },
             {
                 "Nominee": "Twisted Metal",
                 "Publisher": "PlayStation Productions/Peacock",
                 "Votes": 0,
                 "Genre": "Action, Comedy, Thriller",
-                "Description": "A series that combines high-octane vehicle combat with dark humor and thrilling action."
+                "Description": "A series that combines high-octane vehicle combat with dark humor and thrilling action.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/twisted_metal.jpg"
             }
         ]
     },
@@ -134,35 +150,40 @@
                 "Publisher": "Remedy Entertainment/Epic Games Publishing",
                 "Votes": 5,
                 "Genre": "Survival Horror",
-                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/alanwake2.jpg"
             },
             {
                 "Nominee": "Baldur\u2019s Gate 3",
                 "Publisher": "Larian Studios",
                 "Votes": 10,
                 "Genre": "RPG",
-                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/baldurs_gate_3.jpg"
             },
             {
                 "Nominee": "Cyberpunk 2077: Phantom Liberty",
                 "Publisher": "CD Projekt Red",
                 "Votes": 5,
                 "Genre": "RPG",
-                "Description": "An expansion that adds new stories and content to the cyberpunk-themed RPG."
+                "Description": "An expansion that adds new stories and content to the cyberpunk-themed RPG.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/cyberpunk_phantom_liberty-2.jpg"
             },
             {
                 "Nominee": "Final Fantasy XVI",
                 "Publisher": "Square Enix",
                 "Votes": 3,
                 "Genre": "RPG",
-                "Description": "A role-playing game with a rich storyline and engaging combat set in a fantasy world."
+                "Description": "A role-playing game with a rich storyline and engaging combat set in a fantasy world.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/final_fantasy_XVI-2.jpg"
             },
             {
                 "Nominee": "Marvel\u2019s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
                 "Genre": "Action-Adventure",
-                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City."
+                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/spider_man_2.jpg"
             }
         ]
     },
@@ -174,35 +195,40 @@
                 "Publisher": "Remedy Entertainment/Epic Games Publishing",
                 "Votes": 5,
                 "Genre": "Survival Horror",
-                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/alanwake2.jpg"
             },
             {
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Tango Gameworks/Bethesda Softworks",
                 "Votes": 0,
                 "Genre": "Action, Rhythm",
-                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay."
+                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/hifi_rush-2.jpg"
             },
             {
                 "Nominee": "Lies of P",
                 "Publisher": "Round8 Studio/Neowiz Games",
                 "Votes": 0,
                 "Genre": "Action, Role-Playing",
-                "Description": "An action RPG inspired by the story of Pinocchio, featuring dark and challenging gameplay."
+                "Description": "An action RPG inspired by the story of Pinocchio, featuring dark and challenging gameplay.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/lies_of_p.jpg"
             },
             {
                 "Nominee": "Super Mario Bros. Wonder",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 6,
                 "Genre": "Platform",
-                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series."
+                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/super_mario_bros_wonder.jpg"
             },
             {
                 "Nominee": "The Legend of Zelda: Tears of the Kingdom",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 8,
                 "Genre": "Action-Adventure",
-                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule."
+                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/zelda_tears_of_the_kingdom-2.jpg"
             }
         ]
     },
@@ -214,35 +240,40 @@
                 "Publisher": "Composer Petri Alanko (Remedy Entertainment/Epic Games Publishing)",
                 "Votes": 5,
                 "Genre": "Survival Horror",
-                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/alanwake2.jpg"
             },
             {
                 "Nominee": "Baldur\u2019s Gate 3",
                 "Publisher": "Composer Borislav Slavov (Larian Studios)",
                 "Votes": 10,
                 "Genre": "RPG",
-                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/baldurs_gate_3.jpg"
             },
             {
                 "Nominee": "Final Fantasy XVI",
                 "Publisher": "Composer Masayoshi Soken (Square Enix)",
                 "Votes": 3,
                 "Genre": "RPG",
-                "Description": "A role-playing game with a rich storyline and engaging combat set in a fantasy world."
+                "Description": "A role-playing game with a rich storyline and engaging combat set in a fantasy world.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/final_fantasy_XVI-2.jpg"
             },
             {
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Audio Director Shuichi Kobori (Tango Gameworks/Bethesda Softworks)",
                 "Votes": 0,
                 "Genre": "Action, Rhythm",
-                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay."
+                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/hifi_rush-2.jpg"
             },
             {
                 "Nominee": "The Legend of Zelda: Tears of the Kingdom",
                 "Publisher": "Composed by Nintendo Sound Team (Nintendo EPD/Nintendo)",
                 "Votes": 8,
                 "Genre": "Action-Adventure",
-                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule."
+                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/zelda_tears_of_the_kingdom-2.jpg"
             }
         ]
     },
@@ -254,35 +285,40 @@
                 "Publisher": "Remedy Entertainment/Epic Games Publishing",
                 "Votes": 5,
                 "Genre": "Survival Horror",
-                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/alanwake2.jpg"
             },
             {
                 "Nominee": "Dead Space",
                 "Publisher": "Motive Studio/EA",
                 "Votes": 0,
                 "Genre": "Survival Horror, Sci-Fi",
-                "Description": "A survival horror game set in space, where players confront grotesque creatures and unravel a terrifying mystery."
+                "Description": "A survival horror game set in space, where players confront grotesque creatures and unravel a terrifying mystery.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/dead_space.jpg"
             },
             {
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Tango Gameworks/Bethesda Softworks",
                 "Votes": 0,
                 "Genre": "Action, Rhythm",
-                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay."
+                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/hifi_rush-2.jpg"
             },
             {
                 "Nominee": "Marvel\u2019s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
                 "Genre": "Action-Adventure",
-                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City."
+                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/spider_man_2.jpg"
             },
             {
                 "Nominee": "Resident Evil 4",
                 "Publisher": "Capcom",
                 "Votes": 4,
                 "Genre": "Survival Horror",
-                "Description": "A survival horror game where players face terrifying enemies in a bid to rescue the President's daughter."
+                "Description": "A survival horror game where players face terrifying enemies in a bid to rescue the President's daughter.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/resident_evil_4.jpg"
             }
         ]
     },
@@ -293,37 +329,43 @@
                 "Nominee": "Ben Starr",
                 "Publisher": "Final Fantasy XVI",
                 "Votes": 0,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/ben_starr.jpg"
             },
             {
                 "Nominee": "Cameron Monaghan",
                 "Publisher": "STAR WARS Jedi: Survivor",
                 "Votes": 0,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/cameron_monaghan.jpg"
             },
             {
                 "Nominee": "Idris Elba",
                 "Publisher": "Cyberpunk 2077: Phantom Liberty",
                 "Votes": 0,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/idris_elba.jpg"
             },
             {
                 "Nominee": "Melanie Liburd",
                 "Publisher": "Alan Wake 2",
                 "Votes": 0,
-                "Genre": "Survival Horror"
+                "Genre": "Survival Horror",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/melanie_liburd.jpg"
             },
             {
                 "Nominee": "Neil Newbon",
                 "Publisher": "Baldur\u2019s Gate 3",
                 "Votes": 0,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/neil_newbon.jpg"
             },
             {
                 "Nominee": "Yuri Lowenthal",
                 "Publisher": "Marvel\u2019s Spider-Man 2",
                 "Votes": 0,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/yuri_lowenthal.jpg"
             }
         ]
     },
@@ -335,40 +377,46 @@
                 "Publisher": "Blizzard Entertainment",
                 "Votes": 0,
                 "Genre": "Action, RPG",
-                "Description": "An action RPG set in a dark fantasy world, featuring intense combat and deep character customization."
+                "Description": "An action RPG set in a dark fantasy world, featuring intense combat and deep character customization.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/diablo_iv.jpg"
             },
             {
                 "Nominee": "Forza Motorsport",
                 "Publisher": "Turn 10 Studios/Xbox Game Studios",
                 "Votes": 0,
                 "Genre": "Racing, Simulation",
-                "Description": "A racing simulation game that offers realistic driving experiences with a wide range of vehicles and tracks."
+                "Description": "A racing simulation game that offers realistic driving experiences with a wide range of vehicles and tracks.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/forza_motorsport.jpg"
             },
             {
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Tango Gameworks/Bethesda Softworks",
                 "Votes": 0,
                 "Genre": "Action, Rhythm",
-                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay."
+                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/hifi_rush-2.jpg"
             },
             {
                 "Nominee": "Marvel\u2019s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
                 "Genre": "Action-Adventure",
-                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City."
+                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/spider_man_2.jpg"
             },
             {
                 "Nominee": "Mortal Kombat 1",
                 "Publisher": "NetherRealm Studios/WB Games",
                 "Votes": 0,
-                "Genre": "Fighting"
+                "Genre": "Fighting",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/mortal_kombat_1.jpg"
             },
             {
                 "Nominee": "Street Fighter 6",
                 "Publisher": "Capcom",
                 "Votes": 0,
-                "Genre": "Fighting"
+                "Genre": "Fighting",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/street_fighter_6.jpg"
             }
         ]
     },
@@ -380,42 +428,48 @@
                 "Publisher": "Mojiken Studio/Toge Productions/Chorus",
                 "Votes": 0,
                 "Genre": "Adventure, Narrative",
-                "Description": "An adventure game that explores the relationship between a boy and a girl with supernatural powers."
+                "Description": "An adventure game that explores the relationship between a boy and a girl with supernatural powers.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/a_space_for_the_unbound.jpg"
             },
             {
                 "Nominee": "Chants of Sennaar",
                 "Publisher": "Rundisc/Focus Entertainment",
                 "Votes": 0,
                 "Genre": "Puzzle, Adventure",
-                "Description": "A puzzle-adventure game where players decipher an ancient language to unravel the mysteries of a forgotten civilization."
+                "Description": "A puzzle-adventure game where players decipher an ancient language to unravel the mysteries of a forgotten civilization.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/chants_of_senaar.jpg"
             },
             {
                 "Nominee": "Goodbye Volcano High",
                 "Publisher": "KO_OP",
                 "Votes": 0,
                 "Genre": "Narrative, Adventure",
-                "Description": "A narrative-adventure game set in a high school for dinosaur students facing the end of an era."
+                "Description": "A narrative-adventure game set in a high school for dinosaur students facing the end of an era.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/goodbye_volcano_high.jpg"
             },
             {
                 "Nominee": "Tchia",
                 "Publisher": "Awaceb/Kepler Interactive",
                 "Votes": 0,
                 "Genre": "Adventure, Exploration",
-                "Description": "An exploration-adventure game where players navigate a tropical archipelago and interact with its unique flora and fauna."
+                "Description": "An exploration-adventure game where players navigate a tropical archipelago and interact with its unique flora and fauna.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/tchia.jpg"
             },
             {
                 "Nominee": "Terra Nil",
                 "Publisher": "Free Lives/Devolver Digital/Netflix",
                 "Votes": 0,
                 "Genre": "Simulation, Strategy",
-                "Description": "A simulation-strategy game focused on ecosystem restoration and environmental management."
+                "Description": "A simulation-strategy game focused on ecosystem restoration and environmental management.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/terra_nil.jpg"
             },
             {
                 "Nominee": "Venba",
                 "Publisher": "Visai Games",
                 "Votes": 0,
                 "Genre": "Narrative, Cooking",
-                "Description": "A narrative-driven cooking game that explores cultural and familial themes."
+                "Description": "A narrative-driven cooking game that explores cultural and familial themes.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/venba.jpg"
             }
         ]
     },
@@ -427,34 +481,39 @@
                 "Publisher": "Respawn Entertainment/EA",
                 "Votes": 0,
                 "Genre": "Battle Royale, Shooter",
-                "Description": "A battle royale game that features a diverse cast of characters, each with unique abilities."
+                "Description": "A battle royale game that features a diverse cast of characters, each with unique abilities.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/apex_legends.jpg"
             },
             {
                 "Nominee": "Cyberpunk 2077",
                 "Publisher": "CD Projekt Red",
                 "Votes": 0,
-                "Genre": "RPG, Open World"
+                "Genre": "RPG, Open World",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/cyberpunk_phantom_liberty-1.jpg"
             },
             {
                 "Nominee": "Final Fantasy XIV",
                 "Publisher": "Square Enix",
                 "Votes": 0,
                 "Genre": "MMORPG",
-                "Description": "A massively multiplayer online role-playing game set in the Final Fantasy universe, with ongoing content updates."
+                "Description": "A massively multiplayer online role-playing game set in the Final Fantasy universe, with ongoing content updates.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/final_fantasy_xiv.jpg"
             },
             {
                 "Nominee": "Fortnite",
                 "Publisher": "Epic Games",
                 "Votes": 0,
                 "Genre": "Battle Royale, Sandbox",
-                "Description": "A battle royale game known for its building mechanics, frequent updates, and crossovers with popular media."
+                "Description": "A battle royale game known for its building mechanics, frequent updates, and crossovers with popular media.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/fortnite-1.jpg"
             },
             {
                 "Nominee": "Genshin Impact",
                 "Publisher": "HoYoverse",
                 "Votes": 0,
                 "Genre": "Action, RPG",
-                "Description": "An action RPG set in a vast open world, where players can explore, fight, and unlock characters."
+                "Description": "An action RPG set in a vast open world, where players can explore, fight, and unlock characters.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/genshin_impact.jpg"
             }
         ]
     },
@@ -466,33 +525,38 @@
                 "Publisher": "Larian Studios",
                 "Votes": 10,
                 "Genre": "RPG",
-                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/baldurs_gate_3.jpg"
             },
             {
                 "Nominee": "Cyberpunk 2077",
                 "Publisher": "CD Projekt Red",
                 "Votes": 0,
-                "Genre": "RPG, Open World"
+                "Genre": "RPG, Open World",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/cyberpunk_phantom_liberty-1.jpg"
             },
             {
                 "Nominee": "Destiny 2",
                 "Publisher": "Bungie",
                 "Votes": 0,
                 "Genre": "MMO, Shooter",
-                "Description": "An online multiplayer shooter with expansive lore, cooperative gameplay, and regular updates."
+                "Description": "An online multiplayer shooter with expansive lore, cooperative gameplay, and regular updates.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/destiny2.jpg"
             },
             {
                 "Nominee": "Final Fantasy XIV",
                 "Publisher": "Square Enix",
                 "Votes": 0,
                 "Genre": "MMORPG",
-                "Description": "A massively multiplayer online role-playing game set in the Final Fantasy universe, with ongoing content updates."
+                "Description": "A massively multiplayer online role-playing game set in the Final Fantasy universe, with ongoing content updates.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/final_fantasy_xiv.jpg"
             },
             {
                 "Nominee": "No Man\u2019s Sky",
                 "Publisher": "Hello Games",
                 "Votes": 0,
-                "Genre": "Survival, Exploration"
+                "Genre": "Survival, Exploration",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/no_mans_sky.jpg"
             }
         ]
     },
@@ -504,35 +568,40 @@
                 "Publisher": "Geometric Interactive/Annapurna Interactive",
                 "Votes": 0,
                 "Genre": "Puzzle, Adventure",
-                "Description": "A puzzle-adventure game that invites players to explore intricate worlds and solve complex puzzles."
+                "Description": "A puzzle-adventure game that invites players to explore intricate worlds and solve complex puzzles.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/cocoon.jpg"
             },
             {
                 "Nominee": "Dave the Diver",
                 "Publisher": "MINTROCKET",
                 "Votes": 0,
                 "Genre": "Simulation, Adventure",
-                "Description": "A simulation-adventure game where players dive into the ocean to discover marine life and mysteries."
+                "Description": "A simulation-adventure game where players dive into the ocean to discover marine life and mysteries.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/dave_the_diver.jpg"
             },
             {
                 "Nominee": "Dredge",
                 "Publisher": "Black Salt Games/Team 17",
                 "Votes": 0,
                 "Genre": "Adventure, Simulation",
-                "Description": "An adventure-simulation game where players manage a fishing boat and uncover the secrets of the deep sea."
+                "Description": "An adventure-simulation game where players manage a fishing boat and uncover the secrets of the deep sea.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/dredge.jpg"
             },
             {
                 "Nominee": "Sea of Stars",
                 "Publisher": "Sabotage Studio",
                 "Votes": 0,
                 "Genre": "RPG",
-                "Description": "An RPG that combines classic turn-based combat with a vibrant world and compelling narrative."
+                "Description": "An RPG that combines classic turn-based combat with a vibrant world and compelling narrative.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/sea_of_stars.jpg"
             },
             {
                 "Nominee": "Viewfinder",
                 "Publisher": "Sad Owl Studios/Thunderful Publishing",
                 "Votes": 0,
                 "Genre": "Puzzle, Adventure",
-                "Description": "A puzzle-adventure game that challenges players to manipulate perspectives to solve puzzles."
+                "Description": "A puzzle-adventure game that challenges players to manipulate perspectives to solve puzzles.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/viewfinder.jpg"
             }
         ]
     },
@@ -544,34 +613,39 @@
                 "Publisher": "Geometric Interactive/Annapurna Interactive",
                 "Votes": 0,
                 "Genre": "Puzzle, Adventure",
-                "Description": "A puzzle-adventure game that invites players to explore intricate worlds and solve complex puzzles."
+                "Description": "A puzzle-adventure game that invites players to explore intricate worlds and solve complex puzzles.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/cocoon.jpg"
             },
             {
                 "Nominee": "Dredge",
                 "Publisher": "Black Salt Games/Team 17",
                 "Votes": 0,
                 "Genre": "Adventure, Simulation",
-                "Description": "An adventure-simulation game where players manage a fishing boat and uncover the secrets of the deep sea."
+                "Description": "An adventure-simulation game where players manage a fishing boat and uncover the secrets of the deep sea.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/dredge.jpg"
             },
             {
                 "Nominee": "Pizza Tower",
                 "Publisher": "Tour de Pizza",
                 "Votes": 0,
-                "Genre": "Platformer, Action"
+                "Genre": "Platformer, Action",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/pizza_tower.jpg"
             },
             {
                 "Nominee": "Venba",
                 "Publisher": "Visai Games",
                 "Votes": 0,
                 "Genre": "Narrative, Cooking",
-                "Description": "A narrative-driven cooking game that explores cultural and familial themes."
+                "Description": "A narrative-driven cooking game that explores cultural and familial themes.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/venba.jpg"
             },
             {
                 "Nominee": "Viewfinder",
                 "Publisher": "Sad Owl Studios/Thunderful Publishing",
                 "Votes": 0,
                 "Genre": "Puzzle, Adventure",
-                "Description": "A puzzle-adventure game that challenges players to manipulate perspectives to solve puzzles."
+                "Description": "A puzzle-adventure game that challenges players to manipulate perspectives to solve puzzles.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/viewfinder.jpg"
             }
         ]
     },
@@ -582,35 +656,40 @@
                 "Nominee": "Final Fantasy VII: Ever Crisis",
                 "Publisher": "Applibot/Square Enix",
                 "Votes": 0,
-                "Genre": "RPG"
+                "Genre": "RPG",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/final_fantasy_vii_ever_crisis.jpg"
             },
             {
                 "Nominee": "Honkai: Star Rail",
                 "Publisher": "HoYoverse",
                 "Votes": 0,
                 "Genre": "RPG",
-                "Description": "An RPG set in a sci-fi universe, offering strategic combat and an engaging storyline."
+                "Description": "An RPG set in a sci-fi universe, offering strategic combat and an engaging storyline.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/honkai_star_rail.jpg"
             },
             {
                 "Nominee": "Hello Kitty Island Adventure",
                 "Publisher": "Sunblink Entertainment",
                 "Votes": 0,
                 "Genre": "Simulation, Adventure",
-                "Description": "A simulation-adventure game featuring beloved characters in a charming island setting."
+                "Description": "A simulation-adventure game featuring beloved characters in a charming island setting.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/hello_kitty_island_adventure.jpg"
             },
             {
                 "Nominee": "Monster Hunter Now",
                 "Publisher": "Niantic/Capcom",
                 "Votes": 0,
                 "Genre": "RPG, Augmented Reality",
-                "Description": "An augmented reality RPG that brings the monster-hunting experience to mobile devices."
+                "Description": "An augmented reality RPG that brings the monster-hunting experience to mobile devices.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/monster_hunter_now.jpg"
             },
             {
                 "Nominee": "Terra Nil",
                 "Publisher": "Free Lives/Devolver/Netflix",
                 "Votes": 0,
                 "Genre": "Simulation, Strategy",
-                "Description": "A simulation-strategy game focused on ecosystem restoration and environmental management."
+                "Description": "A simulation-strategy game focused on ecosystem restoration and environmental management.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/terra_nil.jpg"
             }
         ]
     },
@@ -621,31 +700,36 @@
                 "Nominee": "Gran Turismo 7",
                 "Publisher": "Polyphony Digital/SIE",
                 "Votes": 0,
-                "Genre": "Racing, Simulation"
+                "Genre": "Racing, Simulation",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/gran_turismo_7.jpg"
             },
             {
                 "Nominee": "Humanity",
                 "Publisher": "tha LTD/Enhance Games",
                 "Votes": 0,
-                "Genre": "Puzzle, Strategy"
+                "Genre": "Puzzle, Strategy",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/humanity-1.jpg"
             },
             {
                 "Nominee": "Horizon Call of the Mountain",
                 "Publisher": "Guerrilla Games/Firesprite/SIE",
                 "Votes": 0,
-                "Genre": "Action, Adventure"
+                "Genre": "Action, Adventure",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/horizon_call_of_the_mountain.jpg"
             },
             {
                 "Nominee": "Resident Evil Village VR Mode",
                 "Publisher": "Capcom",
                 "Votes": 0,
-                "Genre": "Survival Horror"
+                "Genre": "Survival Horror",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/resident_evil_village_VR.jpg"
             },
             {
                 "Nominee": "Synapse",
                 "Publisher": "nDreams",
                 "Votes": 0,
-                "Genre": "Action, Shooter"
+                "Genre": "Action, Shooter",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/synapse-1.jpg"
             }
         ]
     },
@@ -656,32 +740,37 @@
                 "Nominee": "Armored Core VI: Fires of Rubicon",
                 "Publisher": "FromSoftware/Bandai Namco",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/armored-core-6.jpg"
             },
             {
                 "Nominee": "Dead Island 2",
                 "Publisher": "Dambuster Studios/Deep Silver",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/dead_island_2.jpg"
             },
             {
                 "Nominee": "Ghostrunner 2",
                 "Publisher": "One More Level/505 Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/ghostrunner_2.jpg"
             },
             {
                 "Nominee": "Hi-Fi Rush",
                 "Publisher": "Tango Gameworks/Bethesda Softworks",
                 "Votes": 0,
                 "Genre": "Action, Rhythm",
-                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay."
+                "Description": "An action-rhythm game that combines musical elements with fast-paced gameplay.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/hifi_rush-2.jpg"
             },
             {
                 "Nominee": "Remnant 2",
                 "Publisher": "Gunfire Games/Gearbox Publishing",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/remnant_2.jpg"
             }
         ]
     },
@@ -693,34 +782,39 @@
                 "Publisher": "Remedy Entertainment/Epic Games Publishing",
                 "Votes": 5,
                 "Genre": "Survival Horror",
-                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare."
+                "Description": "A psychological horror game that follows the story of a writer trapped in a nightmare.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/alanwake2.jpg"
             },
             {
                 "Nominee": "Marvel\u2019s Spider-Man 2",
                 "Publisher": "Insomniac Games/SIE",
                 "Votes": 7,
                 "Genre": "Action-Adventure",
-                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City."
+                "Description": "An action-adventure game featuring Spider-Man as he battles new and familiar foes in New York City.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/spider_man_2.jpg"
             },
             {
                 "Nominee": "Resident Evil 4",
                 "Publisher": "Capcom",
                 "Votes": 4,
                 "Genre": "Survival Horror",
-                "Description": "A survival horror game where players face terrifying enemies in a bid to rescue the President's daughter."
+                "Description": "A survival horror game where players face terrifying enemies in a bid to rescue the President's daughter.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/resident_evil_4.jpg"
             },
             {
                 "Nominee": "Star Wars Jedi: Survivor",
                 "Publisher": "Respawn Entertainment/EA",
                 "Votes": 2,
-                "Genre": "Action-Adventure"
+                "Genre": "Action-Adventure",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/star_wars_jedi_survivor.jpg"
             },
             {
                 "Nominee": "The Legend of Zelda: Tears of the Kingdom",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 8,
                 "Genre": "Action-Adventure",
-                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule."
+                "Description": "An action-adventure game where Link embarks on a journey to save Hyrule.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/zelda_tears_of_the_kingdom-2.jpg"
             }
         ]
     },
@@ -732,34 +826,39 @@
                 "Publisher": "Larian Studios",
                 "Votes": 10,
                 "Genre": "RPG",
-                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/baldurs_gate_3.jpg"
             },
             {
                 "Nominee": "Final Fantasy XVI",
                 "Publisher": "Square Enix",
                 "Votes": 3,
                 "Genre": "RPG",
-                "Description": "A role-playing game with a rich storyline and engaging combat set in a fantasy world."
+                "Description": "A role-playing game with a rich storyline and engaging combat set in a fantasy world.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/final_fantasy_XVI-2.jpg"
             },
             {
                 "Nominee": "Lies of P",
                 "Publisher": "Round8 Studio/Neowiz Games",
                 "Votes": 0,
                 "Genre": "Action, Role-Playing",
-                "Description": "An action RPG inspired by the story of Pinocchio, featuring dark and challenging gameplay."
+                "Description": "An action RPG inspired by the story of Pinocchio, featuring dark and challenging gameplay.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/lies_of_p.jpg"
             },
             {
                 "Nominee": "Sea of Stars",
                 "Publisher": "Sabotage Studio",
                 "Votes": 0,
                 "Genre": "RPG",
-                "Description": "An RPG that combines classic turn-based combat with a vibrant world and compelling narrative."
+                "Description": "An RPG that combines classic turn-based combat with a vibrant world and compelling narrative.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/sea_of_stars.jpg"
             },
             {
                 "Nominee": "Starfield",
                 "Publisher": "Bethesda Game Studios/Bethesda Softworks",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/starfield-1.jpg"
             }
         ]
     },
@@ -770,31 +869,36 @@
                 "Nominee": "God of Rock",
                 "Publisher": "Modus Studios Brazil/Modus Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/god_of_rock.jpg"
             },
             {
                 "Nominee": "Mortal Kombat 1",
                 "Publisher": "NetherRealm Studios/WB Games",
                 "Votes": 0,
-                "Genre": "Fighting"
+                "Genre": "Fighting",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/mortal_kombat_1.jpg"
             },
             {
                 "Nominee": "Nickelodeon All-Star Brawl 2",
                 "Publisher": "Ludosity/Fair Play Labs/GameMill Entertainment",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/nick_all_star_brawl_2.jpg"
             },
             {
                 "Nominee": "Pocket Bravery",
                 "Publisher": "Statera Studio/PQube",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/pocket-bravery.jpg"
             },
             {
                 "Nominee": "Street Fighter 6",
                 "Publisher": "Capcom",
                 "Votes": 0,
-                "Genre": "Fighting"
+                "Genre": "Fighting",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/street_fighter_6.jpg"
             }
         ]
     },
@@ -805,32 +909,37 @@
                 "Nominee": "Disney Illusion Island",
                 "Publisher": "Dlala Studios/Disney",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/disney_illusion_island.jpg"
             },
             {
                 "Nominee": "Party Animals",
                 "Publisher": "Recreate Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/party_animals.jpg"
             },
             {
                 "Nominee": "Pikmin 4",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/pikmin_4.jpg"
             },
             {
                 "Nominee": "Sonic Superstars",
                 "Publisher": "Arzest/Sonic Team/Sega",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/sonic_superstars.jpg"
             },
             {
                 "Nominee": "Super Mario Bros. Wonder",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 6,
                 "Genre": "Platform",
-                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series."
+                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/super_mario_bros_wonder.jpg"
             }
         ]
     },
@@ -841,31 +950,36 @@
                 "Nominee": "Advance Wars 1+2: Re-Boot Camp",
                 "Publisher": "WayForward/Nintendo",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/advance_wars_1_2.jpg"
             },
             {
                 "Nominee": "Cities: Skylines II",
                 "Publisher": "Colossal Order/Paradox Interactive",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/cities_skylines_2.jpg"
             },
             {
                 "Nominee": "Company of Heroes 3",
                 "Publisher": "Relic Entertainment/Sega",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/company_of_heroes_3.jpg"
             },
             {
                 "Nominee": "Fire Emblem Engage",
                 "Publisher": "Intelligent Systems/Nintendo",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/fire_emblem_engage.jpg"
             },
             {
                 "Nominee": "Pikmin 4",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/pikmin_4.jpg"
             }
         ]
     },
@@ -876,32 +990,37 @@
                 "Nominee": "EA Sports FC 24",
                 "Publisher": "EA Vancouver/EA Romania/EA Sports",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/eafc24.jpg"
             },
             {
                 "Nominee": "F1 23",
                 "Publisher": "Codemasters/EA Sports",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/ea_f1_23.jpg"
             },
             {
                 "Nominee": "Forza Motorsport",
                 "Publisher": "Turn 10 Studios/Xbox Game Studios",
                 "Votes": 0,
                 "Genre": "Racing, Simulation",
-                "Description": "A racing simulation game that offers realistic driving experiences with a wide range of vehicles and tracks."
+                "Description": "A racing simulation game that offers realistic driving experiences with a wide range of vehicles and tracks.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/forza_motorsport.jpg"
             },
             {
                 "Nominee": "Hot Wheels Unleashed 2: Turbocharged",
                 "Publisher": "Milestone",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/hotwheels_unleashed_2.jpg"
             },
             {
                 "Nominee": "The Crew Motorfest",
                 "Publisher": "Ubisoft Ivory Tower/Ubisoft",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/the_crew_motorfest.jpg"
             }
         ]
     },
@@ -913,33 +1032,38 @@
                 "Publisher": "Larian Studios",
                 "Votes": 10,
                 "Genre": "RPG",
-                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions."
+                "Description": "A role-playing game set in the Dungeons & Dragons universe, offering deep narrative and complex character interactions.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/baldurs_gate_3.jpg"
             },
             {
                 "Nominee": "Diablo IV",
                 "Publisher": "Blizzard Entertainment",
                 "Votes": 0,
                 "Genre": "Action, RPG",
-                "Description": "An action RPG set in a dark fantasy world, featuring intense combat and deep character customization."
+                "Description": "An action RPG set in a dark fantasy world, featuring intense combat and deep character customization.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/diablo_iv.jpg"
             },
             {
                 "Nominee": "Party Animals",
                 "Publisher": "Recreate Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/party_animals.jpg"
             },
             {
                 "Nominee": "Street Fighter 6",
                 "Publisher": "Capcom",
                 "Votes": 0,
-                "Genre": "Fighting"
+                "Genre": "Fighting",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/street_fighter_6.jpg"
             },
             {
                 "Nominee": "Super Mario Bros. Wonder",
                 "Publisher": "Nintendo EPD/Nintendo",
                 "Votes": 6,
                 "Genre": "Platform",
-                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series."
+                "Description": "A platformer that brings new mechanics and levels to the beloved Super Mario series.",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/super_mario_bros_wonder.jpg"
             }
         ]
     },
@@ -950,31 +1074,36 @@
                 "Nominee": "Final Fantasy VII Rebirth",
                 "Publisher": "Square Enix",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/final_fantasy_vii_rebirth.jpg"
             },
             {
                 "Nominee": "Hades II",
                 "Publisher": "Supergiant Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/hades_2.jpg"
             },
             {
                 "Nominee": "Like A Dragon: Infinite Wealth",
                 "Publisher": "Ryu Ga Gotoku Studio/Sega",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/like_a_dragon.jpg"
             },
             {
                 "Nominee": "Star Wars Outlaws",
                 "Publisher": "Massive Entertainment/Ubisoft",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/starwars-outlaws.jpg"
             },
             {
                 "Nominee": "Tekken 8",
                 "Publisher": "Bandai Namco/Arika",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/tekken8.jpg"
             }
         ]
     },
@@ -985,31 +1114,36 @@
                 "Nominee": "IronMouse",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/ironmouse.jpg"
             },
             {
                 "Nominee": "PeopleMakeGames",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/peoplemakegames.jpg"
             },
             {
                 "Nominee": "Quackity",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/quackity.jpg"
             },
             {
                 "Nominee": "Spreen",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/elspreen.jpg"
             },
             {
                 "Nominee": "SypherPK",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/sypherpk.jpg"
             }
         ]
     },
@@ -1020,31 +1154,36 @@
                 "Nominee": "Counter-Strike 2",
                 "Publisher": "Valve",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/counter_strike_2.jpg"
             },
             {
                 "Nominee": "Dota 2",
                 "Publisher": "Valve",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/dota2.jpg"
             },
             {
                 "Nominee": "League of Legends",
                 "Publisher": "Riot Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/league_of_legends.jpg"
             },
             {
                 "Nominee": "PUBG Mobile",
                 "Publisher": "LightSpeed Studios/Tencent Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/pubgmobile.jpg"
             },
             {
                 "Nominee": "Valorant",
                 "Publisher": "Riot Games",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/valorant-1.jpg"
             }
         ]
     },
@@ -1055,37 +1194,43 @@
                 "Nominee": "Lee \u201cFaker\u201d Sang-hyeok",
                 "Publisher": "League of Legends",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/faker.jpg"
             },
             {
                 "Nominee": "Mathieu \u201cZywOo\u201d Herbaut",
                 "Publisher": "CS:GO",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/zywoo-2.jpg"
             },
             {
                 "Nominee": "Max \u201cDemon1\u2033 Mazanov",
                 "Publisher": "Valorant",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/demon1-1.jpg"
             },
             {
                 "Nominee": "Paco \u201cHyDra\u201d Rusiewiez",
                 "Publisher": "Call of Duty",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/hydra.jpg"
             },
             {
                 "Nominee": "Park \u201cRuler\u201d Jae-hyuk",
                 "Publisher": "League of Legends",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/ruler.jpg"
             },
             {
                 "Nominee": "Phillip \u201cImperialHal\u201d Dosen",
                 "Publisher": "Apex Legends",
                 "Votes": 0,
-                "Genre": "Unknown"
+                "Genre": "Unknown",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/imperialhal.jpg"
             }
         ]
     },
@@ -1096,31 +1241,36 @@
                 "Nominee": "Evil Geniuses",
                 "Publisher": "Valorant",
                 "Votes": 0,
-                "Genre": "Esports Team"
+                "Genre": "Esports Team",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/evilgenuises.jpg"
             },
             {
                 "Nominee": "Fnatic",
                 "Publisher": "Valorant",
                 "Votes": 0,
-                "Genre": "Esports Team"
+                "Genre": "Esports Team",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/fnatic.jpg"
             },
             {
                 "Nominee": "Gaimin Gladiators",
                 "Publisher": "Dota 2",
                 "Votes": 0,
-                "Genre": "Esports Team"
+                "Genre": "Esports Team",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/gaiman_gladiators.jpg"
             },
             {
                 "Nominee": "JD Gaming",
                 "Publisher": "League of Legends",
                 "Votes": 0,
-                "Genre": "Esports Team"
+                "Genre": "Esports Team",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/jdgaming.jpg"
             },
             {
                 "Nominee": "Team Vitality",
                 "Publisher": "Counter-Strike",
                 "Votes": 0,
-                "Genre": "Esports Team"
+                "Genre": "Esports Team",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/team_vitality.jpg"
             }
         ]
     },
@@ -1131,31 +1281,36 @@
                 "Nominee": "Christine \u201cpotter\u201d Chi",
                 "Publisher": "Evil Geniuses - Valorant",
                 "Votes": 0,
-                "Genre": "Esports Coach"
+                "Genre": "Esports Coach",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/christine_potter_chi.jpg"
             },
             {
                 "Nominee": "Danny \u201czonic\u201d Sorensen",
                 "Publisher": "Team Falcons - Counter-Strike",
                 "Votes": 0,
-                "Genre": "Esports Coach"
+                "Genre": "Esports Coach",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/zonic-1.jpg"
             },
             {
                 "Nominee": "Jordan \u201cGunba\u201d Graham",
                 "Publisher": "Florida Mayhem - Overwatch",
                 "Votes": 0,
-                "Genre": "Esports Coach"
+                "Genre": "Esports Coach",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/gunba-1.jpg"
             },
             {
                 "Nominee": "Remy \u201cXTQZZZ\u201d Quoniam",
                 "Publisher": "Team Vitality - Counter-Strike",
                 "Votes": 0,
-                "Genre": "Esports Coach"
+                "Genre": "Esports Coach",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/xtqzzz.jpg"
             },
             {
                 "Nominee": "Yoon \u201cHomme\u201d Sung-young",
                 "Publisher": "JD Gaming - League of Legends",
                 "Votes": 0,
-                "Genre": "Esports Coach"
+                "Genre": "Esports Coach",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/homme-2.jpg"
             }
         ]
     },
@@ -1166,31 +1321,36 @@
                 "Nominee": "2023 League of Legends World Championship",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Esports Event"
+                "Genre": "Esports Event",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/worlds_23.jpg"
             },
             {
                 "Nominee": "Blast.tv Paris Major 2023",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Esports Event"
+                "Genre": "Esports Event",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/blast_tv.jpg"
             },
             {
                 "Nominee": "EVO 2023",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Esports Event"
+                "Genre": "Esports Event",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/evo-1.jpg"
             },
             {
                 "Nominee": "The International Dota 2 Championships 2023",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Esports Event"
+                "Genre": "Esports Event",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/the_international_2023.jpg"
             },
             {
                 "Nominee": "VALORANT Champions 2023",
                 "Publisher": "",
                 "Votes": 0,
-                "Genre": "Esports Event"
+                "Genre": "Esports Event",
+                "Image": "https://cdn.thegameawards.com/1/2023/11/vct_2023.jpg"
             }
         ]
     }

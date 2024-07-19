@@ -4,6 +4,7 @@ export type NomineeData = {
     Votes: number;
     Genre: string;
     Description: string;
+    Image: string;
 };
 
 export type CategoriesData = {
