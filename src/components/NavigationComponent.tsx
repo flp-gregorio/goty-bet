@@ -9,7 +9,7 @@ type NavHeaderProps = {
 const NavigationComponent = (props: NavHeaderProps) => {
   return (
     <>
-      <div className="flex items-center justify-center text-center text-white font-montserrat uppercase font-bold text-xs h-full w-full max-w-xs py-2 bg-fiery flex-row md:max-w-screen-sm justify-around mx-auto">
+      <div className="flex items-center justify-center text-center text-white font-montserrat uppercase font-bold text-xs h-full w-full max-w-xs py-2 bg-transparent flex-row md:max-w-screen-sm justify-around mx-auto pt-5">
         <button className="uppercase text-xl order-2" onClick={props.onPrevious}>
           <FaArrowLeft className="" />
         </button>
