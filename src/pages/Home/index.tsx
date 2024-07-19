@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import ButtonComponent from "../../components/ButtonComponent";
 
 const Home = () => {
@@ -50,7 +51,9 @@ const Home = () => {
                 Days
               </p>
               <div className="w-60 mx-auto font-bold tracking-wider">
-                <ButtonComponent text="Vote" to="/nominees" />
+                <Link to={"/nominees"}>
+                  <ButtonComponent text="Vote" />
+                </Link>
               </div>
             </div>
           </div>

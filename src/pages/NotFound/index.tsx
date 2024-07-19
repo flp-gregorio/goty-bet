@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ButtonComponent from "../../components/ButtonComponent";
 
 const NotFound = () => {
@@ -12,7 +13,9 @@ const NotFound = () => {
           Sorry, we couldn’t find the page you’re looking for.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
-          <ButtonComponent text="go back to home" to="/" />
+          <Link to={"/"}>
+            <ButtonComponent text="go back to home" />
+          </Link>
         </div>
       </div>
     </div>

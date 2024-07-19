@@ -1,23 +1,21 @@
-import { Link } from "react-router-dom";
-interface Props {
+import { ComponentProps } from "react";
+interface Props extends ComponentProps<"button"> {
   text: string;
-  to: string;
 }
 
-const ButtonComponent = (props: Props) => {
+const ButtonComponent = ({ text, ...rest }: Props) => {
   return (
-    <Link to={props.to}>
-      <button
-        className="uppercase font-montserrat w-full px-4 py-2 tracking-wider text-white transition-colors duration-200 transform bg-orange-700 hover:bg-orange-600 focus:outline-none focus:bg-orange-600 focus:ring focus:ring-orange-600 text-center focus:ring-opacity-50"
-        style={{
-          clipPath:
-            "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 18px 100%, 0px calc(100% - 18px))",
-          padding: "9px 32px 9px 39px",
-        }}
-      >
-        {props.text}
-      </button>
-    </Link>
+    <button
+      {...rest}
+      className="bg-orange-700 text-white min-w-32 px-4 py-1 mb-6 uppercase font-bold hover:bg-orange-800 hover:text-white transition-all duration-300"
+      style={{
+        clipPath:
+          "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 18px 100%, 0px calc(100% - 18px))",
+        padding: "9px 32px 9px 39px",
+      }}
+    >
+      {text}
+    </button>
   );
 };
 
