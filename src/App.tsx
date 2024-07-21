@@ -19,10 +19,10 @@ class App extends React.Component {
   }
 
   render() {
+    console.log(this.state.apiResponse);
     return (
       <div>
         <RouterProvider router={router} />
-        <p>{this.state.apiResponse}</p>
       </div>
     );
   }
