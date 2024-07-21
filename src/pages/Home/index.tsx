@@ -1,11 +1,40 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
 import ButtonComponent from "../../components/ButtonComponent";
 
 const Home = () => {
   const [countdown, setCountdown] = useState("");
+  const [voteLink, setVoteLink] = useState("/login"); // Default to /login if not logged in
+  const nav = useNavigate();
 
   useEffect(() => {
+    const checkToken = async () => {
+      const token = localStorage.getItem("token");
+
+      if (token) {
+        try {
+          const response = await axios.get("/verify-token", {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          });
+
+          if (response.data.valid) {
+            setVoteLink("/nominess"); // Set to the desired path when logged in
+          } else {
+            setVoteLink("/login"); // Set to login if token is invalid
+          }
+        } catch (error) {
+          setVoteLink("/login"); // Handle errors or invalid tokens
+        }
+      } else {
+        setVoteLink("/login"); // No token found
+      }
+    };
+
+    checkToken(); // Check token immediately
+
     const calculateCountdown = () => {
       const targetDate = new Date("2024-12-12 20:00:00 GMT-0300");
       const now = new Date();
@@ -37,7 +66,7 @@ const Home = () => {
           className="object-cover w-full h-full"
         />
       </div>
-      <div className=" sm:20 w-full lg:w-1/2 uppercase font-montserrat">
+      <div className="sm:20 w-full lg:w-1/2 uppercase font-montserrat">
         <div className="mt-6 text-center">
           <div className="container px-5 mx-auto flex flex-wrap">
             <div className="w-full sm:p-4 mb-6 ">
@@ -51,7 +80,7 @@ const Home = () => {
                 Days
               </p>
               <div className="w-60 mx-auto font-bold tracking-wider">
-                <Link to={"/nominees"}>
+                <Link to={voteLink}>
                   <ButtonComponent text="Vote" />
                 </Link>
               </div>

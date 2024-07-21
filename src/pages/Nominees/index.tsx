@@ -80,6 +80,7 @@ const Nominees = () => {
               nominee={nomineeData.Nominee}
               aux={nomineeData.Publisher}
               genre={nomineeData.Genre}
+              background={nomineeData.Image}
               active={nomineeData.Nominee === activeNominee}
               setActiveCard={handleSetActiveCard}
             />
