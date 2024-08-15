@@ -1,5 +1,3 @@
-//import ButtonComponent from "../../components/ButtonComponent";
-//import InputComponent from "../../components/InputComponent";
 import { useForm } from "react-hook-form";
 import ButtonComponent from "../../components/ButtonComponent";
 import InputComponent from "../../components/InputComponent";
@@ -22,8 +20,8 @@ const Profile = () => {
 
   return (
     <LayoutSystemComponent>
-      <div className="flex items-center justify-center min-h-[85vh]">
-        <div className="bg-zinc-900 p-8 shadow-md max-w-xl w-full mx-auto my-2">
+      <div className="flex justify-center min-h-[85vh]">
+        <div className="bg-zinc-900 p-8 shadow-md max-w-xl w-full mx-auto my-2 overflow-visible">
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="grid grid-cols-2 gap-4">
               <InputComponent
@@ -41,7 +39,9 @@ const Profile = () => {
                 />
               </div>
             </div>
-            <p className="text-white text-3xl mt-8">Change Password</p>
+            <p className="text-white text-2xl mt-8 font-bold uppercase">
+              Change Password
+            </p>
             <div className="mt-4">
               <InputComponent
                 label="CURRENT PASSWORD"
@@ -50,7 +50,6 @@ const Profile = () => {
                 {...register("password")}
               />
             </div>
-
             <div className="mt-4">
               <InputComponent
                 label="NEW PASSWORD"
@@ -67,7 +66,6 @@ const Profile = () => {
                 {...register("confirmPassword")}
               />
             </div>
-
             <div className="mt-6">
               <ButtonComponent text="SAVE CHANGES" type="submit" />
             </div>

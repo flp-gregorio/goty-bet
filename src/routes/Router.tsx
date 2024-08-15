@@ -9,6 +9,7 @@ import Nominees from "../pages/Nominees";
 import NotFound from "../pages/NotFound";
 import Profile from "../pages/Profile";
 import Winners from "../pages/Winners";
+import Admin from "../pages/Admin";
 
 const router = createBrowserRouter([
   {
@@ -80,6 +81,15 @@ const router = createBrowserRouter([
       <>
         <Leaderboard />
         <PageTitleComponent title="Leaderboard" />
+      </>
+    ),
+  },
+  {
+    path: "admin",
+    element: (
+      <>
+        <Admin />
+        <PageTitleComponent title="Admin" />
       </>
     ),
   },

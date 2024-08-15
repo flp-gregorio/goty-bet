@@ -10,7 +10,6 @@ interface IFormInput {
 }
 
 const Login = () => {
-  //const nav = useNavigate();
   const { register, handleSubmit } = useForm<IFormInput>();
 
   const onSubmit = async (data: IFormInput) => {
