@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import NomineeInputComponent from './NomineeInputComponent';
 import ButtonComponent from './ButtonComponent';
 import api from '../lib/api';
+import { Category } from '../@types/NomineeType';
 
 interface EditCategoryProps {
   category: Category | null;
