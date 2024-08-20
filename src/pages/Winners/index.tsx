@@ -1,13 +1,27 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Category } from "../../@types/NomineeType";
-import jsonData from "../../assets/data.json";
 import LayoutSystemComponent from "../../components/Layouts/LayoutSystemComponent";
 import NavigationComponent from "../../components/NavigationComponent";
 import WinnerComponent from "../../components/WinnerComponent";
+import api from "../../lib/api";
 
 const Winners = () => {
-    const categories: string[] = Object.keys(jsonData);
+    const [categories, setCategories] = useState ([]);
     const [currentCategoryIndex, setCurrentCategoryIndex] = useState(0);
+
+    useEffect(() => {
+        const fetchCategories = async () => {
+            try {
+                const response = await api.get("/categories");
+                setCategories(response.data);
+                console.log("Categories:", categories);
+            } catch (error) {
+                console.error("Error fetching categories:", error);
+            }
+        };
+
+        fetchCategories();
+    }, []);
 
     const handleNextCategory = () => {
         setCurrentCategoryIndex((prevIndex) => (prevIndex + 1) % categories.length);
@@ -20,7 +34,7 @@ const Winners = () => {
     };
 
     const currentCategoryKey = categories[currentCategoryIndex];
-    const currentCategory: Category = jsonData[currentCategoryKey];
+    const currentCategory: Category = categories[currentCategoryKey];
 
     return (
         <LayoutSystemComponent>

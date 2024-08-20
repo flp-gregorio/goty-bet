@@ -4,14 +4,7 @@ import TabSelector from '../../components/TabSelectorComponent';
 import LayoutSystemComponent from '../../components/Layouts/LayoutSystemComponent';
 import EditCategory from '../../components/EditCategory';
 import EditNominee from '../../components/EditNominee';
-
-type Category = {
-  id: number;
-  title: string;
-  description: string;
-  weight: number;
-  nominees: Nominee[];
-};
+import { Category } from '../../@types/NomineeType';
 
 const AdminDashboard: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
