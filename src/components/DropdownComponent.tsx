@@ -1,204 +1,70 @@
-import { useState, useEffect } from "react";
-import NomineeInputComponent from "./NomineeInputComponent";
-import ButtonComponent from "./ButtonComponent";
-import api from "../lib/api";
+import { useState } from "react";
+import { Category } from "../@types/NomineeType";
 
-type Category = {
-  id: number;
-  title: string;
-  description: string;
-  weight: number;
-  nominees: [];
-};
-
-const Dropdown = ({ onCategorySelect }: { onCategorySelect: (category: Category | null) => void }) => {
+const Dropdown = ({ categories, onCategorySelect }: { categories: Category[]; onCategorySelect: (category: Category | null) => void }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
-  const [newCategoryTitle, setNewCategoryTitle] = useState("");
-  const [newCategoryDescription, setNewCategoryDescription] = useState("");
-  const [newCategoryWeight, setNewCategoryWeight] = useState("");
-  const [isAddingCategory, setIsAddingCategory] = useState(false);
-  const [categories, setCategories] = useState<Category[]>([]);
-
-  useEffect(() => {
-    const fetchCategories = async () => {
-      try {
-        const res = await api.get<Category[]>("/categories");
-        setCategories(res.data || []);
-      } catch (error) {
-        console.error("Failed to fetch categories", error);
-      }
-    };
-    fetchCategories();
-  }, []);
-
-  useEffect(() => {
-    if (selectedCategory) {
-      onCategorySelect(selectedCategory); 
-    } else {
-      onCategorySelect(null); 
-    }
-  }, [selectedCategory, onCategorySelect]);
 
   const handleCategoryClick = (category: Category) => {
     setSelectedCategory(category);
-    setIsAddingCategory(false);
     setIsOpen(false);
+    onCategorySelect(category);
   };
 
-  const handleAddCategory = async () => {
-    if (newCategoryTitle && newCategoryDescription) {
-      try {
-        const response = await api.post("/categories", {
-          title: newCategoryTitle,
-          description: newCategoryDescription,
-          weight: Number(newCategoryWeight),
-        });
-        const newCategory = response.data as Category;
-        setCategories([...categories, newCategory]);
-        setNewCategoryTitle("");
-        setNewCategoryDescription("");
-        setNewCategoryWeight("");
-        setIsAddingCategory(false);
-        setSelectedCategory(newCategory);
-        onCategorySelect(newCategory); // Notify parent of new category
-      } catch (error) {
-        console.error(error);
-      }
-    }
+  const handleNewCategoryClick = () => {
+    setSelectedCategory(null); // Reset selection for new category
+    setIsOpen(false);
+    onCategorySelect(null); // Notify parent about new category
   };
+  
 
   return (
-    <div className="mt-6 font-montserrat relative w-full">
+    <div className="relative inline-block text-left mt-6 font-montserrat w-full">
+      <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200 uppercase">
+        Select a Category
+      </label>
       <button
-        id="dropdownCategoriesButton"
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex justify-between items-center px-4 py-2 text-gray-700 placeholder-gray-400 bg-zinc-950 border border-gray-200  dark:placeholder-gray-600 dark:text-gray-300 dark:border-orange-700"
-        type="button"
+        className="inline-flex justify-between w-full border border-gray-200 px-4 py-2 mt-2 bg-zinc-950 text-sm text-gray-700 dark:text-gray-300 focus:border-orange-600 dark:focus:border-orange-600 focus:ring-orange-600 focus:outline-none focus:ring-opacity-40"
       >
-        <span>
-          {selectedCategory ? selectedCategory.title : "Select Category"}
-        </span>
+        {selectedCategory ? selectedCategory.title : "Select a category"}
         <svg
-          className="w-auto h-2.5 inline-block float-right"
-          aria-hidden="true"
+          className={`-mr-1 ml-2 h-5 w-5 transition-transform duration-200 ${
+            isOpen ? "rotate-180" : ""
+          }`}
           xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 10 10"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          aria-hidden="true"
         >
           <path
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="m1 1 4 4 4-4"
+            fillRule="evenodd"
+            d="M10 3a1 1 0 01.707.293l4 4a1 1 0 01-1.414 1.414L10 5.414 6.707 8.707A1 1 0 015.293 7.293l4-4A1 1 0 0110 3z"
+            clipRule="evenodd"
           />
         </svg>
       </button>
+
       {isOpen && (
-        <div
-          id="dropdownCategories"
-          onMouseLeave={() => setIsOpen(false)}
-          className="absolute z-10 bg-zinc-950 shadow w-full dark:bg-zinc-950"
+        <ul
+          className="absolute z-10 mt-2 w-full bg-zinc-950 border border-gray-200 max-h-60 py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm"
         >
-          <ul
-            className="max-h-80 py-2 overflow-y-scroll text-gray-700 dark:text-gray-200 dark:border-orange-700"
-            aria-labelledby="dropdownCategoriesButton"
-          >
-            {categories.length > 0 ? (
-              categories.map((category) => (
-                <li
-                  key={category.id}
-                  className="flex items-center justify-between"
-                >
-                  <button
-                    onClick={() => handleCategoryClick(category)}
-                    className="flex-grow items-center px-4 py-2 w-full text-left hover:bg-gray-100 dark:hover:bg-zinc-600 dark:hover:text-white"
-                  >
-                    {category.title}
-                  </button>
-                  <button
-                    id="deleteCategoryButton"
-                    type="button"
-                    className="text-red-500 dark:text-red-500 bg-transparent p-3 hover:bg-red-500 hover:text-white transition-all duration-75 mx-4"
-                    onClick={async () => {
-                      try {
-                        await api.delete(`/categories/${category.id}`);
-                        setCategories(
-                          categories.filter((c) => c.id !== category.id)
-                        );
-                        if (selectedCategory?.id === category.id) {
-                          setSelectedCategory(null);
-                          onCategorySelect(null); // Notify parent of no category selection
-                        }
-                      } catch (error) {
-                        console.error(error);
-                      }
-                    }}
-                  >
-                    <svg
-                      className="w-2.5 h-2.5 inline-block float-right"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 10 10"
-                    >
-                      <path
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M1 1l8 8M9 1l-8 8"
-                      />
-                    </svg>
-                  </button>
-                </li>
-              ))
-            ) : (
-              <li className="px-4 py-2">No categories available</li>
-            )}
-            <li>
-              <button
-                onClick={() => {
-                  setIsAddingCategory(true);
-                  setIsOpen(false);
-                  setSelectedCategory(null);
-                  onCategorySelect(null); // Notify parent of no category selection
-                }}
-                className="flex items-center px-4 py-2 w-full text-left hover:bg-gray-100 dark:hover:bg-zinc-600 dark:hover:text-white"
-              >
-                Add Category
-              </button>
+          {categories.map((category) => (
+            <li
+              key={category.id}
+              onClick={() => handleCategoryClick(category)}
+              className="cursor-pointer select-none relative py-2 pl-3 pr-9 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-zinc-800"
+            >
+              {category.title}
             </li>
-          </ul>
-        </div>
-      )}
-      {isAddingCategory && (
-        <div className="mt-4 flex flex-col items-center">
-          <NomineeInputComponent
-            label="Category Title"
-            placeholder="Category Title"
-            value={newCategoryTitle}
-            onChange={(e) => setNewCategoryTitle(e.target.value)}
-          />
-          <NomineeInputComponent
-            label="Category Description"
-            placeholder="Category Description"
-            value={newCategoryDescription}
-            onChange={(e) => setNewCategoryDescription(e.target.value)}
-          />
-          <NomineeInputComponent
-            label="Weight"
-            placeholder="Category Weight"
-            value={newCategoryWeight}
-            onChange={(e) => setNewCategoryWeight(e.target.value)}
-          />
-          <ButtonComponent
-            text="Add Category"
-            type="button"
-            onClick={handleAddCategory}
-          />
-        </div>
+          ))}
+            <li 
+            key={categories.length + 1}
+            onClick={() => handleNewCategoryClick()}
+            className="cursor-pointer select-none relative py-2 pl-3 pr-9 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-zinc-800"> 
+              New Entry
+            </li>
+        </ul>
       )}
     </div>
   );

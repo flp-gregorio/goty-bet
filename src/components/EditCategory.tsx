@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import NomineeInputComponent from './NomineeInputComponent';
-import ButtonComponent from './ButtonComponent';
-import api from '../lib/api';
-import { Category } from '../@types/NomineeType';
+import { useState, useEffect } from "react";
+import NomineeInputComponent from "./NomineeInputComponent";
+import ButtonComponent from "./ButtonComponent";
+import api from "../lib/api";
+import { Category } from "../@types/NomineeType";
 
 interface EditCategoryProps {
   category: Category | null;
   onSave: () => void;
 }
 
-const EditCategory: React.FC<EditCategoryProps> = ({ category, onSave }) => {
-  const [title, setTitle] = useState(category?.title || '');
-  const [description, setDescription] = useState(category?.description || '');
-  const [weight, setWeight] = useState(category?.weight.toString() || '');
+const EditCategory = ({ category, onSave }: EditCategoryProps) => {
+  const [title, setTitle] = useState(category?.title || "");
+  const [description, setDescription] = useState(category?.description || "");
+  const [weight, setWeight] = useState(category?.weight.toString() || "");
 
   useEffect(() => {
     if (category) {
@@ -23,7 +23,7 @@ const EditCategory: React.FC<EditCategoryProps> = ({ category, onSave }) => {
   }, [category]);
 
   const handleSaveCategory = async () => {
-    if (title && description) {
+    if (title && description && weight) {
       try {
         if (category) {
           await api.put(`/categories/${category.id}`, {
@@ -32,12 +32,27 @@ const EditCategory: React.FC<EditCategoryProps> = ({ category, onSave }) => {
             weight: Number(weight),
           });
         } else {
-          await api.post('/categories', {
+          console.log("Creating new category with title:", title);
+          await api.post("/categories", {
             title,
             description,
             weight: Number(weight),
           });
         }
+        onSave();
+      } catch (error) {
+        console.error(
+          "Error saving category:",
+          (error as any).response ? (error as any).response.data : (error as any).message
+        );
+      }
+    }
+  };
+
+  const handleDeleteCategory = async () => {
+    if (category) {
+      try {
+        await api.delete(`/categories/${category.id}`);
         onSave();
       } catch (error) {
         console.error(error);
@@ -65,7 +80,22 @@ const EditCategory: React.FC<EditCategoryProps> = ({ category, onSave }) => {
         value={weight}
         onChange={(e) => setWeight(e.target.value)}
       />
-      <ButtonComponent onClick={handleSaveCategory} text="Save Category" />
+      <div className="grid grid-flow-col gap-5">
+        {category ? (
+          <>
+            <ButtonComponent
+              onClick={handleSaveCategory}
+              text="Update Category"
+            />
+            <ButtonComponent
+              onClick={handleDeleteCategory}
+              text="Delete Category"
+            />
+          </>
+        ) : (
+          <ButtonComponent onClick={handleSaveCategory} text="Create Category" />
+        )}
+      </div>
     </div>
   );
 };
