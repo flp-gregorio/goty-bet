@@ -36,7 +36,6 @@ const NomineeInputComponent: React.ForwardRefRenderFunction<
     <div className="my-2 font-montserrat w-full">
       <textarea
         {...rest}
-        ref={ref}
         className="w-full p-2 text-gray-700 placeholder-gray-400 bg-zinc-950
           border border-gray-200 dark:placeholder-gray-600  dark:text-gray-300 
           dark:border-orange-700 focus:border-orange-600 dark:focus:border-orange-600 

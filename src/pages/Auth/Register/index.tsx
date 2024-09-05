@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import ButtonComponent from "../../../components/ButtonComponent";
 import InputComponent from "../../../components/InputComponent";
 import LayoutAuthComponent from "../../../components/Layouts/LayoutAuthComponent";
@@ -14,11 +15,21 @@ interface IFormInput {
 
 const Register = () => {
   const { register, handleSubmit } = useForm<IFormInput>();
+  const nav = useNavigate();
+  const [error, setError] = useState<string | null>(null);
 
   const onSubmit = async (data: IFormInput) => {
-    await api.post("/users", data).then((res) => {
-      console.log(res);
-    });
+    try {
+      await api.post("/users", {
+        username: data.username,
+        email: data.email,
+        password: data.password,
+        confirmPassword: data.confirmPassword
+      });
+    } catch (error) {
+      console.log("Error registering:", error.response.data.error);
+      setError(error.response.data.error);
+    }
   };
 
   return (
@@ -55,6 +66,9 @@ const Register = () => {
           placeholder="Confirm Your Password"
           {...register("confirmPassword")}
         />
+        {error && (
+          <p className="mt-6 text-center text-red-500 text-sm">{error}</p>
+        )}
         <div className="mt-6 w-40 mx-auto">
           <ButtonComponent text="Register" type="submit" />
         </div>

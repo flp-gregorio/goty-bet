@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form";
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import ButtonComponent from "../../../components/ButtonComponent";
 import InputComponent from "../../../components/InputComponent";
@@ -13,6 +14,7 @@ interface IFormInput {
 const Login = () => {
   const { register, handleSubmit } = useForm<IFormInput>();
   const nav = useNavigate();
+  const [error, setError] = useState<string | null>(null);
 
   const onSubmit = async (data: IFormInput) => {
     try {
@@ -20,7 +22,8 @@ const Login = () => {
       localStorage.setItem("jwt", response.data.token);
       nav("/nominees");
     } catch (error) {
-      console.error("Login error:", error); // For better debugging
+      console.log("Error logging in:", error.response.data.error);
+      setError(error.response.data.error);
     }
   };
 
@@ -44,6 +47,9 @@ const Login = () => {
           placeholder="Your Password"
           {...register("password")}
         />
+        {error && (
+          <p className="mt-6 text-center text-red-500 text-sm">{error}</p>
+        )}
         <div className="mt-6 w-40 mx-auto">
           <ButtonComponent text="Login" type="submit" />
         </div>
