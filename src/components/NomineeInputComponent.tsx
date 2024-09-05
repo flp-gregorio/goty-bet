@@ -14,21 +14,21 @@ const NomineeInputComponent: React.ForwardRefRenderFunction<
     const textarea = textareaRef.current;
     if (textarea) {
       textarea.style.height = "auto";
-      textarea.style.height = `${textarea.scrollHeight + 4}px`;
+      textarea.style.height = `${textarea.scrollHeight}px`;
     }
   }, []);
 
   const handleInput = (e: React.FormEvent<HTMLTextAreaElement>) => {
     const target = e.currentTarget;
-    target.style.height = "auto"; // Reset height
-    target.style.height = `${target.scrollHeight}px`; // Set new height
+    target.style.height = "auto";
+    target.style.height = `${target.scrollHeight}px`;
   };
 
   useEffect(() => {
     const textarea = textareaRef.current;
     if (textarea) {
       textarea.style.height = "auto";
-      textarea.style.height = `${textarea.scrollHeight + 4}px`;
+      textarea.style.height = `${textarea.scrollHeight}px`;
     }
   }, [rest.value]);
 

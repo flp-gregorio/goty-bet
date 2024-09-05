@@ -10,6 +10,7 @@ interface EditCategoryProps {
 }
 
 const EditCategory = ({ category, onSave }: EditCategoryProps) => {
+
   const [title, setTitle] = useState(category?.title || "");
   const [description, setDescription] = useState(category?.description || "");
   const [weight, setWeight] = useState(category?.weight.toString() || "");
@@ -43,7 +44,7 @@ const EditCategory = ({ category, onSave }: EditCategoryProps) => {
       } catch (error) {
         console.error(
           "Error saving category:",
-          (error as any).response ? (error as any).response.data : (error as any).message
+          error.response ? error.response.data : error.message
         );
       }
     }

@@ -1,8 +1,9 @@
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ButtonComponent from "../../../components/ButtonComponent";
 import InputComponent from "../../../components/InputComponent";
 import LayoutAuthComponent from "../../../components/Layouts/LayoutAuthComponent";
+import api from "../../../lib/api";
 
 interface IFormInput {
   username: string;
@@ -11,9 +12,16 @@ interface IFormInput {
 
 const Login = () => {
   const { register, handleSubmit } = useForm<IFormInput>();
+  const nav = useNavigate();
 
   const onSubmit = async (data: IFormInput) => {
-    console.log(data);
+    try {
+      const response = await api.post("/login", data);
+      localStorage.setItem("jwt", response.data.token);
+      nav("/nominees");
+    } catch (error) {
+      console.error("Login error:", error); // For better debugging
+    }
   };
 
   return (

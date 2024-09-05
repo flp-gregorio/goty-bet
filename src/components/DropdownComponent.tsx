@@ -1,9 +1,17 @@
 import { useState } from "react";
 import { Category } from "../@types/NomineeType";
 
-const Dropdown = ({ categories, onCategorySelect }: { categories: Category[]; onCategorySelect: (category: Category | null) => void }) => {
+const Dropdown = ({
+  categories,
+  onCategorySelect,
+}: {
+  categories: Category[];
+  onCategorySelect: (category: Category | null) => void;
+}) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<Category | null>(
+    null
+  );
 
   const handleCategoryClick = (category: Category) => {
     setSelectedCategory(category);
@@ -12,11 +20,10 @@ const Dropdown = ({ categories, onCategorySelect }: { categories: Category[]; on
   };
 
   const handleNewCategoryClick = () => {
-    setSelectedCategory(null); // Reset selection for new category
+    setSelectedCategory(null);
     setIsOpen(false);
-    onCategorySelect(null); // Notify parent about new category
+    onCategorySelect(null);
   };
-  
 
   return (
     <div className="relative inline-block text-left mt-6 font-montserrat w-full">
@@ -47,6 +54,7 @@ const Dropdown = ({ categories, onCategorySelect }: { categories: Category[]; on
 
       {isOpen && (
         <ul
+          onMouseLeave={() => setIsOpen(false)}
           className="absolute z-10 mt-2 w-full bg-zinc-950 border border-gray-200 max-h-60 py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm"
         >
           {categories.map((category) => (
@@ -58,12 +66,13 @@ const Dropdown = ({ categories, onCategorySelect }: { categories: Category[]; on
               {category.title}
             </li>
           ))}
-            <li 
+          <li
             key={categories.length + 1}
             onClick={() => handleNewCategoryClick()}
-            className="cursor-pointer select-none relative py-2 pl-3 pr-9 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-zinc-800"> 
-              New Entry
-            </li>
+            className="cursor-pointer select-none relative py-2 pl-3 pr-9 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-zinc-800"
+          >
+            New Entry
+          </li>
         </ul>
       )}
     </div>

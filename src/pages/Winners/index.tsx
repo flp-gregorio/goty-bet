@@ -9,6 +9,7 @@ const Winners = () => {
   const [currentCategoryIndex, setCurrentCategoryIndex] = useState(0);
   const [winners, setWinners] = useState<{ [key: number]: number }>({});
   const [votes, setVotes] = useState<{ [key: number]: number[] }>({});
+  const [nominees, setNominees] = useState<Nominee[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -54,6 +55,25 @@ const Winners = () => {
     };
     fetchData();
   }, []);
+
+  // Fetch nominees when a category is selected
+  useEffect(() => {
+    const currentCategory: Category = categories[currentCategoryIndex];
+    if (categories.length > 0 && currentCategory) {
+      const fetchNominees = async () => {
+        try {
+          const response = await api.get<Nominee[]>(
+            `/categories/${currentCategory.id}/nominees`
+          );
+          setNominees(response.data || []);
+        } catch (error) {
+          console.error("Failed to fetch nominees", error);
+        }
+      };
+
+      fetchNominees();
+    }
+  }, [currentCategoryIndex, categories]);
 
   const handleNextCategory = () => {
     setCurrentCategoryIndex((prevIndex) => (prevIndex + 1) % categories.length);
@@ -122,6 +142,9 @@ const Winners = () => {
 
   const winnerId = winners[currentCategory.id];
 
+  console.log("currentCategory", currentCategory);
+  console.log("currentCategory.nominees", nominees);
+
   return (
     <LayoutSystemComponent>
       <NavigationComponent
@@ -136,10 +159,8 @@ const Winners = () => {
               {currentCategory.description}
             </h1>
           </div>
-          {currentCategory &&
-          currentCategory.nominees &&
-          currentCategory.nominees.length > 0 ? (
-            currentCategory.nominees.map((nominee) =>
+          {currentCategory && nominees && nominees.length ? (
+            nominees.map((nominee) =>
               renderProgressBar(
                 nominee,
                 currentVotes[nominee.id] || 0,

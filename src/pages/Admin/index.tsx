@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
+import { Category, Nominee } from "../../@types/NomineeType";
 import Dropdown from "../../components/DropdownComponent";
 import TabSelector from "../../components/TabSelectorComponent";
 import LayoutSystemComponent from "../../components/Layouts/LayoutSystemComponent";
 import EditCategory from "../../components/EditCategory";
 import EditNominee from "../../components/EditNominee";
-import { Category, Nominee } from "../../@types/NomineeType";
+import ButtonComponent from "../../components/ButtonComponent";
+import InputComponent from "../../components/InputComponent";
 import api from "../../lib/api";
 
 const AdminDashboard = () => {
@@ -15,6 +17,7 @@ const AdminDashboard = () => {
   const [selectedNominee, setSelectedNominee] = useState<number | null>(null);
   const [categories, setCategories] = useState<Category[]>([]);
   const [nominees, setNominees] = useState<Nominee[]>([]);
+  const [isOpen, setIsOpen] = useState(false);
 
   // Fetch categories on page load
   useEffect(() => {
@@ -62,6 +65,89 @@ const AdminDashboard = () => {
   const handleNomineeSelect = (nomineeId: number) => {
     setSelectedNominee(nomineeId);
   };
+
+  // Handle add nominee
+  const handleNomineeCreation = async () => {
+    try {
+      if (selectedCategory) {
+        await api.post(`/categories/${selectedCategory.id}/nominees`, {
+          name: formData.name,
+          description: formData.description,
+          developer: formData.developer,
+          genre: formData.genre,
+        });
+
+        // Reset form data after successful submission
+        setFormData(initialFormData);
+      }
+    } catch (error) {
+      console.error("Error saving nominee:", error);
+    }
+  };
+
+  // Inicial Nominee form data
+  const initialFormData = {
+    name: "",
+    description: "",
+    developer: "",
+    genre: "",
+  };
+  const [formData, setFormData] = useState(initialFormData);
+
+  // Add Nominee Modal
+  const handleAddNominee = () => {
+    return (
+      isOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+          <form className="bg-zinc-950 p-8 w-5/12 grid gap-4">
+            <button
+              className="self-end text-white hover:text-red-600 focus:outline-none"
+              onClick={() => setIsOpen(false)}
+              type="button"
+            >
+              X
+            </button>
+            <InputComponent
+              label="Name"
+              type="text"
+              placeholder="Enter nominee name"
+              value={formData.name}
+              onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+            />
+            <InputComponent
+              label="Description"
+              type="text"
+              placeholder="Enter nominee description"
+              value={formData.description}
+              onChange={(e) =>
+                setFormData({ ...formData, description: e.target.value })
+              }
+            />
+            <InputComponent
+              label="Developer"
+              type="text"
+              placeholder="Enter developer name"
+              value={formData.developer}
+              onChange={(e) =>
+                setFormData({ ...formData, developer: e.target.value })
+              }
+            />
+            <InputComponent
+              label="Genre"
+              type="text"
+              placeholder="Enter genre"
+              value={formData.genre}
+              onChange={(e) =>
+                setFormData({ ...formData, genre: e.target.value })
+              }
+            />
+            <ButtonComponent text="Add Nominee" onClick={handleNomineeCreation} />
+          </form>
+        </div>
+      )
+    );
+  };
+  
 
   const fetchCategories = async () => {
     try {
@@ -145,6 +231,13 @@ const AdminDashboard = () => {
                   )}
                 </div>
               )}
+              <div className="flex justify-center items-center w-full self-end pt-72">
+                <ButtonComponent
+                  text="Add Nominee"
+                  onClick={() => setIsOpen(true)}
+                />
+              </div>
+              {handleAddNominee()};
             </div>
             <div>
               <Dropdown
