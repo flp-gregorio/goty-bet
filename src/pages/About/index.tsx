@@ -4,8 +4,8 @@ const About = () => {
       <div className="w-2/3 mt-4">
         <h1 className="text-3xl font-bold">About</h1>
         <p className="mt-4">
-          The Gamesweep is a web application that allows users to nominate their
-          favorite games for the upcoming The Game Awards.
+          Nomini is a web application that allows users to nominate their
+          favorite games for the upcoming The Game Awards and get ranked based on their predictions.
         </p>
         <p className="mt-4">
           Users can nominate their winner prediction for all oficial categories.
@@ -14,7 +14,7 @@ const About = () => {
           industry the most.
         </p>
         <p className="mt-4">
-          The Gamesweep is a project created by{" "}
+          Nomini is a project created by{" "}
           <a
             href="https://www.linkedin.com/in/felipe-gregorio-85bb4b1a2/"
             className="underline"
