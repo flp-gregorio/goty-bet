@@ -17,6 +17,8 @@
 
 ---
 
+You can check it out here: [Nomini](https://nomini-web.vercel.app/).
+
 ## ✨ Features
 
 - **Dynamic Voting Interface:** Browse categories, select nominees, and easily cast picks with visually rich, interactive cards.
