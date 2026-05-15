@@ -5,8 +5,7 @@ import ButtonComponent from "../../components/ButtonComponent";
 import api from "../../lib/api";
 import { AxiosError } from "axios";
 
-// TODO: Update this to the actual event start time
-const EVENT_START_TIME = new Date("2025-12-11T21:30:00-03:00");
+// Event start time is now fetched dynamically
 
 // Types
 type JsonNominee = {
@@ -42,6 +41,7 @@ const Nominees = () => {
   const [categories, setCategories] = useState<JsonCategory[]>([]);
   const [currentCategoryIndex, setCurrentCategoryIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
+  const [eventStartTime, setEventStartTime] = useState<Date | null>(null);
 
   const [activeNominees, setActiveNominees] = useState<
     Record<string, string | null>
@@ -62,6 +62,15 @@ const Nominees = () => {
         }));
 
         setCategories(categoriesWithNominees);
+
+        try {
+          const eventRes = await api.get<{ eventDate: string | null }>("/event");
+          if (eventRes.data.eventDate) {
+            setEventStartTime(new Date(eventRes.data.eventDate));
+          }
+        } catch (err) {
+          console.error("Failed to fetch event date", err);
+        }
 
         const token = localStorage.getItem("jwt");
         if (token) {
@@ -184,7 +193,7 @@ const Nominees = () => {
   const activeNominee = activeNominees[currentCategoryKey] || null;
 
   const isLastCategory = currentCategoryIndex === categories.length - 1;
-  const isVotingClosed = new Date() >= EVENT_START_TIME;
+  const isVotingClosed = eventStartTime ? new Date() >= eventStartTime : false;
 
   return (
     <div className="flex flex-col items-center w-full">

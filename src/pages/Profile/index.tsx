@@ -51,10 +51,11 @@ const Profile = () => {
       });
       setSuccessMessage("Password updated successfully");
       reset();
-    } catch (error: any) {
+    } catch (error) {
       console.error("Error updating password:", error);
+      const err = error as { response?: { data?: { error?: string } } };
       const errorMessage =
-        error.response?.data?.error || "Failed to update password";
+        err.response?.data?.error || "Failed to update password";
       if (errorMessage.toLowerCase().includes("current password")) {
         setError("password", { type: "manual", message: errorMessage });
       } else {

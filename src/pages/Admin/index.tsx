@@ -27,6 +27,7 @@ const Admin = () => {
 
     useEffect(() => {
         checkAdmin();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const checkAdmin = async () => {
@@ -84,9 +85,10 @@ const Admin = () => {
             });
             setMessage(res.data.message);
             fetchData();
-        } catch (error: any) {
+        } catch (error) {
             console.error("Failed to set winner:", error);
-            setMessage(error.response?.data?.message || "Failed to set winner");
+            const err = error as { response?: { data?: { message?: string } } };
+            setMessage(err.response?.data?.message || "Failed to set winner");
         }
     };
 
@@ -100,9 +102,10 @@ const Admin = () => {
             setEventMessage(res.data.message);
             setCurrentEventDate(res.data.eventDate ?? null);
             setNewEventDate("");
-        } catch (error: any) {
+        } catch (error) {
             console.error("Failed to set event date:", error);
-            setEventMessage(error.response?.data?.message || "Failed to set event date");
+            const err = error as { response?: { data?: { message?: string } } };
+            setEventMessage(err.response?.data?.message || "Failed to set event date");
         } finally {
             setIsEventLoading(false);
         }

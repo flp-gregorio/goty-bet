@@ -8,7 +8,7 @@ const FooterComponent = () => {
           </a>
         </span>
         <span className="inline-flex items-center pr-2">
-          <span className="text-sm text-gray-500 pr-3 ml-auto">© 2024 Felipe Gregorio</span>
+          <span className="text-sm text-gray-500 pr-3 ml-auto">© 2026 Felipe Gregorio</span>
           <a
             href="https://www.instagram.com/felipe.gregoriooo/"
             target="_blank" 
