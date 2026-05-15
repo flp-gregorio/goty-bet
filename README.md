@@ -81,12 +81,12 @@ nomini-app/
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) **v18+**
-- The [Nomini Backend API](https://github.com/your-username/nomini-api) must be running.
+- The [Nomini Backend API](https://github.com/flp-gregorio/nomini-api) must be running.
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/nomini-app.git
+git clone https://github.com/flp-gregorio/nomini-app.git
 cd nomini-app
 ```
 
